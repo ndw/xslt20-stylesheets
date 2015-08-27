@@ -1,0 +1,18 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <p deltaxml:deltaV2="A=B">This article tests change bars.</p>
+         <p deltaxml:deltaV2="A=B">This paragraph was added.</p>
+         <p deltaxml:deltaV2="A=B">This paragraph was deleted.</p>
+         <p deltaxml:deltaV2="A!=B">This paragraph contains
+<span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A"><dxa:class deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">rf-changed</deltaxml:attributeValue></dxa:class></deltaxml:attributes>changed</span>
+            <span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A"><dxa:class deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">rf-deleted</deltaxml:attributeValue></dxa:class></deltaxml:attributes>,</span>
+            <span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A"><dxa:class deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">rf-added</deltaxml:attributeValue></dxa:class></deltaxml:attributes>and </span>
+added<span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A"><dxa:class deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">rf-deleted</deltaxml:attributeValue></dxa:class></deltaxml:attributes>, and deleted</span> inlines.</p>
+      </article>
+   </body>
+</html>

@@ -1,0 +1,41 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <p deltaxml:deltaV2="A=B">An address:</p>
+         <div deltaxml:deltaV2="A!=B" class="address">
+            <span deltaxml:deltaV2="A!=B" class="personname"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Santa Clause</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Santa Clause</deltaxml:text></deltaxml:textGroup></span>
+            <br deltaxml:deltaV2="A"/><span deltaxml:deltaV2="B" class="street">1 Main Street</span>
+            <span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">street</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">city</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">1 Main Street</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">North Pole</deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">, </deltaxml:text></deltaxml:textGroup><br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A" class="city">North Pole</span><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">, </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A=B" class="state">AK</span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">  </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+            </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A=B" class="postcode">12345</span>
+            <br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A=B" class="country">US</span>
+         </div>
+         <p deltaxml:deltaV2="A=B">Other address fields:</p>
+         <div deltaxml:deltaV2="A!=B" class="address"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Information:</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Information:
+</deltaxml:text></deltaxml:textGroup><br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A=B" class="phone">+1-914-555-1212</span>
+            <br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A=B" class="fax">+1-213-555-1212</span>
+            <br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="A=B" class="email">&lt;<a href="mailto:no-one@example.com">no-one@example.com</a>&gt;</code>
+            <br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="A=B" class="uri">http://www.example.com/</code>
+         </div>
+         <p deltaxml:deltaV2="A=B">With a PO Box:</p>
+         <div deltaxml:deltaV2="A!=B" class="address">
+            <span deltaxml:deltaV2="A!=B" class="otheraddr whynotorgname"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Some Company</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Some Company</deltaxml:text></deltaxml:textGroup></span>
+            <br deltaxml:deltaV2="A"/><span deltaxml:deltaV2="B" class="pob">P.O. Box 123</span>
+            <span deltaxml:deltaV2="A" class="pob">P.O. Box 123</span><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A=B" class="city">Anytown</span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">, </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">, </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A=B" class="state">XX</span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">  </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+            </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A=B" class="postcode">12345</span>
+         </div>
+      </article>
+   </body>
+</html>
