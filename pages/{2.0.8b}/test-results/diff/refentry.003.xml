@@ -1,0 +1,77 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <div deltaxml:deltaV2="A=B" class="toc">
+            <p>
+               <b>Table of Contents</b>
+            </p>
+            <ul class="toc">
+               <li>
+                  <span class="refentrytitle">
+                     <a href="#evenlessminimal">Fred</a>
+                  </span>
+                  <span class="refpurpose"> - Test of a minimal RefEntry</span>
+               </li>
+            </ul>
+         </div>
+         <article deltaxml:deltaV2="A!=B" id="evenlessminimal" class="refentry">
+            <div deltaxml:deltaV2="A=B" class="refnamediv">
+               <h2>Name</h2>
+               <p>
+                  <span class="refname">Less Minimal</span>, <span class="refname">Even Less Minimal</span>
+                  <span class="refpurpose">
+                     <span class="refpurpose-sep"> — </span>
+                     <span class="refpurpose-text">Test of a minimal RefEntry</span>
+                     <span class="refpurpose-punc">.</span>
+                  </span>
+               </p>
+            </div>
+            <div deltaxml:deltaV2="A!=B" class="refsynopsisdiv">
+               <h2 deltaxml:deltaV2="A!=B"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Synopsis</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+                  </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="title">Synopsis</div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+               </deltaxml:text></deltaxml:textGroup></h2>
+               <div deltaxml:deltaV2="A=B" class="cmdsynopsis" style="margin-top: 1em; text-indent: -0.66in; margin-left: 0.66in;">
+                  <code class="command">command</code>  [ -a  |   -alpha ]</div>
+               <div deltaxml:deltaV2="A=B" class="cmdsynopsis" style="margin-top: 1em; text-indent: -0.66in; margin-left: 0.66in;">
+                  <code class="command">command</code>  [ -b  |   -beta ]</div>
+               <div deltaxml:deltaV2="A=B" class="cmdsynopsis" style="margin-top: 1em; text-indent: -0.66in; margin-left: 0.66in;">
+                  <code class="command">command</code>    -c  |   
+-charlie  </div>
+               <div deltaxml:deltaV2="A=B" class="cmdsynopsis" style="margin-top: 1em; text-indent: -0.66in; margin-left: 0.66in;">
+                  <code class="command">command</code>    -d  |   
+-delta  </div>
+               <div deltaxml:deltaV2="A=B" class="cmdsynopsis" style="margin-top: 1em; text-indent: -0.66in; margin-left: 0.66in;">
+                  <code class="command">command</code>   --help </div>
+            </div>
+            <div deltaxml:deltaV2="A!=B" class="refsect1">
+               <div deltaxml:deltaV2="A=B" class="refsection-titlepage">
+                  <h2>Description</h2>
+               </div>
+               <p deltaxml:deltaV2="A=B">This is a less minimal RefEntry.</p>
+               <figure deltaxml:deltaV2="A!=B" id="evenlessminimal.4.3" class="figure-wrapper">
+                  <div deltaxml:deltaV2="A!=B" class="figure">
+                     <div deltaxml:deltaV2="A" class="programlisting">
+                        <pre>
+                           <span class="linenumber">  1</span>
+                           <span class="linenumber-separator"/>Testing
+<span class="linenumber">  2</span>
+                           <span class="linenumber-separator"/>Some
+<span class="linenumber"/>
+                           <span class="linenumber-separator"/>Text</pre>
+                     </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+                        <code>Testing
+Some
+Text</code>
+                     </pre>
+                  </div>
+                  <div deltaxml:deltaV2="A=B" class="title">Figure 1. Some Program</div>
+               </figure>
+            </div>
+         </article>
+      </article>
+   </body>
+</html>

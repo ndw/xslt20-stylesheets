@@ -1,0 +1,17 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <figure deltaxml:deltaV2="A!=B" id="figduck" class="informalfigure-wrapper">
+            <div deltaxml:deltaV2="A!=B" class="informalfigure">
+               <div deltaxml:deltaV2="A!=B" id="figduck.1" class="mediaobject centerimg">
+                  <img deltaxml:deltaV2="A!=B" align="middle"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+               </div>
+            </div>
+         </figure>
+      </article>
+   </body>
+</html>

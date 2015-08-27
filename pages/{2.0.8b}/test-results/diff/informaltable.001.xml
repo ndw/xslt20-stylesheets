@@ -1,0 +1,60 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Unit Test: informaltable.001</h2>
+            <div class="author">
+               <h3>
+                  <span class="personname">
+                     <span class="firstname">Norman</span>
+                     <span class="surname">Walsh</span>
+                  </span>
+               </h3>
+            </div>
+         </header>
+         <p deltaxml:deltaV2="A=B">Table should appear like this:</p>
+         <div deltaxml:deltaV2="A" class="screen">
+            <pre>
+               <span class="linenumber">  1</span>
+               <span class="linenumber-separator"/>+........+........+........+........+
+<span class="linenumber">  2</span>
+               <span class="linenumber-separator"/>|        |   B    |        |   D    |
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>+   A    +........+   C    +........+
+<span class="linenumber">  4</span>
+               <span class="linenumber-separator"/>|        |        |        |   E    |
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>+........+........+........+........+</pre>
+         </div><pre deltaxml:deltaV2="B" class="screen line-numbers">+........+........+........+........+
+|        |   B    |        |   D    |
++   A    +........+   C    +........+
+|        |        |        |   E    |
++........+........+........+........+</pre>
+         <figure deltaxml:deltaV2="A=B" id="R.1.4" class="informaltable-wrapper">
+            <div class="informaltable">
+               <table border="0" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
+                  <colgroup>
+                     <col class="tcol1" width="25%"/>
+                     <col class="tcol2" width="25%"/>
+                     <col class="tcol3" width="25%"/>
+                     <col class="tcol4" align="center" width="25%"/>
+                  </colgroup>
+                  <tbody valign="middle">
+                     <tr>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; " rowspan="2" align="center">A</td>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; " align="center">B</td>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; " rowspan="2" align="center">C</td>
+                        <td style="border-bottom: 0.5pt solid ; " align="center">D</td>
+                     </tr>
+                     <tr>
+                        <td style="border-right: 0.5pt solid ; "> </td>
+                        <td align="center">E</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </figure>
+      </article>
+   </body>
+</html>

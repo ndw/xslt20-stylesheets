@@ -1,0 +1,508 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <p deltaxml:deltaV2="A=B">This paragraph contains a footnote<sup class="footnote">
+               <span class="osq">[</span>
+               <a name="R.1.2.1" href="#ftn.R.1.2.1">1</a>
+               <span class="csq">]</span>
+            </sup>.</p>
+         <figure deltaxml:deltaV2="A!=B" id="R.1.3" class="table-wrapper">
+            <div deltaxml:deltaV2="A=B" class="title">Table 1. A table</div>
+            <div deltaxml:deltaV2="A!=B" class="table">
+               <table deltaxml:deltaV2="A!=B" border="0" summary="Table 1. A table" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
+                  <colgroup deltaxml:deltaV2="A=B">
+                     <col class="tcol1" width="33%"/>
+                     <col class="tcol2" width="33%"/>
+                     <col class="tcol3" width="33%"/>
+                  </colgroup>
+                  <tbody deltaxml:deltaV2="A=B">
+                     <tr>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">A Cell</td>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">A Cell<sup class="footnote">
+                              <span class="osq">[</span>
+                              <a name="R.1.3.2.1.1.2.1" href="#ftn.R.1.3.2.1.1.2.1">a</a>
+                              <span class="csq">]</span>
+                           </sup>
+                        </td>
+                        <td style="border-bottom: 0.5pt solid ; ">A Cell</td>
+                     </tr>
+                     <tr>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">A Cell<sup class="footnote">
+                              <span class="osq">[</span>
+                              <a name="R.1.3.2.1.2.1.1" href="#ftn.R.1.3.2.1.2.1.1">b</a>
+                              <span class="csq">]</span>
+                           </sup>
+                        </td>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">A Cell</td>
+                        <td style="border-bottom: 0.5pt solid ; ">A Cell</td>
+                     </tr>
+                     <tr>
+                        <td style="border-right: 0.5pt solid ; ">A Cell</td>
+                        <td style="border-right: 0.5pt solid ; ">A Cell</td>
+                        <td>A Cell<sup class="footnote">
+                              <span class="osq">[</span>
+                              <a name="R.1.3.2.1.3.3.1" href="#ftn.R.1.3.2.1.3.3.1">c</a>
+                              <span class="csq">]</span>
+                           </sup>
+                        </td>
+                     </tr>
+                  </tbody>
+                  <tbody deltaxml:deltaV2="A!=B" class="footnotes">
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B" colspan="3">
+                           <div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.2.1" name="ftn.R.1.2.1">1</a>
+                                    <span class="csq">]</span>
+                                 </sup>This is a footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="A=B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.3.2.1.1.2.1" name="ftn.R.1.3.2.1.1.2.1">a</a>
+                                    <span class="csq">]</span>
+                                 </sup>First footnote.</p>
+                           </div>
+                           <div deltaxml:deltaV2="A=B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.3.2.1.2.1.1" name="ftn.R.1.3.2.1.2.1.1">b</a>
+                                    <span class="csq">]</span>
+                                 </sup>Second footnote.</p>
+                           </div>
+                           <div deltaxml:deltaV2="A!=B" class="footnote">
+                              <table deltaxml:deltaV2="A!=B" border="0" cellspacing="0" cellpadding="0">
+                                 <tr deltaxml:deltaV2="A!=B">
+                                    <td deltaxml:deltaV2="A=B" valign="top" align="left">
+                                       <sup>
+                                          <span class="osq">[</span>
+                                          <a href="#R.1.3.2.1.3.3.1" name="ftn.R.1.3.2.1.3.3.1">c</a>
+                                          <span class="csq">]</span>
+                                       </sup>
+                                    </td>
+                                    <td deltaxml:deltaV2="A!=B" align="left" valign="top">
+                                       <div deltaxml:deltaV2="A!=B" class="address"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">100 Any Street</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">100 Any Street
+East Yahoo, XX</deltaxml:text></deltaxml:textGroup><br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+East Yahoo, XX</deltaxml:text></deltaxml:textGroup></div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.4.1" name="ftn.R.1.4.1">2</a>
+                                    <span class="csq">]</span>
+                                 </sup>This is a footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.5.2.1.1.2.1" name="ftn.R.1.5.2.1.1.2.1">a</a>
+                                    <span class="csq">]</span>
+                                 </sup>First footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.5.2.1.2.1.1" name="ftn.R.1.5.2.1.2.1.1">b</a>
+                                    <span class="csq">]</span>
+                                 </sup>Second footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td valign="top" align="left">
+                                       <sup>
+                                          <span class="osq">[</span>
+                                          <a href="#R.1.5.2.1.3.3.1" name="ftn.R.1.5.2.1.3.3.1">c</a>
+                                          <span class="csq">]</span>
+                                       </sup>
+                                    </td>
+                                    <td valign="top" align="left">
+                                       <div class="address">100 Any Street
+East Yahoo, XX</div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.6.1" name="ftn.R.1.6.1">3</a>
+                                    <span class="csq">]</span>
+                                 </sup>This is a footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.7.2.1.2.1" name="ftn.R.1.7.2.1.2.1">a</a>
+                                    <span class="csq">]</span>
+                                 </sup>First footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.7.2.2.1.1" name="ftn.R.1.7.2.2.1.1">b</a>
+                                    <span class="csq">]</span>
+                                 </sup>Second footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td valign="top" align="left">
+                                       <sup>
+                                          <span class="osq">[</span>
+                                          <a href="#R.1.7.2.3.3.1" name="ftn.R.1.7.2.3.3.1">c</a>
+                                          <span class="csq">]</span>
+                                       </sup>
+                                    </td>
+                                    <td valign="top" align="left">
+                                       <div class="address">100 Any Street
+East Yahoo, XX</div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.8.1" name="ftn.R.1.8.1">4</a>
+                                    <span class="csq">]</span>
+                                 </sup>This is a footnote.</p>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </figure>
+         <p deltaxml:deltaV2="A=B">This paragraph contains a footnote<sup class="footnote">
+               <span class="osq">[</span>
+               <a name="R.1.4.1" href="#ftn.R.1.4.1">2</a>
+               <span class="csq">]</span>
+            </sup>.</p>
+         <figure deltaxml:deltaV2="A!=B" id="R.1.5" class="table-wrapper">
+            <div deltaxml:deltaV2="A=B" class="title">Table 2. A table</div>
+            <div deltaxml:deltaV2="A!=B" class="table">
+               <table deltaxml:deltaV2="A!=B" border="0" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; " summary="Table 2. A table">
+                  <colgroup deltaxml:deltaV2="A=B">
+                     <col class="tcol1" width="33%"/>
+                     <col class="tcol2" width="33%"/>
+                     <col class="tcol3" width="33%"/>
+                  </colgroup>
+                  <tbody deltaxml:deltaV2="A=B">
+                     <tr>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">A Cell</td>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">A Cell<sup class="footnote">
+                              <span class="osq">[</span>
+                              <a name="R.1.5.2.1.1.2.1" href="#ftn.R.1.5.2.1.1.2.1">a</a>
+                              <span class="csq">]</span>
+                           </sup>
+                        </td>
+                        <td style="border-bottom: 0.5pt solid ; ">A Cell</td>
+                     </tr>
+                     <tr>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">A Cell<sup class="footnote">
+                              <span class="osq">[</span>
+                              <a name="R.1.5.2.1.2.1.1" href="#ftn.R.1.5.2.1.2.1.1">b</a>
+                              <span class="csq">]</span>
+                           </sup>
+                        </td>
+                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">A Cell</td>
+                        <td style="border-bottom: 0.5pt solid ; ">A Cell</td>
+                     </tr>
+                     <tr>
+                        <td style="border-right: 0.5pt solid ; ">A Cell</td>
+                        <td style="border-right: 0.5pt solid ; ">A Cell</td>
+                        <td>A Cell<sup class="footnote">
+                              <span class="osq">[</span>
+                              <a name="R.1.5.2.1.3.3.1" href="#ftn.R.1.5.2.1.3.3.1">c</a>
+                              <span class="csq">]</span>
+                           </sup>
+                        </td>
+                     </tr>
+                  </tbody>
+                  <tbody deltaxml:deltaV2="A!=B" class="footnotes">
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B" colspan="3">
+                           <div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.2.1" name="ftn.R.1.2.1">1</a>
+                                    <span class="csq">]</span>
+                                 </sup>This is a footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="A!=B" class="footnote">
+                              <p deltaxml:deltaV2="A!=B">
+                                 <sup deltaxml:deltaV2="A!=B">
+                                    <span deltaxml:deltaV2="A=B" class="osq">[</span>
+                                    <a deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:href deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">#R.1.5.2.1.1.2.1</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">#R.1.3.2.1.1.2.1</deltaxml:attributeValue></dxa:href><dxa:name deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">ftn.R.1.5.2.1.1.2.1</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">ftn.R.1.3.2.1.1.2.1</deltaxml:attributeValue></dxa:name></deltaxml:attributes>a</a>
+                                    <span deltaxml:deltaV2="A=B" class="csq">]</span>
+                                 </sup>First footnote.</p>
+                           </div>
+                           <div deltaxml:deltaV2="A!=B" class="footnote">
+                              <p deltaxml:deltaV2="A!=B">
+                                 <sup deltaxml:deltaV2="A!=B">
+                                    <span deltaxml:deltaV2="A=B" class="osq">[</span>
+                                    <a deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:href deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">#R.1.5.2.1.2.1.1</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">#R.1.3.2.1.2.1.1</deltaxml:attributeValue></dxa:href><dxa:name deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">ftn.R.1.5.2.1.2.1.1</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">ftn.R.1.3.2.1.2.1.1</deltaxml:attributeValue></dxa:name></deltaxml:attributes>b</a>
+                                    <span deltaxml:deltaV2="A=B" class="csq">]</span>
+                                 </sup>Second footnote.</p>
+                           </div>
+                           <div deltaxml:deltaV2="A!=B" class="footnote">
+                              <table deltaxml:deltaV2="A!=B" border="0" cellspacing="0" cellpadding="0">
+                                 <tr deltaxml:deltaV2="A!=B">
+                                    <td deltaxml:deltaV2="A!=B" align="left" valign="top">
+                                       <sup deltaxml:deltaV2="A!=B">
+                                          <span deltaxml:deltaV2="A=B" class="osq">[</span>
+                                          <a deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:href deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">#R.1.5.2.1.3.3.1</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">#R.1.3.2.1.3.3.1</deltaxml:attributeValue></dxa:href><dxa:name deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">ftn.R.1.5.2.1.3.3.1</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">ftn.R.1.3.2.1.3.3.1</deltaxml:attributeValue></dxa:name></deltaxml:attributes>c</a>
+                                          <span deltaxml:deltaV2="A=B" class="csq">]</span>
+                                       </sup>
+                                    </td>
+                                    <td deltaxml:deltaV2="A!=B" align="left" valign="top">
+                                       <div deltaxml:deltaV2="A!=B" class="address"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">100 Any Street</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">100 Any Street
+East Yahoo, XX</deltaxml:text></deltaxml:textGroup><br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+East Yahoo, XX</deltaxml:text></deltaxml:textGroup></div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.4.1" name="ftn.R.1.4.1">2</a>
+                                    <span class="csq">]</span>
+                                 </sup>This is a footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.5.2.1.1.2.1" name="ftn.R.1.5.2.1.1.2.1">a</a>
+                                    <span class="csq">]</span>
+                                 </sup>First footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.5.2.1.2.1.1" name="ftn.R.1.5.2.1.2.1.1">b</a>
+                                    <span class="csq">]</span>
+                                 </sup>Second footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td valign="top" align="left">
+                                       <sup>
+                                          <span class="osq">[</span>
+                                          <a href="#R.1.5.2.1.3.3.1" name="ftn.R.1.5.2.1.3.3.1">c</a>
+                                          <span class="csq">]</span>
+                                       </sup>
+                                    </td>
+                                    <td valign="top" align="left">
+                                       <div class="address">100 Any Street
+East Yahoo, XX</div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.6.1" name="ftn.R.1.6.1">3</a>
+                                    <span class="csq">]</span>
+                                 </sup>This is a footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.7.2.1.2.1" name="ftn.R.1.7.2.1.2.1">a</a>
+                                    <span class="csq">]</span>
+                                 </sup>First footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.7.2.2.1.1" name="ftn.R.1.7.2.2.1.1">b</a>
+                                    <span class="csq">]</span>
+                                 </sup>Second footnote.</p>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td valign="top" align="left">
+                                       <sup>
+                                          <span class="osq">[</span>
+                                          <a href="#R.1.7.2.3.3.1" name="ftn.R.1.7.2.3.3.1">c</a>
+                                          <span class="csq">]</span>
+                                       </sup>
+                                    </td>
+                                    <td valign="top" align="left">
+                                       <div class="address">100 Any Street
+East Yahoo, XX</div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.8.1" name="ftn.R.1.8.1">4</a>
+                                    <span class="csq">]</span>
+                                 </sup>This is a footnote.</p>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </figure>
+         <p deltaxml:deltaV2="A=B">This paragraph contains a footnote<sup class="footnote">
+               <span class="osq">[</span>
+               <a name="R.1.6.1" href="#ftn.R.1.6.1">3</a>
+               <span class="csq">]</span>
+            </sup>.</p>
+         <figure deltaxml:deltaV2="A!=B" id="R.1.7" class="table-wrapper">
+            <div deltaxml:deltaV2="A!=B" class="table">
+               <table deltaxml:deltaV2="A!=B" border="1">
+                  <tbody deltaxml:deltaV2="A=B">
+                     <tr>
+                        <td>A Cell</td>
+                        <td>A Cell<sup class="footnote">
+                              <span class="osq">[</span>
+                              <a name="R.1.7.2.1.2.1" href="#ftn.R.1.7.2.1.2.1">a</a>
+                              <span class="csq">]</span>
+                           </sup>
+                        </td>
+                        <td>A Cell</td>
+                     </tr>
+                     <tr>
+                        <td>A Cell<sup class="footnote">
+                              <span class="osq">[</span>
+                              <a name="R.1.7.2.2.1.1" href="#ftn.R.1.7.2.2.1.1">b</a>
+                              <span class="csq">]</span>
+                           </sup>
+                        </td>
+                        <td>A Cell</td>
+                        <td>A Cell</td>
+                     </tr>
+                     <tr>
+                        <td>A Cell</td>
+                        <td>A Cell</td>
+                        <td>A Cell<sup class="footnote">
+                              <span class="osq">[</span>
+                              <a name="R.1.7.2.3.3.1" href="#ftn.R.1.7.2.3.3.1">c</a>
+                              <span class="csq">]</span>
+                           </sup>
+                        </td>
+                     </tr>
+                  </tbody>
+                  <tbody deltaxml:deltaV2="A!=B" class="footnotes">
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B" colspan="3">
+                           <div deltaxml:deltaV2="A=B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.7.2.1.2.1" name="ftn.R.1.7.2.1.2.1">a</a>
+                                    <span class="csq">]</span>
+                                 </sup>First footnote.</p>
+                           </div>
+                           <div deltaxml:deltaV2="A=B" class="footnote">
+                              <p>
+                                 <sup>
+                                    <span class="osq">[</span>
+                                    <a href="#R.1.7.2.2.1.1" name="ftn.R.1.7.2.2.1.1">b</a>
+                                    <span class="csq">]</span>
+                                 </sup>Second footnote.</p>
+                           </div>
+                           <div deltaxml:deltaV2="A!=B" class="footnote">
+                              <table deltaxml:deltaV2="A!=B" border="0" cellspacing="0" cellpadding="0">
+                                 <tr deltaxml:deltaV2="A!=B">
+                                    <td deltaxml:deltaV2="A=B" valign="top" align="left">
+                                       <sup>
+                                          <span class="osq">[</span>
+                                          <a href="#R.1.7.2.3.3.1" name="ftn.R.1.7.2.3.3.1">c</a>
+                                          <span class="csq">]</span>
+                                       </sup>
+                                    </td>
+                                    <td deltaxml:deltaV2="A!=B" align="left" valign="top">
+                                       <div deltaxml:deltaV2="A!=B" class="address"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">100 Any Street</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">100 Any Street
+East Yahoo, XX</deltaxml:text></deltaxml:textGroup><br deltaxml:deltaV2="A"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+East Yahoo, XX</deltaxml:text></deltaxml:textGroup></div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div deltaxml:deltaV2="A=B" class="caption">An HTML Table</div>
+         </figure>
+         <p deltaxml:deltaV2="A=B">This paragraph contains a footnote<sup class="footnote">
+               <span class="osq">[</span>
+               <a name="R.1.8.1" href="#ftn.R.1.8.1">4</a>
+               <span class="csq">]</span>
+            </sup>.</p>
+         <div deltaxml:deltaV2="A=B" class="footnotes">
+            <hr width="100" align="left" class="footnotes-divider"/>
+            <div class="footnote">
+               <p>
+                  <sup>
+                     <span class="osq">[</span>
+                     <a href="#R.1.2.1" name="ftn.R.1.2.1">1</a>
+                     <span class="csq">]</span>
+                  </sup>This is a footnote.</p>
+            </div>
+            <div class="footnote">
+               <p>
+                  <sup>
+                     <span class="osq">[</span>
+                     <a href="#R.1.4.1" name="ftn.R.1.4.1">2</a>
+                     <span class="csq">]</span>
+                  </sup>This is a footnote.</p>
+            </div>
+            <div class="footnote">
+               <p>
+                  <sup>
+                     <span class="osq">[</span>
+                     <a href="#R.1.6.1" name="ftn.R.1.6.1">3</a>
+                     <span class="csq">]</span>
+                  </sup>This is a footnote.</p>
+            </div>
+            <div class="footnote">
+               <p>
+                  <sup>
+                     <span class="osq">[</span>
+                     <a href="#R.1.8.1" name="ftn.R.1.8.1">4</a>
+                     <span class="csq">]</span>
+                  </sup>This is a footnote.</p>
+            </div>
+         </div>
+      </article>
+   </body>
+</html>

@@ -1,0 +1,41 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <div deltaxml:deltaV2="A=B" class="toc">
+            <p>
+               <b>Table of Contents</b>
+            </p>
+            <ul class="toc">
+               <li>
+                  <span>
+                     <a href="#c2s1">1. This is a Section Title.</a>
+                  </span>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#c2s1s1">1.1. This is a Really Long Section Title That's Almost Certainly Bound to Wrap Around on the Page</a>
+                        </span>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <section deltaxml:deltaV2="A!=B" id="c2s1" class="section">
+            <div deltaxml:deltaV2="A!=B" class="section-titlepage">
+               <h3 deltaxml:deltaV2="A">1. This is a Section Title.</h3><h2 deltaxml:deltaV2="B">1. This is a Section Title.</h2>
+            </div>
+            <p deltaxml:deltaV2="A=B">blah.</p>
+            <section deltaxml:deltaV2="A!=B" class="section" id="c2s1s1">
+               <div deltaxml:deltaV2="A!=B" class="section-titlepage">
+                  <h4 deltaxml:deltaV2="A">1.1. This is a Really Long Section Title That's Almost Certainly Bound to Wrap Around on the Page</h4><h3 deltaxml:deltaV2="B">1.1. This is a Really Long Section Title That's Almost Certainly Bound to Wrap Around on the Page</h3>
+               </div>
+               <p deltaxml:deltaV2="A=B">blah.</p>
+            </section>
+         </section>
+      </article>
+   </body>
+</html>
