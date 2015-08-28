@@ -11,7 +11,7 @@
          </div>
          <p deltaxml:deltaV2="A=B">The stamp image: contentwidth=50%; contentdepth=50%</p>
          <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.5">
-            <table deltaxml:deltaV2="A!=B" cellpadding="0" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
+            <table deltaxml:deltaV2="A!=B" border="0" summary="Manufactured viewport for HTML image" cellpadding="0" cellspacing="0">
                <tr deltaxml:deltaV2="A!=B">
                   <td deltaxml:deltaV2="A!=B" style="background-color: blue">
                      <img deltaxml:deltaV2="A!=B" width="100" alt="The DocBook Stamp" height="64"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
