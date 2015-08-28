@@ -9,7 +9,7 @@
          <figure deltaxml:deltaV2="A!=B" id="figduck" class="figure-wrapper">
             <div deltaxml:deltaV2="A!=B" class="figure">
                <div deltaxml:deltaV2="A!=B" id="figduck.2" class="mediaobject centerimg">
-                  <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook: TDG Duck"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                  <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook: TDG Duck"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                </div>
             </div>
             <div deltaxml:deltaV2="A=B" class="title">Figure 1. The Duck</div>
@@ -17,10 +17,10 @@
          <p deltaxml:deltaV2="A=B">A centered screenshot.</p>
          <figure deltaxml:deltaV2="A!=B" id="figduckscreen" class="figure-wrapper">
             <div deltaxml:deltaV2="A!=B" class="figure">
-               <figure deltaxml:deltaV2="A!=B" class="screenshot-wrapper" id="figduckscreen.2">
+               <figure deltaxml:deltaV2="A!=B" id="figduckscreen.2" class="screenshot-wrapper">
                   <div deltaxml:deltaV2="A!=B" class="screenshot">
                      <div deltaxml:deltaV2="A!=B" id="figduckscreen.2.1" class="mediaobject centerimg">
-                        <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook: TDG Duck"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                        <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook: TDG Duck"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                      </div>
                   </div>
                </figure>

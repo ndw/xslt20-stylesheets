@@ -10,7 +10,7 @@
             <table deltaxml:deltaV2="A!=B" summary="Manufactured viewport for HTML image" width="540" cellpadding="0" cellspacing="0" border="0">
                <tr deltaxml:deltaV2="A!=B">
                   <td deltaxml:deltaV2="A!=B" align="right">
-                     <img deltaxml:deltaV2="A!=B" width="540" align="right" alt="The DocBook: TDG Duck" longdesc="ld-R.1.2.html"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                     <img deltaxml:deltaV2="A!=B" width="540" align="right" alt="The DocBook: TDG Duck" longdesc="ld-R.1.2.html"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </td>
                </tr>
             </table>

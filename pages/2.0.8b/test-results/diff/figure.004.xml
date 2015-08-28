@@ -9,7 +9,7 @@
             <div deltaxml:deltaV2="A!=B" class="figure">
                <div deltaxml:deltaV2="A!=B" id="figduck.2" class="mediaobject centerimg">
                   <div deltaxml:deltaV2="A=B" class="longdesc-link">[<a href="#figduck.2.3" target="longdesc" title="Link to long description">D</a>]</div>
-                  <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook: TDG Duck" longdesc="ld-figduck.2.html"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/duck.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                  <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook: TDG Duck" longdesc="ld-figduck.2.html"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/duck.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                </div>
             </div>
             <div deltaxml:deltaV2="A=B" class="title">Figure 1. The Duck</div>

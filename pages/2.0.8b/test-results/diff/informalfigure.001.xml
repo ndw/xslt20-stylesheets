@@ -8,7 +8,7 @@
          <figure deltaxml:deltaV2="A!=B" id="figduck" class="informalfigure-wrapper">
             <div deltaxml:deltaV2="A!=B" class="informalfigure">
                <div deltaxml:deltaV2="A!=B" id="figduck.1" class="mediaobject centerimg">
-                  <img deltaxml:deltaV2="A!=B" align="middle"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                  <img deltaxml:deltaV2="A!=B" align="middle"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                </div>
             </div>
          </figure>

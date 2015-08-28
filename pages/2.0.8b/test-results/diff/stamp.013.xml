@@ -7,34 +7,34 @@
          </header>
          <p deltaxml:deltaV2="A=B">The stamp image has a natural size of 200x128 pixels.</p>
          <div deltaxml:deltaV2="A!=B" id="R.1.3" class="mediaobject">
-            <img deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+            <img deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
          </div>
          <p deltaxml:deltaV2="A=B">The stamp image: width=7.12cm; depth=7.12cm; scale=125; align=center</p>
          <div deltaxml:deltaV2="A!=B" id="R.1.5" class="mediaobject centerimg">
             <table deltaxml:deltaV2="A!=B" width="252" cellpadding="0" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
                <tr deltaxml:deltaV2="A!=B" style="height: 252px">
-                  <td deltaxml:deltaV2="A!=B" align="center" style="background-color: blue">
-                     <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook Stamp"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src><dxa:width deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">250</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">675</deltaxml:attributeValue></dxa:width></deltaxml:attributes></img>
+                  <td deltaxml:deltaV2="A!=B" style="background-color: blue" align="center">
+                     <img deltaxml:deltaV2="A!=B" width="250" align="middle" alt="The DocBook Stamp"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </td>
                </tr>
             </table>
          </div>
          <p deltaxml:deltaV2="A=B">The stamp image: width=512; depth=512; contentwidth=50%; contentdepth=30%; align=center</p>
          <div deltaxml:deltaV2="A!=B" class="mediaobject centerimg" id="R.1.7">
-            <table deltaxml:deltaV2="A!=B" width="512" cellpadding="0" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
+            <table deltaxml:deltaV2="A!=B" cellpadding="0" width="512" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
                <tr deltaxml:deltaV2="A!=B" style="height: 512px">
-                  <td deltaxml:deltaV2="A!=B" align="center" style="background-color: blue">
-                     <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook Stamp"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src><dxa:width deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">100</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">270</deltaxml:attributeValue></dxa:width><dxa:height deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">38.4</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">108</deltaxml:attributeValue></dxa:height></deltaxml:attributes></img>
+                  <td deltaxml:deltaV2="A!=B" style="background-color: blue" align="center">
+                     <img deltaxml:deltaV2="A!=B" width="100" align="middle" alt="The DocBook Stamp" height="38.4"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </td>
                </tr>
             </table>
          </div>
          <p deltaxml:deltaV2="A=B">The stamp image: width=512; depth=400; contentwidth=500; contentdepth=300; align=left valign=top</p>
          <div deltaxml:deltaV2="A!=B" id="R.1.9" class="mediaobject">
-            <table deltaxml:deltaV2="A!=B" width="512" cellpadding="0" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
+            <table deltaxml:deltaV2="A!=B" cellpadding="0" width="512" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
                <tr deltaxml:deltaV2="A!=B" style="height: 400px">
-                  <td deltaxml:deltaV2="A!=B" valign="top" align="left" style="background-color: blue">
-                     <img deltaxml:deltaV2="A!=B" width="500" align="left" alt="The DocBook Stamp" height="300"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                  <td deltaxml:deltaV2="A!=B" align="left" valign="top" style="background-color: blue">
+                     <img deltaxml:deltaV2="A!=B" width="500" align="left" alt="The DocBook Stamp" height="300"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </td>
                </tr>
             </table>
@@ -43,8 +43,8 @@
          <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.11">
             <table deltaxml:deltaV2="A!=B" cellpadding="0" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
                <tr deltaxml:deltaV2="A!=B" style="height: 400px">
-                  <td deltaxml:deltaV2="A!=B" valign="top" align="left" style="background-color: blue">
-                     <img deltaxml:deltaV2="A!=B" width="500" align="left" alt="The DocBook Stamp" height="300"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                  <td deltaxml:deltaV2="A!=B" align="left" valign="top" style="background-color: blue">
+                     <img deltaxml:deltaV2="A!=B" width="500" align="left" alt="The DocBook Stamp" height="300"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </td>
                </tr>
             </table>
@@ -53,8 +53,8 @@
          <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.13">
             <table deltaxml:deltaV2="A!=B" cellpadding="0" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
                <tr deltaxml:deltaV2="A!=B">
-                  <td deltaxml:deltaV2="A!=B" valign="top" align="left" style="background-color: blue">
-                     <img deltaxml:deltaV2="A!=B" width="500" align="left" alt="The DocBook Stamp" height="300"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                  <td deltaxml:deltaV2="A!=B" align="left" valign="top" style="background-color: blue">
+                     <img deltaxml:deltaV2="A!=B" width="500" align="left" alt="The DocBook Stamp" height="300"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </td>
                </tr>
             </table>

@@ -7,7 +7,7 @@
          </header>
          <div deltaxml:deltaV2="A!=B" id="R.1.2" class="mediaobject">
             <div deltaxml:deltaV2="A=B" class="longdesc-link">[<a href="#R.1.2.3" target="longdesc" title="Link to long description">D</a>]</div>
-            <img deltaxml:deltaV2="A!=B" alt="The DocBook: TDG Duck" longdesc="ld-R.1.2.html"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+            <img deltaxml:deltaV2="A!=B" alt="The DocBook: TDG Duck" longdesc="ld-R.1.2.html"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck-small.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/duck-small.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
             <div deltaxml:deltaV2="A=B" class="caption">
                <p>The Duck</p>
             </div>

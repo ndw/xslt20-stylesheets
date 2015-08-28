@@ -10,7 +10,7 @@
             <table deltaxml:deltaV2="A!=B" cellspacing="0" summary="Manufactured viewport for HTML image" cellpadding="0" width="600" border="0">
                <tr deltaxml:deltaV2="A!=B" style="height: 250px">
                   <td deltaxml:deltaV2="A!=B" align="center">
-                     <object deltaxml:deltaV2="A!=B" type="image/svg+xml" alt="Example SVG polygons" height="250"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:data deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/svg-001.svg</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/svg-001.svg</deltaxml:attributeValue></dxa:data></deltaxml:attributes></object>
+                     <object deltaxml:deltaV2="A!=B" type="image/svg+xml" alt="Example SVG polygons" height="250"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:data deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/svg-001.svg</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">test/graphics/svg-001.svg</deltaxml:attributeValue></dxa:data></deltaxml:attributes></object>
                   </td>
                </tr>
             </table>
@@ -22,7 +22,7 @@
             <table deltaxml:deltaV2="A!=B" cellspacing="0" summary="Manufactured viewport for HTML image" cellpadding="0" width="600" border="0">
                <tr deltaxml:deltaV2="A!=B" style="height: 250px">
                   <td deltaxml:deltaV2="A!=B" align="center">
-                     <object deltaxml:deltaV2="A!=B" type="image/svg+xml" alt="Example SVG polygons" height="250"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:data deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/svg-001.svg</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/svg-001.svg</deltaxml:attributeValue></dxa:data></deltaxml:attributes></object>
+                     <object deltaxml:deltaV2="A!=B" type="image/svg+xml" alt="Example SVG polygons" height="250"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:data deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/svg-001.svg</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">test/graphics/svg-001.svg</deltaxml:attributeValue></dxa:data></deltaxml:attributes></object>
                   </td>
                </tr>
             </table>

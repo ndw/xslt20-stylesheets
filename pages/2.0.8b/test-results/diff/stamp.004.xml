@@ -7,14 +7,14 @@
          </header>
          <p deltaxml:deltaV2="A=B">The stamp image has a natural size of 200x128 pixels.</p>
          <div deltaxml:deltaV2="A!=B" id="R.1.3" class="mediaobject">
-            <img deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+            <img deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
          </div>
          <p deltaxml:deltaV2="A=B">The stamp image: width=512; depth=512; scale=125; align=center</p>
          <div deltaxml:deltaV2="A!=B" id="R.1.5" class="mediaobject centerimg">
             <table deltaxml:deltaV2="A!=B" width="512" cellpadding="0" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
                <tr deltaxml:deltaV2="A!=B" style="height: 512px">
                   <td deltaxml:deltaV2="A!=B" align="center" style="background-color: blue">
-                     <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook Stamp"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src><dxa:width deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">250</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">675</deltaxml:attributeValue></dxa:width></deltaxml:attributes></img>
+                     <img deltaxml:deltaV2="A!=B" width="250" align="middle" alt="The DocBook Stamp"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </td>
                </tr>
             </table>

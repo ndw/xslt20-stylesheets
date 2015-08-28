@@ -8,16 +8,16 @@
          <figure deltaxml:deltaV2="A!=B" id="R.1.2" class="equation-wrapper">
             <div deltaxml:deltaV2="A!=B" class="equation">
                <div deltaxml:deltaV2="A!=B" id="R.1.2.2" class="mediaobject">
-                  <img deltaxml:deltaV2="A!=B" alt="E=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                  <img deltaxml:deltaV2="A!=B" alt="E=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                </div>
             </div>
             <div deltaxml:deltaV2="A=B" class="title">Equation 1. First Equation</div>
          </figure>
          <p deltaxml:deltaV2="A=B">An informal equation:</p>
-         <figure deltaxml:deltaV2="A!=B" class="informalequation-wrapper" id="R.1.4">
+         <figure deltaxml:deltaV2="A!=B" id="R.1.4" class="informalequation-wrapper">
             <div deltaxml:deltaV2="A!=B" class="informalequation">
                <div deltaxml:deltaV2="A!=B" id="R.1.4.1" class="mediaobject">
-                  <img deltaxml:deltaV2="A!=B" alt="E=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                  <img deltaxml:deltaV2="A!=B" alt="E=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                </div>
             </div>
          </figure>

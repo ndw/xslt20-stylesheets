@@ -46,7 +46,7 @@
             <figure deltaxml:deltaV2="A!=B" id="R.1.2.3" class="equation-wrapper">
                <div deltaxml:deltaV2="A!=B" class="equation">
                   <div deltaxml:deltaV2="A!=B" id="R.1.2.3.2" class="mediaobject">
-                     <img deltaxml:deltaV2="A!=B" alt="e=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                     <img deltaxml:deltaV2="A!=B" alt="e=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </div>
                </div>
                <div deltaxml:deltaV2="A=B" class="title">Equation 1. First Equation</div>
@@ -55,7 +55,7 @@
             <figure deltaxml:deltaV2="A!=B" class="equation-wrapper" id="R.1.2.5">
                <div deltaxml:deltaV2="A!=B" class="equation">
                   <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.2.5.1">
-                     <img deltaxml:deltaV2="A!=B" alt="e=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                     <img deltaxml:deltaV2="A!=B" alt="e=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </div>
                </div>
             </figure>
@@ -63,7 +63,7 @@
             <figure deltaxml:deltaV2="A!=B" class="equation-wrapper" id="eq2">
                <div deltaxml:deltaV2="A!=B" class="equation">
                   <div deltaxml:deltaV2="A!=B" class="mediaobject" id="eq2.2">
-                     <img deltaxml:deltaV2="A!=B" alt="e=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                     <img deltaxml:deltaV2="A!=B" alt="e=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </div>
                </div>
                <div deltaxml:deltaV2="A=B" class="title">Equation 2. Second Equation</div>
@@ -71,7 +71,7 @@
             <figure deltaxml:deltaV2="A!=B" class="figure-wrapper" id="fig1">
                <div deltaxml:deltaV2="A!=B" class="figure">
                   <div deltaxml:deltaV2="A!=B" id="fig1.2" class="mediaobject">
-                     <img deltaxml:deltaV2="A!=B" alt="e=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+                     <img deltaxml:deltaV2="A!=B" alt="e=mc^2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/emc2.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/emc2.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
                   </div>
                </div>
                <div deltaxml:deltaV2="A=B" class="title">Figure 1.1. A Figure</div>
