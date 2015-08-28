@@ -1,0 +1,84 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <p deltaxml:deltaV2="A=B">This test attempts to demonstrate the three hard cases:
+horizontal spans, vertical spans, and missing entries.</p>
+         <p deltaxml:deltaV2="A=B">CALS:</p>
+         <figure deltaxml:deltaV2="A!=B" id="R.1.4" class="informaltable-wrapper">
+            <div deltaxml:deltaV2="A!=B" class="informaltable">
+               <table deltaxml:deltaV2="A!=B" border="0"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                  <colgroup deltaxml:deltaV2="A=B">
+                     <col class="tcol1" width="25%"/>
+                     <col class="tcol2" width="25%"/>
+                     <col class="tcol3" width="25%"/>
+                     <col class="tcol4" width="25%"/>
+                  </colgroup>
+                  <tbody deltaxml:deltaV2="A!=B">
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>a1</td>
+                        <td deltaxml:deltaV2="A!=B" colspan="2" rowspan="2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>b1-c2</td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>d1</td>
+                     </tr>
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B" rowspan="3"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>a2-a4</td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>d2</td>
+                     </tr>
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>b3</td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>c3</td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>d3</td>
+                     </tr>
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>b4</td>
+                        <td deltaxml:deltaV2="A!=B" colspan="2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>c4-d4</td>
+                     </tr>
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>a5</td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>b5</td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes> </td>
+                        <td deltaxml:deltaV2="A=B">d5</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </figure>
+         <p deltaxml:deltaV2="A=B">HTML:</p>
+         <figure deltaxml:deltaV2="A=B" id="R.1.6" class="informaltable-wrapper">
+            <div class="informaltable">
+               <table border="1">
+                  <tbody>
+                     <tr>
+                        <td>a1</td>
+                        <td colspan="2" rowspan="2">b1-c2</td>
+                        <td>d1</td>
+                     </tr>
+                     <tr>
+                        <td rowspan="3">a2-a4</td>
+                        <td>d2</td>
+                     </tr>
+                     <tr>
+                        <td>b3</td>
+                        <td>c3</td>
+                        <td>d3</td>
+                     </tr>
+                     <tr>
+                        <td>b4</td>
+                        <td colspan="2">c4-d4</td>
+                     </tr>
+                     <tr>
+                        <td>a5</td>
+                        <td>b5</td>
+                        <td> </td>
+                        <td>d5</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </figure>
+      </article>
+   </body>
+</html>
