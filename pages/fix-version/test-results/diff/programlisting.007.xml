@@ -1,0 +1,125 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <p deltaxml:deltaV2="A=B">This test checks that an external file referenced by
+<code class="tag-element">textobject</code> is correctly handled.</p>
+         <div deltaxml:deltaV2="A" class="programlisting">
+            <pre>
+               <span class="linenumber">  1</span>
+               <span class="linenumber-separator"/>&lt;article xmlns="http://docbook.org/ns/docbook" version="5.0"&gt;
+<span class="linenumber">  2</span>
+               <span class="linenumber-separator"/>&lt;title&gt;Article wrapper&lt;/title&gt;
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <span class="linenumber">  4</span>
+               <span class="linenumber-separator"/>&lt;programlisting linenumbering="unnumbered"&gt;@rem = '--*-Perl-*--
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>@echo off
+<span class="linenumber">  6</span>
+               <span class="linenumber-separator"/>perl.exe %_batchname %$
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>goto endofperl
+<span class="linenumber">  8</span>
+               <span class="linenumber-separator"/>@rem ';
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <span class="linenumber"> 10</span>
+               <span class="linenumber-separator"/># Compress mail...
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <span class="linenumber"> 12</span>
+               <span class="linenumber-separator"/>require 'n:/home/nwalsh/lib/cygnus.pl';
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>require 'timelocal.pl';
+<span class="linenumber"> 14</span>
+               <span class="linenumber-separator"/>use Cwd;
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <span class="linenumber"> 16</span>
+               <span class="linenumber-separator"/>select (STDERR); $| = 1;
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>select (STDOUT); $| = 1;
+<span class="linenumber"> 18</span>
+               <span class="linenumber-separator"/>
+               <span class="linenumber"/>
+               <span class="linenumber-separator"/>@DIRS = ("/home/nwalsh/Mail");
+<span class="linenumber"> 20</span>
+               <span class="linenumber-separator"/>while (@DIRS) {
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>    $dir = shift @DIRS;
+<span class="linenumber"> 22</span>
+               <span class="linenumber-separator"/>    opendir (DIR, $dir);
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>    while ($fname = readdir(DIR)) {
+<span class="linenumber"> 24</span>
+               <span class="linenumber-separator"/>        $file = "$dir/$fname";
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>        next if ! -d $file;
+<span class="linenumber"> 26</span>
+               <span class="linenumber-separator"/>        next if $fname =~ /^\.\.?$/;
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <span class="linenumber"> 28</span>
+               <span class="linenumber-separator"/>        print "$file\n";
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>        push (@DIRS, $file);
+<span class="linenumber"> 30</span>
+               <span class="linenumber-separator"/>        &amp;amp;compress ($file);
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>    }
+<span class="linenumber"> 32</span>
+               <span class="linenumber-separator"/>}
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <span class="linenumber"> 34</span>
+               <span class="linenumber-separator"/>exit;&lt;/programlisting&gt;
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <span class="linenumber"> 36</span>
+               <span class="linenumber-separator"/>&lt;/article&gt;</pre>
+         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
+            <code>&lt;article xmlns="http://docbook.org/ns/docbook" version="5.0"&gt;
+&lt;title&gt;Article wrapper&lt;/title&gt;
+
+&lt;programlisting linenumbering="unnumbered"&gt;@rem = '--*-Perl-*--
+@echo off
+perl.exe %_batchname %$
+goto endofperl
+@rem ';
+
+# Compress mail...
+
+require 'n:/home/nwalsh/lib/cygnus.pl';
+require 'timelocal.pl';
+use Cwd;
+
+select (STDERR); $| = 1;
+select (STDOUT); $| = 1;
+
+@DIRS = ("/home/nwalsh/Mail");
+while (@DIRS) {
+    $dir = shift @DIRS;
+    opendir (DIR, $dir);
+    while ($fname = readdir(DIR)) {
+        $file = "$dir/$fname";
+        next if ! -d $file;
+        next if $fname =~ /^\.\.?$/;
+
+        print "$file\n";
+        push (@DIRS, $file);
+        &amp;amp;compress ($file);
+    }
+}
+
+exit;&lt;/programlisting&gt;
+
+&lt;/article&gt;
+</code>
+         </pre>
+      </article>
+   </body>
+</html>
