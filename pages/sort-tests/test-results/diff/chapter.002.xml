@@ -1,0 +1,22 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="chapter" lang="fr" class="chapter">
+         <header deltaxml:deltaV2="A!=B" class="chapter-titlepage">
+            <h2 deltaxml:deltaV2="A!=B"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Chapitre 1. Unit Test: chapter.001.xml</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Chapitre 1. Unit Test: chapter.002.xml</deltaxml:text></deltaxml:textGroup></h2>
+            <div deltaxml:deltaV2="A=B" class="author">
+               <h3>
+                  <span class="personname">
+                     <span class="firstname">Norman</span>
+                     <span class="surname">Walsh</span>
+                  </span>
+               </h3>
+            </div>
+            <p deltaxml:deltaV2="A=B" class="CVS">$Id: chapter.002.xml 4056 2004-11-23 13:28:50Z nwalsh $</p>
+         </header>
+         <p deltaxml:deltaV2="A=B">This is a chapter test.</p>
+         <p deltaxml:deltaV2="A!=B">It's self-referential, too: <a deltaxml:deltaV2="A!=B" href="#chapter"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:title deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">Unit Test: chapter.001.xml</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">Unit Test: chapter.002.xml</deltaxml:attributeValue></dxa:title></deltaxml:attributes>Chapitre 1, <i deltaxml:deltaV2="A!=B"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Unit Test: chapter.001.xml</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Unit Test: chapter.002.xml</deltaxml:text></deltaxml:textGroup></i>
+            </a>.</p>
+      </article>
+   </body>
+</html>
