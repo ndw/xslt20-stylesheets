@@ -315,7 +315,7 @@
 
 <xsl:param name="table.cell.border.style" select="'solid'"/>
 
-<xsl:param name="table.cell.border.thickness" select="'0.5pt'"/>
+<xsl:param name="table.cell.border.thickness" select="'1px'"/>
 
 <xsl:param name="table.footnote.number.format" select="'a'"/>
 

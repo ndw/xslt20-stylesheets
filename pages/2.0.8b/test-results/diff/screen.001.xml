@@ -23,16 +23,18 @@
                <span class="linenumber-separator"/>    (<a name="dl5" id="dl5"/>
                <img src="http://docbook.github.com/latest/img/5.png" alt="5" border="0"/>loopvar <a name="dl6" id="dl6"/>
                <img src="http://docbook.github.com/latest/img/6.png" alt="6" border="0"/>(+ count 1))))</pre>
-         </div><pre deltaxml:deltaV2="B" class="screen line-numbers">(let <a name="dl1" id="dl1"/>
-            <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>loopvar <a name="dl2" id="dl2"/>
-            <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>((count 1))
+         </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+            <code>(let <a name="dl1" id="dl1"/>
+               <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>loopvar <a name="dl2" id="dl2"/>
+               <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>((count 1))
   <a name="dl3" id="dl3"/>
-            <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>(if (&gt; count 10)
+               <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>(if (&gt; count 10)
     <a name="dl4" id="dl4"/>
-            <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>#t
+               <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>#t
     (<a name="dl5" id="dl5"/>
-            <span data-number="5" class="callout-bug callout-bug-unicode">❺</span>loopvar <a name="dl6" id="dl6"/>
-            <span data-number="6" class="callout-bug callout-bug-unicode">❻</span>(+ count 1))))</pre>
+               <span data-number="5" class="callout-bug callout-bug-unicode">❺</span>loopvar <a name="dl6" id="dl6"/>
+               <span data-number="6" class="callout-bug callout-bug-unicode">❻</span>(+ count 1))))</code>
+         </pre>
       </article>
    </body>
 </html>

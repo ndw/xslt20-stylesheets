@@ -12,7 +12,7 @@
          <p deltaxml:deltaV2="A=B">The stamp image: width=512; depth=512 (scalefit=1 by default in this case)
 </p>
          <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.5">
-            <table deltaxml:deltaV2="A!=B" width="512" border="0" summary="Manufactured viewport for HTML image" cellpadding="0" cellspacing="0">
+            <table deltaxml:deltaV2="A!=B" width="512" cellpadding="0" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
                <tr deltaxml:deltaV2="A!=B" style="height: 512px">
                   <td deltaxml:deltaV2="A!=B" style="background-color: blue">
                      <img deltaxml:deltaV2="A!=B" width="512" alt="The DocBook Stamp"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
@@ -23,7 +23,7 @@
          <p deltaxml:deltaV2="A=B">The stamp image: width=512; depth=512 (scalefit=1, explicitly)
 </p>
          <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.7">
-            <table deltaxml:deltaV2="A!=B" width="512" border="0" summary="Manufactured viewport for HTML image" cellpadding="0" cellspacing="0">
+            <table deltaxml:deltaV2="A!=B" width="512" cellpadding="0" cellspacing="0" summary="Manufactured viewport for HTML image" border="0">
                <tr deltaxml:deltaV2="A!=B" style="height: 512px">
                   <td deltaxml:deltaV2="A!=B" style="background-color: blue">
                      <img deltaxml:deltaV2="A!=B" width="512" alt="The DocBook Stamp"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">/home/travis/build/ndw/xslt20-stylesheets/test/graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>

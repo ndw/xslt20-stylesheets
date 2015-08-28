@@ -483,26 +483,26 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   </li>
                </ul>
             </div>
-            <section deltaxml:deltaV2="A=B" id="pIpintro" class="partintro">
-               <header class="partintro-titlepage">
+            <section deltaxml:deltaV2="A!=B" id="pIpintro" class="partintro">
+               <header deltaxml:deltaV2="A=B" class="partintro-titlepage">
                   <div class="title">PartIntro Title</div>
                </header>
-               <p>Partintro content<sup class="footnote">
+               <p deltaxml:deltaV2="A=B">Partintro content<sup class="footnote">
                      <span class="osq">[</span>
                      <a name="pIpintro.2.1" href="#ftn.pIpintro.2.1">1</a>
                      <span class="csq">]</span>
                   </sup>.</p>
-               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <section id="pIpis1" class="sect1">
+               <section deltaxml:deltaV2="A=B" id="pIpis1" class="sect1">
                   <div class="section-titlepage">
                      <h2>PartIntro Section</h2>
                   </div>
@@ -518,15 +518,27 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
                </section>
-               <div class="footnotes">
-                  <hr width="100" align="left" class="footnotes-divider"/>
-                  <div class="footnote">
-                     <p>
+               <div deltaxml:deltaV2="A!=B" class="footnotes">
+                  <hr deltaxml:deltaV2="A=B" width="100" align="left" class="footnotes-divider"/>
+                  <div deltaxml:deltaV2="A!=B" class="footnote">
+                     <p deltaxml:deltaV2="A">
                         <sup>
                            <span class="osq">[</span>
                            <a href="#pIpintro.2.1" name="ftn.pIpintro.2.1">1</a>
                            <span class="csq">]</span>
-                        </sup>This is a footnote in a partintro.</p>
+                        </sup>This is a footnote in a partintro.</p><div deltaxml:deltaV2="B" class="footnote-wrapper">
+                        <div class="footnote-symbol-wrapper">
+                           <p>
+                              <sup>
+                                 <span class="osq">[</span>
+                                 <a href="#pIpintro.2.1" name="ftn.pIpintro.2.1">1</a>
+                                 <span class="csq">]</span>
+                              </sup> </p>
+                        </div>
+                        <div class="footnote-body-wrapper">
+                           <p>This is a footnote in a partintro.</p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </section>

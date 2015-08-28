@@ -56,25 +56,25 @@
                </tr>
             </table><dl deltaxml:deltaV2="B">
                <dt id="va1" class="callout">
-                  <span class="coline">0,5000</span>
+                  <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
                </dt>
                <dd>
                   <p>Upper left corner</p>
                </dd>
                <dt id="va2" class="callout">
-                  <span class="coline">5000,5000</span>
+                  <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
                </dt>
                <dd>
                   <p>Upper right corner</p>
                </dd>
                <dt id="va3" class="callout">
-                  <span class="coline">0,0</span>
+                  <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>
                </dt>
                <dd>
                   <p>Lower left corner</p>
                </dd>
                <dt id="va4" class="callout">
-                  <span class="coline">5000,0</span>
+                  <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>
                </dt>
                <dd>
                   <p>Lower right corner</p>

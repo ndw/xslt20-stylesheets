@@ -130,11 +130,11 @@ Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 </p>
          </article>
-         <article deltaxml:deltaV2="A=B" id="part" class="part">
-            <header class="part-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="part" id="part">
+            <header deltaxml:deltaV2="A=B" class="part-titlepage">
                <h1>Part I. Part One Title</h1>
             </header>
-            <div class="toc">
+            <div deltaxml:deltaV2="A=B" class="toc">
                <p>
                   <b>Table of Contents</b>
                </p>
@@ -146,16 +146,16 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
                   </li>
                </ul>
             </div>
-            <section id="part.2" class="partintro">
-               <header class="partintro-titlepage">
+            <section deltaxml:deltaV2="A!=B" id="part.2" class="partintro">
+               <header deltaxml:deltaV2="A=B" class="partintro-titlepage">
                   <div class="title">PartIntro Title</div>
                </header>
-               <p>Partintro content<sup class="footnote">
+               <p deltaxml:deltaV2="A=B">Partintro content<sup class="footnote">
                      <span class="osq">[</span>
                      <a name="part.2.2.1" href="#ftn.part.2.2.1">1</a>
                      <span class="csq">]</span>
                   </sup>.</p>
-               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
@@ -173,7 +173,7 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 </p>
-               <section id="part.2.4" class="sect1">
+               <section deltaxml:deltaV2="A=B" id="part.2.4" class="sect1">
                   <div class="section-titlepage">
                      <h2>PartIntro Section</h2>
                   </div>
@@ -197,19 +197,31 @@ Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 </p>
                </section>
-               <div class="footnotes">
-                  <hr width="100" align="left" class="footnotes-divider"/>
-                  <div class="footnote">
-                     <p>
+               <div deltaxml:deltaV2="A!=B" class="footnotes">
+                  <hr deltaxml:deltaV2="A=B" width="100" align="left" class="footnotes-divider"/>
+                  <div deltaxml:deltaV2="A!=B" class="footnote">
+                     <p deltaxml:deltaV2="A">
                         <sup>
                            <span class="osq">[</span>
                            <a href="#part.2.2.1" name="ftn.part.2.2.1">1</a>
                            <span class="csq">]</span>
-                        </sup>This is a footnote in a partintro.</p>
+                        </sup>This is a footnote in a partintro.</p><div deltaxml:deltaV2="B" class="footnote-wrapper">
+                        <div class="footnote-symbol-wrapper">
+                           <p>
+                              <sup>
+                                 <span class="osq">[</span>
+                                 <a href="#part.2.2.1" name="ftn.part.2.2.1">1</a>
+                                 <span class="csq">]</span>
+                              </sup> </p>
+                        </div>
+                        <div class="footnote-body-wrapper">
+                           <p>This is a footnote in a partintro.</p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </section>
-            <article id="chapter" class="chapter">
+            <article deltaxml:deltaV2="A=B" id="chapter" class="chapter">
                <header class="chapter-titlepage">
                   <h2>Chapter 1. Chapter</h2>
                </header>

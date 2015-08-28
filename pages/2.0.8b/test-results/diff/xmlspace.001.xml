@@ -21,7 +21,7 @@
                <span class="linenumber-separator"/>
                <span class="linenumber"/>
                <span class="linenumber-separator"/>Foo &lt;Bar&gt;</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
             <code>ProgramListing: This is a test
   Only a test.
 Had this been a real emegency,

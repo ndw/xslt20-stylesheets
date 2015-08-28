@@ -31,21 +31,23 @@
                   </code>
                </strong>
             </pre>
-         </div><pre deltaxml:deltaV2="B" class="screen line-numbers">
-            <code class="prompt">$</code>
-            <strong class="userinput">
-               <code>cp a b<a href="#cp" id="cp-co" class="co">
-                     <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
-                  </a>
-               </code>
-            </strong>
-            <code class="prompt">$</code>
-            <strong class="userinput">
-               <code>mv a b<a href="#mv" id="mv-co" class="co">
-                     <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
-                  </a>
-               </code>
-            </strong>
+         </div><pre deltaxml:deltaV2="B" class="screen">
+            <code>
+               <code class="prompt">$</code>
+               <strong class="userinput">
+                  <code>cp a b<a href="#cp" class="co" id="cp-co">
+                        <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
+                     </a>
+                  </code>
+               </strong>
+               <code class="prompt">$</code>
+               <strong class="userinput">
+                  <code>mv a b<a href="#mv" class="co" id="mv-co">
+                        <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
+                     </a>
+                  </code>
+               </strong>
+            </code>
          </pre>
          <div deltaxml:deltaV2="A!=B" class="calloutlist">
             <table deltaxml:deltaV2="A" border="0" summary="Callout list">
@@ -73,14 +75,14 @@
                </tr>
             </table><dl deltaxml:deltaV2="B">
                <dt id="cp" class="callout">
-                  <a href="#cp-co">
+                  <a href="#cp-co" class="callout-link">
                      <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
                   </a> </dt>
                <dd>
                   <p>This is a copy.</p>
                </dd>
                <dt id="mv" class="callout">
-                  <a href="#mv-co">
+                  <a href="#mv-co" class="callout-link">
                      <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
                   </a> </dt>
                <dd>

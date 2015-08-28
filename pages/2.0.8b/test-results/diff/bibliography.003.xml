@@ -79,27 +79,42 @@ parameter.</p>
          </div>
          <div deltaxml:deltaV2="A!=B" class="bibliomixed" id="xml11">
             <p deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">bibliomixed</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">[</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
-               </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">abbrev</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">label</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">XML 1.1</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">[xml11] </deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">] John Cowan, editor.
+               </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">abbrev</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">label</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">XML 1.1</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">[</deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="B" class="abbrev">XML 1.1</span><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">] </deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">] John Cowan, editor.
 </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
                </deltaxml:text></deltaxml:textGroup><a deltaxml:deltaV2="A" href="http://www.w3.org/TR/2001/WD-xml11-20011213/">
                   <span class="citetitle">
                      <cite>XML 1.1</cite>
                   </span>
-               </a><span deltaxml:deltaV2="B" class="entry">???</span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">.
+               </a><span deltaxml:deltaV2="B" class="entry">John Cowan, editor.
+<a href="http://www.w3.org/TR/2001/WD-xml11-20011213/">
+                     <span class="citetitle">
+                        <cite>XML 1.1</cite>
+                     </span>
+                  </a>.
+World Wide Web Consortium, 2002.
+</span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">.
 World Wide Web Consortium, 2002.
 </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
             </deltaxml:text></deltaxml:textGroup></p>
          </div>
-         <div deltaxml:deltaV2="A!=B" class="bibliomixed" id="bib.docbook43">
+         <div deltaxml:deltaV2="A!=B" id="bib.docbook43" class="bibliomixed">
             <p deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">bibliomixed</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">[</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
-               </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">abbrev</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">label</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">DocBook V4.3</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">[bib.docbook43] </deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">] Norman Walsh, editor.
+               </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">abbrev</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">label</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">DocBook V4.3</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">[</deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="B" class="abbrev">DocBook V4.3</span><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">] </deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">] Norman Walsh, editor.
 </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
                </deltaxml:text></deltaxml:textGroup><a deltaxml:deltaV2="A" href="http://docbook.org/specs/cd-docbook-docbook-4.3.html">
                   <span class="citetitle">
                      <cite>The
 DocBook Document Type: Version 4.3</cite>
                   </span>
-               </a><span deltaxml:deltaV2="B" class="entry">???</span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">.
+               </a><span deltaxml:deltaV2="B" class="entry">Norman Walsh, editor.
+<a href="http://docbook.org/specs/cd-docbook-docbook-4.3.html">
+                     <span class="citetitle">
+                        <cite>The
+DocBook Document Type: Version 4.3</cite>
+                     </span>
+                  </a>.
+OASIS, 2004.
+</span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">.
 OASIS, 2004.
 </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
             </deltaxml:text></deltaxml:textGroup></p>

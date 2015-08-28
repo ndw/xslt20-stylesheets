@@ -1,38 +1,65 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head/>
-   <body>
-      <article id="R.1" class="article">
-         <header class="article-titlepage">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Article wrapper</h2>
          </header>
-         <p>This is a test of colgroup/col in HTML tables.</p>
-         <p>CALS:</p>
-         <figure id="R.1.4" class="informaltable-wrapper">
-            <div class="informaltable">
-               <table border="1" width="100%">
-                  <colgroup>
+         <p deltaxml:deltaV2="A=B">This is a test of colgroup/col in HTML tables.</p>
+         <p deltaxml:deltaV2="A=B">CALS:</p>
+         <figure deltaxml:deltaV2="A!=B" id="R.1.4" class="informaltable-wrapper">
+            <div deltaxml:deltaV2="A!=B" class="informaltable">
+               <table deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A"><dxa:border deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">1</deltaxml:attributeValue></dxa:border><dxa:width deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">100%</deltaxml:attributeValue></dxa:width></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">1100%</deltaxml:text></deltaxml:textGroup><colgroup deltaxml:deltaV2="B">
                      <col style="background-color: green; text-align: right;" class="green" valign="bottom"/>
                   </colgroup>
-                  <colgroup span="2" style="background-color: red" class="red" align="center" width="25%"/>
-                  <tr>
+                  <colgroup deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:width deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">25%</deltaxml:attributeValue></dxa:width><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">red</deltaxml:attributeValue></dxa:class><dxa:style deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">background-color: red</deltaxml:attributeValue></dxa:style><dxa:align deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">center</deltaxml:attributeValue></dxa:align><dxa:span deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">2</deltaxml:attributeValue></dxa:span></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                     </deltaxml:text></deltaxml:textGroup><col deltaxml:deltaV2="A" style="background-color: green; text-align: right;" class="green" valign="bottom"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup></colgroup>
+                  <colgroup deltaxml:deltaV2="A" span="2" style="background-color: red" class="red" align="center" width="25%"/><tbody deltaxml:deltaV2="B">
+                     <tr>
+                        <td>a1</td>
+                        <td rowspan="2" colspan="2">b1-c2</td>
+                        <td>d1</td>
+                     </tr>
+                     <tr>
+                        <td rowspan="3">a2-a4</td>
+                        <td>d2</td>
+                     </tr>
+                     <tr>
+                        <td align="center">b3</td>
+                        <td>c3</td>
+                        <td>d3</td>
+                     </tr>
+                     <tr>
+                        <td>b4</td>
+                        <td colspan="2">c4-d4</td>
+                     </tr>
+                     <tr>
+                        <td>a5</td>
+                        <td>b5</td>
+                        <td> </td>
+                        <td style="font-family: 'Trebuchet MS',Trebuchet,sans-serif; font-weight: bold; font-style: italic">d5</td>
+                     </tr>
+                  </tbody><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><tr deltaxml:deltaV2="A">
                      <td>a1</td>
                      <td rowspan="2" colspan="2">b1-c2</td>
                      <td>d1</td>
-                  </tr>
-                  <tr>
+                  </tr><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><tr deltaxml:deltaV2="A">
                      <td rowspan="3">a2-a4</td>
                      <td>d2</td>
-                  </tr>
-                  <tr>
+                  </tr><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><tr deltaxml:deltaV2="A">
                      <td align="center">b3</td>
                      <td>c3</td>
                      <td>d3</td>
-                  </tr>
-                  <tr>
+                  </tr><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><tr deltaxml:deltaV2="A">
                      <td>b4</td>
                      <td colspan="2">c4-d4</td>
-                  </tr>
-                  <tr>
+                  </tr><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><tr deltaxml:deltaV2="A">
                      <td>a5</td>
                      <td>b5</td>
                      <td> </td>

@@ -101,7 +101,7 @@
                   <span class="linenumber-separator"> &gt;</span>
                   <span class="linenumber"/>
                   <span class="linenumber-separator"> &gt;</span>exit;</pre>
-            </div><pre deltaxml:deltaV2="B" data-line="1,4,9,10,11,27" class="programlisting">
+            </div><pre deltaxml:deltaV2="B" data-line="1,4,9,10,11,27" class="programlisting language-none">
                <code>@rem = '--*-Perl-*--
 @echo off
 perl.exe %_batchname %$
@@ -209,7 +209,7 @@ exit;</code>
                   <span class="linenumber-separator"/>
                   <span class="linenumber"/>
                   <span class="linenumber-separator"/>exit;</pre>
-            </div><pre deltaxml:deltaV2="B" data-line="1,4,9,10,11,27" class="programlisting">
+            </div><pre deltaxml:deltaV2="B" data-line="1,4,9,10,11,27" class="programlisting language-none">
                <code>@rem = '--*-Perl-*--
 @echo off
 perl.exe %_batchname %$

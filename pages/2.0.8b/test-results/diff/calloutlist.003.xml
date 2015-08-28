@@ -103,28 +103,28 @@
                      <span class="linenumber-separator"/>    &lt;/refsect1&gt;
 <span class="linenumber"> 22</span>
                      <span class="linenumber-separator"/>  &lt;/refentry&gt;</pre>
-               </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+               </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
                   <code>
   &lt;refentry&gt;
     &lt;info&gt;
-      &lt;date&gt;2003-10-20&lt;/date&gt; <a href="#V1690_date" id="V1690_date-co" class="co">
+      &lt;date&gt;2003-10-20&lt;/date&gt; <a href="#V1690_date" class="co" id="V1690_date-co">
                         <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
                      </a>
     &lt;/info&gt;
     &lt;refmeta&gt;
-      &lt;refentrytitle&gt;gtk-options&lt;/refentrytitle&gt; <a href="#V1690_title" id="V1690_title-co" class="co">
+      &lt;refentrytitle&gt;gtk-options&lt;/refentrytitle&gt; <a href="#V1690_title" class="co" id="V1690_title-co">
                         <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
                      </a>
-      &lt;manvolnum&gt;7&lt;/manvolnum&gt; <a href="#V1690_manvolnum" id="V1690_manvolnum-co" class="co">
+      &lt;manvolnum&gt;7&lt;/manvolnum&gt; <a href="#V1690_manvolnum" class="co" id="V1690_manvolnum-co">
                         <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>
                      </a>
-      &lt;refmiscinfo class="source-name"&gt;GTK+&lt;/refmiscinfo&gt; <a href="#V1690_source-name" id="V1690_source-name-co" class="co">
+      &lt;refmiscinfo class="source-name"&gt;GTK+&lt;/refmiscinfo&gt; <a href="#V1690_source-name" class="co" id="V1690_source-name-co">
                         <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>
                      </a>
-      &lt;refmiscinfo class="version"&gt;1.2&lt;/refmiscinfo&gt; <a href="#V1690_version" id="V1690_version-co" class="co">
+      &lt;refmiscinfo class="version"&gt;1.2&lt;/refmiscinfo&gt; <a href="#V1690_version" class="co" id="V1690_version-co">
                         <span data-number="5" class="callout-bug callout-bug-unicode">❺</span>
                      </a>
-      &lt;refmiscinfo class="manual"&gt;GTK+ User's Manual&lt;/refmiscinfo&gt; <a href="#V1690_manual" id="V1690_manual-co" class="co">
+      &lt;refmiscinfo class="manual"&gt;GTK+ User's Manual&lt;/refmiscinfo&gt; <a href="#V1690_manual" class="co" id="V1690_manual-co">
                         <span data-number="6" class="callout-bug callout-bug-unicode">❻</span>
                      </a>
     &lt;/refmeta&gt;
@@ -210,42 +210,42 @@
                      </tr>
                   </table><dl deltaxml:deltaV2="B">
                      <dt id="V1690_date" class="callout">
-                        <a href="#V1690_date-co">
+                        <a href="#V1690_date-co" class="callout-link">
                            <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
                         </a> </dt>
                      <dd>
                         <p>Sets the “<span class="quote">date</span>” part of the header/footer.</p>
                      </dd>
                      <dt id="V1690_title" class="callout">
-                        <a href="#V1690_title-co">
+                        <a href="#V1690_title-co" class="callout-link">
                            <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
                         </a> </dt>
                      <dd>
                         <p>Sets the “<span class="quote">title</span>” part.</p>
                      </dd>
                      <dt id="V1690_manvolnum" class="callout">
-                        <a href="#V1690_manvolnum-co">
+                        <a href="#V1690_manvolnum-co" class="callout-link">
                            <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>
                         </a> </dt>
                      <dd>
                         <p>Sets the “<span class="quote">section</span>” part.</p>
                      </dd>
                      <dt id="V1690_source-name" class="callout">
-                        <a href="#V1690_source-name-co">
+                        <a href="#V1690_source-name-co" class="callout-link">
                            <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>
                         </a> </dt>
                      <dd>
                         <p>Sets the “<span class="quote">source name</span>” part.</p>
                      </dd>
                      <dt id="V1690_version" class="callout">
-                        <a href="#V1690_version-co">
+                        <a href="#V1690_version-co" class="callout-link">
                            <span data-number="5" class="callout-bug callout-bug-unicode">❺</span>
                         </a> </dt>
                      <dd>
                         <p>Sets the “<span class="quote">version</span>” part.</p>
                      </dd>
                      <dt id="V1690_manual" class="callout">
-                        <a href="#V1690_manual-co">
+                        <a href="#V1690_manual-co" class="callout-link">
                            <span data-number="6" class="callout-bug callout-bug-unicode">❻</span>
                         </a> </dt>
                      <dd>
@@ -297,28 +297,30 @@ also that several items in co/@linkends are correctly handled.
                      <span class="linenumber-separator"/> 2/13/94   6:21           9,349  WINA20.386 <a name="wina20.386" id="wina20.386"/>
                      <img src="http://docbook.github.com/latest/img/11.png" alt="11" border="0"/>
                   </pre>
-               </div><pre deltaxml:deltaV2="B" class="screen line-numbers"> Volume in drive C is SYSTEM         Serial number is 2350:717C
+               </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                  <code> Volume in drive C is SYSTEM         Serial number is 2350:717C
  Directory of  C:\
 
 10/17/97   9:04         &lt;DIR&gt;    bin
 10/16/97  14:11         &lt;DIR&gt;    DOS <a name="dos" id="dos"/>
-                  <span data-number="7" class="callout-bug callout-bug-unicode">❼</span>
+                     <span data-number="7" class="callout-bug callout-bug-unicode">❼</span>
 10/16/97  14:40         &lt;DIR&gt;    Program Files
 10/16/97  14:46         &lt;DIR&gt;    TEMP 
 10/17/97   9:04         &lt;DIR&gt;    tmp <a name="dos" id="dos"/>
-                  <span data-number="7" class="callout-bug callout-bug-unicode">❼</span>
+                     <span data-number="7" class="callout-bug callout-bug-unicode">❼</span>
 10/16/97  14:37         &lt;DIR&gt;    WINNT
-10/16/97  14:25             119  AUTOEXEC.BAT <a href="#startup" id="autoexec.bat" class="co">
-                     <span data-number="8" class="callout-bug callout-bug-unicode">❽</span>
-                  </a>
- 2/13/94   6:21          54,619  COMMAND.COM <a href="#startup" id="command.com" class="co">
-                     <span data-number="9" class="callout-bug callout-bug-unicode">❾</span>
-                  </a>
+10/16/97  14:25             119  AUTOEXEC.BAT <a href="#startup" class="co" id="autoexec.bat">
+                        <span data-number="8" class="callout-bug callout-bug-unicode">❽</span>
+                     </a>
+ 2/13/94   6:21          54,619  COMMAND.COM <a href="#startup" class="co" id="command.com">
+                        <span data-number="9" class="callout-bug callout-bug-unicode">❾</span>
+                     </a>
 10/16/97  14:25             115  CONFIG.SYS <a name="config.sys" id="config.sys"/>
-                  <span data-number="10" class="callout-bug callout-bug-unicode">❿</span>
+                     <span data-number="10" class="callout-bug callout-bug-unicode">❿</span>
 11/16/97  17:17      61,865,984  pagefile.sys
  2/13/94   6:21           9,349  WINA20.386 <a name="wina20.386" id="wina20.386"/>
-                  <span data-number="11" class="callout-bug callout-bug-text">11</span>
+                     <span data-number="11" class="callout-bug callout-bug-text">11</span>
+                  </code>
                </pre>
                <div deltaxml:deltaV2="A!=B" class="calloutlist">
                   <table deltaxml:deltaV2="A" border="0" summary="Callout list">
@@ -370,7 +372,7 @@ also that several items in co/@linkends are correctly handled.
                      </tr>
                   </table><dl deltaxml:deltaV2="B">
                      <dt id="firstco" class="callout">
-                        <a href="#dos">
+                        <a href="#dos" class="callout-link">
                            <span data-number="7" class="callout-bug callout-bug-unicode">❼</span>
                         </a> </dt>
                      <dd>
@@ -381,11 +383,11 @@ also that several items in co/@linkends are correctly handled.
   </p>
                      </dd>
                      <dt id="startup" class="callout">
-                        <a href="#autoexec.bat">
+                        <a href="#autoexec.bat" class="callout-link">
                            <span data-number="8" class="callout-bug callout-bug-unicode">❽</span>
-                        </a> <a href="#command.com">
+                        </a> <a href="#command.com" class="callout-link">
                            <span data-number="9" class="callout-bug callout-bug-unicode">❾</span>
-                        </a> <a href="#config.sys">
+                        </a> <a href="#config.sys" class="callout-link">
                            <span data-number="10" class="callout-bug callout-bug-unicode">❿</span>
                         </a> </dt>
                      <dd>
@@ -394,7 +396,7 @@ also that several items in co/@linkends are correctly handled.
   </p>
                      </dd>
                      <dt id="lastco" class="callout">
-                        <a href="#wina20.386">
+                        <a href="#wina20.386" class="callout-link">
                            <span data-number="11" class="callout-bug callout-bug-text">11</span>
                         </a> </dt>
                      <dd>
@@ -430,7 +432,7 @@ column.</p>
                      <span class="linenumber-separator"/>
                      <span class="linenumber"/>
                      <span class="linenumber-separator"/>...</pre>
-               </div><pre deltaxml:deltaV2="B" data-line="2,4" class="programlisting">
+               </div><pre deltaxml:deltaV2="B" data-line="2,4" class="programlisting language-none">
                   <code>
 This is a line
 This is another line
@@ -495,7 +497,7 @@ the end of the last line is checked too.</p>
                      <span class="linenumber-separator"/>The very last line                                         <a name="poslast"/>
                      <img src="http://docbook.github.com/latest/img/5.png" alt="5" border="0"/>
                   </pre>
-               </div><pre deltaxml:deltaV2="B" data-line="2,2,2,2,8" class="programlisting">
+               </div><pre deltaxml:deltaV2="B" data-line="2,2,2,2,8" class="programlisting language-none">
                   <code>
 This is a line
 This is another line

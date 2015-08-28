@@ -234,7 +234,7 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
                   <div deltaxml:deltaV2="A" class="programlisting">
                      <pre>
 A figure. Just to test the numeration.</pre>
-                  </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+                  </div><pre deltaxml:deltaV2="B" class="programlisting">
                      <code>
 A figure. Just to test the numeration.</code>
                   </pre>
@@ -250,7 +250,7 @@ A figure. Just to test the numeration.</code>
                      <div deltaxml:deltaV2="A" class="programlisting">
                         <pre>
 A figure. Just to test the numeration.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+                     </div><pre deltaxml:deltaV2="B" class="programlisting">
                         <code>
 A figure. Just to test the numeration.</code>
                      </pre>
@@ -281,7 +281,7 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
                      <div deltaxml:deltaV2="A" class="programlisting">
                         <pre>
 An example.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+                     </div><pre deltaxml:deltaV2="B" class="programlisting">
                         <code>
 An example.</code>
                      </pre>

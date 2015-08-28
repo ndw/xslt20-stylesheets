@@ -81,7 +81,7 @@
                <span class="linenumber-separator"/>
                <span class="linenumber"> 36</span>
                <span class="linenumber-separator"/>&lt;/article&gt;</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
             <code>&lt;article xmlns="http://docbook.org/ns/docbook" version="5.0"&gt;
 &lt;title&gt;Article wrapper&lt;/title&gt;
 

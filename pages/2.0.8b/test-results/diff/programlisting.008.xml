@@ -41,7 +41,7 @@ correctly.</p>
                <span class="linenumber-separator">&gt; </span>Line fifteen
 <span class="linenumber">____</span>
                <span class="linenumber-separator">&gt; </span>Line sixteen</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
             <code>Line one
 Line two
 Line three
@@ -69,7 +69,7 @@ Line six
 Line seven
 Line eight
 Line nine</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+         </div><pre deltaxml:deltaV2="B" class="programlisting">
             <code>Line one
 Line two
 Line three

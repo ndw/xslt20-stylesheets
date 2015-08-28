@@ -64,7 +64,7 @@
                            <span class="linenumber-separator"/>Some
 <span class="linenumber"/>
                            <span class="linenumber-separator"/>Text</pre>
-                     </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+                     </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
                         <code>Testing
 Some
 Text</code>

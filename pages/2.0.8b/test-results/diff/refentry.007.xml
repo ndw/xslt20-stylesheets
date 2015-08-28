@@ -357,10 +357,12 @@
                         <span class="linenumber-separator"/>that starts with a line of space. [break here]
 <span class="linenumber"/>
                         <span class="linenumber-separator"/>And it ends with a line of space.</pre>
-                  </div><pre deltaxml:deltaV2="B" class="screen line-numbers">This is a screen [break here]
+                  </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                     <code>This is a screen [break here]
 that starts with a line of space. [break here]
 And it ends with a line of space.
-</pre>
+</code>
+                  </pre>
                   <p deltaxml:deltaV2="A=B">normal paragraph here</p>
                   <div deltaxml:deltaV2="A" class="screen">
                      <pre>
@@ -370,9 +372,11 @@ And it ends with a line of space.
                         <span class="linenumber-separator"/>that does not start with a line of space. [break here]
 <span class="linenumber"/>
                         <span class="linenumber-separator"/>And does not end with a line of space.</pre>
-                  </div><pre deltaxml:deltaV2="B" class="screen line-numbers">This is a screen [break here]
+                  </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                     <code>This is a screen [break here]
 that does not start with a line of space. [break here]
-And does not end with a line of space.</pre>
+And does not end with a line of space.</code>
+                  </pre>
                   <p deltaxml:deltaV2="A!=B">This is a normal paragraph that contains a screen.
 <div deltaxml:deltaV2="A" class="screen">
                         <pre>
@@ -384,10 +388,12 @@ And does not end with a line of space.</pre>
                            <span class="linenumber-separator"/>And does not end with a line of space but is followed
 <span class="linenumber">  4</span>
                            <span class="linenumber-separator"/>by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen line-numbers">This is a screen within a normal paragraph [break here]
+                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                        <code>This is a screen within a normal paragraph [break here]
 that does not start with a line of space. [break here]
 And does not end with a line of space but is followed
-by a line of space.</pre>
+by a line of space.</code>
+                     </pre>
                   </p>
                   <p deltaxml:deltaV2="A!=B">This is another  normal paragraph that contains a screen.
 <div deltaxml:deltaV2="A" class="screen">
@@ -400,10 +406,12 @@ by a line of space.</pre>
                            <span class="linenumber-separator"/>And does not end with a line of space and is not followed
 <span class="linenumber">  4</span>
                            <span class="linenumber-separator"/>by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen line-numbers">This is a screen within a normal paragraph [break here]
+                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                        <code>This is a screen within a normal paragraph [break here]
 that does not start with a line of space. [break here]
 And does not end with a line of space and is not followed
-by a line of space.</pre>
+by a line of space.</code>
+                     </pre>
                   </p>
                   <p deltaxml:deltaV2="A!=B">This is another  normal paragraph that contains a screen.
 <div deltaxml:deltaV2="A" class="screen">
@@ -414,10 +422,12 @@ by a line of space.</pre>
                            <span class="linenumber-separator"/>that starts with a line of space. [break here]
 <span class="linenumber"/>
                            <span class="linenumber-separator"/>And ends with a line of space but is not followed by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen line-numbers">This is a screen within a normal paragraph [break here]
+                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                        <code>This is a screen within a normal paragraph [break here]
 that starts with a line of space. [break here]
 And ends with a line of space but is not followed by a line of space.
-</pre>
+</code>
+                     </pre>
                   </p>
                   <p deltaxml:deltaV2="A!=B">This is another  normal paragraph that contains a screen.
 <div deltaxml:deltaV2="A" class="screen">
@@ -428,10 +438,12 @@ And ends with a line of space but is not followed by a line of space.
                            <span class="linenumber-separator"/>that starts with a line of space. [break here]
 <span class="linenumber"/>
                            <span class="linenumber-separator"/>And ends with a line of space and is followed by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen line-numbers">This is a screen within a normal paragraph [break here]
+                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                        <code>This is a screen within a normal paragraph [break here]
 that starts with a line of space. [break here]
 And ends with a line of space and is followed by a line of space.
-</pre>
+</code>
+                     </pre>
                   </p>
                   <p deltaxml:deltaV2="A!=B">This is another  normal paragraph that contains a screen.
 <div deltaxml:deltaV2="A" class="screen">
@@ -446,14 +458,16 @@ And ends with a line of space and is followed by a line of space.
                            <span class="linenumber-separator"/>that starts with a 2 lines of space. [break here]
 <span class="linenumber"/>
                            <span class="linenumber-separator"/>And ends with 3 lines of space and is followed by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen line-numbers">
+                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                        <code>
 
 This is a screen within a normal paragraph [break here]
 that starts with a 2 lines of space. [break here]
 And ends with 3 lines of space and is followed by a line of space.
 
 
-</pre>
+</code>
+                     </pre>
                   </p>
                   <p deltaxml:deltaV2="A=B">This paragraph contains an itemizedlist with a title. The title
 is “Mrignkwolmcng”.
@@ -605,19 +619,32 @@ footnote.</p>
                <div deltaxml:deltaV2="A!=B" class="footnotes">
                   <hr deltaxml:deltaV2="A=B" width="100" align="left" class="footnotes-divider"/>
                   <div deltaxml:deltaV2="A!=B" class="footnote">
-                     <p deltaxml:deltaV2="A!=B">
-                        <sup deltaxml:deltaV2="A=B">
+                     <p deltaxml:deltaV2="A">
+                        <sup>
                            <span class="osq">[</span>
                            <a href="#R.1.2.2.7.4.1" name="ftn.R.1.2.2.7.4.1">1</a>
                            <span class="csq">]</span>
-                        </sup>Stuff here <div deltaxml:deltaV2="A" class="programlisting">
+                        </sup>Stuff here <div class="programlisting">
                            <pre>This is a program listing
 that's two lines long.</pre>
-                        </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
-                           <code>This is a program listing
+                        </div>
+                     </p><div deltaxml:deltaV2="B" class="footnote-wrapper">
+                        <div class="footnote-symbol-wrapper">
+                           <p>
+                              <sup>
+                                 <span class="osq">[</span>
+                                 <a href="#R.1.2.2.7.4.1" name="ftn.R.1.2.2.7.4.1">1</a>
+                                 <span class="csq">]</span>
+                              </sup> </p>
+                        </div>
+                        <div class="footnote-body-wrapper">
+                           <p>Stuff here <pre class="programlisting">
+                                 <code>This is a program listing
 that's two lines long.</code>
-                        </pre>
-                     </p>
+                              </pre>
+                           </p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </article>

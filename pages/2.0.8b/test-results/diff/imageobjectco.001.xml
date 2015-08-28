@@ -56,19 +56,19 @@
                </tr>
             </table><dl deltaxml:deltaV2="B">
                <dt id="c1" class="callout">
-                  <span class="coline">240,9049</span>
+                  <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
                </dt>
                <dd>
                   <p>The bill.</p>
                </dd>
                <dt id="c2" class="callout">
-                  <span class="coline">2905,1360</span>
+                  <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
                </dt>
                <dd>
                   <p>The feet.</p>
                </dd>
                <dt id="c3" class="callout">
-                  <span class="coline">8796,1491</span>
+                  <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>
                </dt>
                <dd>
                   <p>The tail.</p>

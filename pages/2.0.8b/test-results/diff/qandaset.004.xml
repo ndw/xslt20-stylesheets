@@ -1,8 +1,8 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head/>
-   <body>
-      <article id="R.1" class="article">
-         <header class="article-titlepage">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Unit Test: qandaset.004</h2>
             <div class="author">
                <h3>
@@ -13,7 +13,7 @@
                </h3>
             </div>
          </header>
-         <div class="qandaset">
+         <div deltaxml:deltaV2="A=B" class="qandaset">
             <h2>Exercices</h2>
             <div class="qandadiv">
                <h3>First test</h3>
@@ -37,15 +37,27 @@
                </table>
             </div>
          </div>
-         <div class="footnotes">
-            <hr width="100" align="left" class="footnotes-divider"/>
-            <div class="footnote">
-               <p>
+         <div deltaxml:deltaV2="A!=B" class="footnotes">
+            <hr deltaxml:deltaV2="A=B" width="100" align="left" class="footnotes-divider"/>
+            <div deltaxml:deltaV2="A!=B" class="footnote">
+               <p deltaxml:deltaV2="A">
                   <sup>
                      <span class="osq">[</span>
                      <a href="#R.1.2.2.2.2.1.1" name="ftn.R.1.2.2.2.2.1.1">1</a>
                      <span class="csq">]</span>
-                  </sup>May be.</p>
+                  </sup>May be.</p><div deltaxml:deltaV2="B" class="footnote-wrapper">
+                  <div class="footnote-symbol-wrapper">
+                     <p>
+                        <sup>
+                           <span class="osq">[</span>
+                           <a href="#R.1.2.2.2.2.1.1" name="ftn.R.1.2.2.2.2.1.1">1</a>
+                           <span class="csq">]</span>
+                        </sup> </p>
+                  </div>
+                  <div class="footnote-body-wrapper">
+                     <p>May be.</p>
+                  </div>
+               </div>
             </div>
          </div>
       </article>

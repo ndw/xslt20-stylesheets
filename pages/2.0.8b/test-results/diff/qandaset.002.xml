@@ -22,7 +22,7 @@
                         <div deltaxml:deltaV2="A!=B" class="example">
                            <div deltaxml:deltaV2="A" class="programlisting">
                               <pre>// Hello, World</pre>
-                           </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+                           </div><pre deltaxml:deltaV2="B" class="programlisting">
                               <code>// Hello, World</code>
                            </pre>
                         </div>
@@ -33,7 +33,7 @@
                         <div deltaxml:deltaV2="A!=B" class="example">
                            <div deltaxml:deltaV2="A" class="programlisting">
                               <pre>// Goodbye, World</pre>
-                           </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+                           </div><pre deltaxml:deltaV2="B" class="programlisting">
                               <code>// Goodbye, World</code>
                            </pre>
                         </div>

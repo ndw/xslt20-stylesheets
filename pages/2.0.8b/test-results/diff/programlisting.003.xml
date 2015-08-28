@@ -69,7 +69,7 @@
                <span class="linenumber-separator"/>
                <span class="linenumber"/>
                <span class="linenumber-separator"/>exit;</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
             <code>@rem = '--*-Perl-*--
 @echo off
 perl.exe %_batchname %$

@@ -37,7 +37,7 @@
                <span class="linenumber-separator"/>$opt = '-p' if $opt_p;
 <span class="linenumber"/>
                <span class="linenumber-separator"/>$opt = '-m' if $opt_m;</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting line-numbers">
+         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
             <code>#!/usr/bin/perl -- # --*-Perl-*--
 
 use Getopt::Std;
@@ -105,7 +105,7 @@ continues in the following listing.
                <span class="linenumber-separator"/>    $file = shift @ARGV;
 <span class="linenumber"> 38</span>
                <span class="linenumber-separator"/>}</pre>
-         </div><pre deltaxml:deltaV2="B" data-start="16" class="programlisting line-numbers">
+         </div><pre deltaxml:deltaV2="B" data-start="16" class="programlisting language-none line-numbers">
             <code>while ($file) {
     print "Converting $file to $opt linebreaks.\n" if !$opt_q;
     open (F, "$file");

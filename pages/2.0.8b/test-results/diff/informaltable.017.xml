@@ -1,8 +1,8 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head/>
-   <body>
-      <article id="R.1" class="article">
-         <header class="article-titlepage">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Unit Test: informaltable.017</h2>
             <div class="author">
                <h3>
@@ -13,69 +13,69 @@
                </h3>
             </div>
          </header>
-         <p>Row valign test.</p>
-         <figure id="informaltable" class="informaltable-wrapper">
-            <div class="informaltable">
-               <table border="0" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
-                  <colgroup>
+         <p deltaxml:deltaV2="A=B">Row valign test.</p>
+         <figure deltaxml:deltaV2="A!=B" id="informaltable" class="informaltable-wrapper">
+            <div deltaxml:deltaV2="A!=B" class="informaltable">
+               <table deltaxml:deltaV2="A!=B" border="0"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                  <colgroup deltaxml:deltaV2="A=B">
                      <col class="tcol1" width="50%"/>
                      <col class="tcol2" width="50%"/>
                   </colgroup>
-                  <tbody>
-                     <tr valign="top">
-                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; " valign="top">
-                           <p>Para one.</p>
-                           <p>Para two.</p>
+                  <tbody deltaxml:deltaV2="A!=B">
+                     <tr deltaxml:deltaV2="A!=B" valign="top">
+                        <td deltaxml:deltaV2="A!=B" valign="top"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                           <p deltaxml:deltaV2="A=B">Para one.</p>
+                           <p deltaxml:deltaV2="A=B">Para two.</p>
                         </td>
-                        <td style="border-bottom: 0.5pt solid ; " valign="top">Top align me.</td>
+                        <td deltaxml:deltaV2="A!=B" valign="top"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>Top align me.</td>
                      </tr>
-                     <tr valign="middle">
-                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; " valign="middle">
-                           <p>Para one.</p>
-                           <p>Para two.</p>
+                     <tr deltaxml:deltaV2="A!=B" valign="middle">
+                        <td deltaxml:deltaV2="A!=B" valign="middle"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                           <p deltaxml:deltaV2="A=B">Para one.</p>
+                           <p deltaxml:deltaV2="A=B">Para two.</p>
                         </td>
-                        <td style="border-bottom: 0.5pt solid ; " valign="middle">Middle align me.</td>
+                        <td deltaxml:deltaV2="A!=B" valign="middle"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>Middle align me.</td>
                      </tr>
-                     <tr valign="bottom">
-                        <td style="border-right: 0.5pt solid ; " valign="bottom">
-                           <p>Para one.</p>
-                           <p>Para two.</p>
+                     <tr deltaxml:deltaV2="A!=B" valign="bottom">
+                        <td deltaxml:deltaV2="A!=B" valign="bottom"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                           <p deltaxml:deltaV2="A=B">Para one.</p>
+                           <p deltaxml:deltaV2="A=B">Para two.</p>
                         </td>
-                        <td valign="bottom">Bottom align me.</td>
+                        <td deltaxml:deltaV2="A=B" valign="bottom">Bottom align me.</td>
                      </tr>
                   </tbody>
                </table>
             </div>
          </figure>
-         <p>This one should look the same, we use valign setting on the tbody.</p>
-         <figure id="R.1.5" class="informaltable-wrapper">
-            <div class="informaltable">
-               <table border="0" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
-                  <colgroup>
+         <p deltaxml:deltaV2="A=B">This one should look the same, we use valign setting on the tbody.</p>
+         <figure deltaxml:deltaV2="A!=B" class="informaltable-wrapper" id="R.1.5">
+            <div deltaxml:deltaV2="A!=B" class="informaltable">
+               <table deltaxml:deltaV2="A!=B" border="0"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                  <colgroup deltaxml:deltaV2="A=B">
                      <col class="tcol1" width="50%"/>
                      <col class="tcol2" width="50%"/>
                   </colgroup>
-                  <tbody valign="top">
-                     <tr>
-                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
-                           <p>Para one.</p>
-                           <p>Para two.</p>
+                  <tbody deltaxml:deltaV2="A!=B" valign="top">
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                           <p deltaxml:deltaV2="A=B">Para one.</p>
+                           <p deltaxml:deltaV2="A=B">Para two.</p>
                         </td>
-                        <td style="border-bottom: 0.5pt solid ; ">Top align me.</td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>Top align me.</td>
                      </tr>
-                     <tr valign="middle">
-                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; " valign="middle">
-                           <p>Para one.</p>
-                           <p>Para two.</p>
+                     <tr deltaxml:deltaV2="A!=B" valign="middle">
+                        <td deltaxml:deltaV2="A!=B" valign="middle"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                           <p deltaxml:deltaV2="A=B">Para one.</p>
+                           <p deltaxml:deltaV2="A=B">Para two.</p>
                         </td>
-                        <td style="border-bottom: 0.5pt solid ; " valign="middle">Middle align me.</td>
+                        <td deltaxml:deltaV2="A!=B" valign="middle"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>Middle align me.</td>
                      </tr>
-                     <tr valign="bottom">
-                        <td style="border-right: 0.5pt solid ; " valign="bottom">
-                           <p>Para one.</p>
-                           <p>Para two.</p>
+                     <tr deltaxml:deltaV2="A!=B" valign="bottom">
+                        <td deltaxml:deltaV2="A!=B" valign="bottom"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                           <p deltaxml:deltaV2="A=B">Para one.</p>
+                           <p deltaxml:deltaV2="A=B">Para two.</p>
                         </td>
-                        <td valign="bottom">Bottom align me.</td>
+                        <td deltaxml:deltaV2="A=B" valign="bottom">Bottom align me.</td>
                      </tr>
                   </tbody>
                </table>

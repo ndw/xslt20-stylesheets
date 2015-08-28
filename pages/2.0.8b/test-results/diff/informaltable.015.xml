@@ -1,37 +1,37 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head/>
-   <body>
-      <article id="R.1" class="article">
-         <header class="article-titlepage">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Article wrapper</h2>
          </header>
-         <p>Three column table, but entries only in one column. Last column
+         <p deltaxml:deltaV2="A=B">Three column table, but entries only in one column. Last column
 should expand to fill entire horizontal space.</p>
-         <figure id="informaltable" class="informaltable-wrapper">
-            <div class="informaltable">
-               <table border="0" width="100%" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
-                  <colgroup>
+         <figure deltaxml:deltaV2="A!=B" id="informaltable" class="informaltable-wrapper">
+            <div deltaxml:deltaV2="A!=B" class="informaltable">
+               <table deltaxml:deltaV2="A!=B" border="0" width="100%"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
+                  <colgroup deltaxml:deltaV2="A=B">
                      <col class="tcol1" width="180" align="left"/>
                      <col class="tcol2" width="180" align="left"/>
                      <col class="tcol3" width="360" align="left"/>
                   </colgroup>
-                  <thead>
-                     <tr>
-                        <th style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; " align="left">Category</th>
-                        <th style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; " align="left">System Considerations, Issues</th>
-                        <th style="border-bottom: 0.5pt solid ; " align="left">Notes</th>
+                  <thead deltaxml:deltaV2="A!=B">
+                     <tr deltaxml:deltaV2="A!=B">
+                        <th deltaxml:deltaV2="A!=B" align="left"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>Category</th>
+                        <th deltaxml:deltaV2="A!=B" align="left"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>System Considerations, Issues</th>
+                        <th deltaxml:deltaV2="A!=B" align="left"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>Notes</th>
                      </tr>
                   </thead>
-                  <tbody>
-                     <tr>
-                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; " align="left">General Company Information</td>
-                        <td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "> </td>
-                        <td style="border-bottom: 0.5pt solid ; "> </td>
+                  <tbody deltaxml:deltaV2="A!=B">
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B" align="left"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>General Company Information</td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes> </td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes> </td>
                      </tr>
-                     <tr>
-                        <td style="border-right: 0.5pt solid ; " align="left">Company Financials</td>
-                        <td style="border-right: 0.5pt solid ; "> </td>
-                        <td style=""> </td>
+                     <tr deltaxml:deltaV2="A!=B">
+                        <td deltaxml:deltaV2="A!=B" align="left"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>Company Financials</td>
+                        <td deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes> </td>
+                        <td deltaxml:deltaV2="A=B" style=""> </td>
                      </tr>
                   </tbody>
                </table>
