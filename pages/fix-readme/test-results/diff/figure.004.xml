@@ -1,0 +1,19 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <figure deltaxml:deltaV2="A!=B" id="figduck" class="figure-wrapper">
+            <div deltaxml:deltaV2="A!=B" class="figure">
+               <div deltaxml:deltaV2="A!=B" id="figduck.2" class="mediaobject centerimg">
+                  <div deltaxml:deltaV2="A=B" class="longdesc-link">[<a href="#figduck.2.3" target="longdesc" title="Link to long description">D</a>]</div>
+                  <img deltaxml:deltaV2="A!=B" align="middle" alt="The DocBook: TDG Duck" longdesc="ld-figduck.2.html"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/duck.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+               </div>
+            </div>
+            <div deltaxml:deltaV2="A=B" class="title">Figure 1. The Duck</div>
+         </figure>
+      </article>
+   </body>
+</html>
