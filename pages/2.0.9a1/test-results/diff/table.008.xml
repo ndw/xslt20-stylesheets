@@ -37,7 +37,7 @@
             </div>
          </figure>
          <p deltaxml:deltaV2="A=B">...</p>
-         <figure deltaxml:deltaV2="A!=B" id="R.1.5" class="informaltable-wrapper">
+         <figure deltaxml:deltaV2="A!=B" class="informaltable-wrapper" id="R.1.5">
             <div deltaxml:deltaV2="A!=B" class="informaltable">
                <table deltaxml:deltaV2="A!=B" border="0" style="border-collapse: collapse;">
                   <colgroup deltaxml:deltaV2="A=B">
