@@ -1,0 +1,60 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <div deltaxml:deltaV2="A!=B" class="toc">
+            <p deltaxml:deltaV2="A=B">
+               <b>Table of Contents</b>
+            </p>
+            <ul deltaxml:deltaV2="A!=B" class="toc">
+               <li deltaxml:deltaV2="A!=B">
+                  <span deltaxml:deltaV2="A=B">
+                     <a href="#R.1.4">sect1 title</a>
+                  </span>
+                  <ul deltaxml:deltaV2="A!=B" class="toc">
+                     <li deltaxml:deltaV2="A!=B">
+                        <span deltaxml:deltaV2="A!=B">
+                           <a deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:href deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">#R.1.4.6</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">#R.1.4.5</deltaxml:attributeValue></dxa:href></deltaxml:attributes>first sect2 title</a>
+                        </span>
+                     </li>
+                     <li deltaxml:deltaV2="A=B">
+                        <span>
+                           <a href="#sec-xrefMe">second sect2 title</a>
+                        </span>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <p deltaxml:deltaV2="A=B">A test paragraph.</p>
+         <p deltaxml:deltaV2="A=B">This test para encourages you to see <a href="#bh">the section called “This is a sect1 bridgehead”</a>.</p>
+         <section deltaxml:deltaV2="A!=B" id="R.1.4" class="sect1">
+            <div deltaxml:deltaV2="A=B" class="section-titlepage">
+               <h2>sect1 title</h2>
+               <h3>sect1 subtitle</h3>
+            </div>
+            <p deltaxml:deltaV2="A=B">This is a test paragraph.</p>
+            <h2 deltaxml:deltaV2="A=B" id="bh" class="bridgehead">This is a sect1 bridgehead</h2>
+            <p deltaxml:deltaV2="A=B">This is a test paragraph.</p>
+            <section deltaxml:deltaV2="A!=B" class="sect2"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.4.6</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.4.5</deltaxml:attributeValue></dxa:id></deltaxml:attributes>
+               <div deltaxml:deltaV2="A=B" class="section-titlepage">
+                  <h3>first sect2 title</h3>
+               </div>
+               <p deltaxml:deltaV2="A!=B">Please read <a deltaxml:deltaV2="A!=B" href="#sec-xrefMe"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:title deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">second sect2 title</deltaxml:attributeValue></dxa:title></deltaxml:attributes>the section called “second sect2 title”</a>
+               </p>
+               <h4 deltaxml:deltaV2="A=B" class="bridgehead">This is an implied sect3 bridgehead</h4>
+               <p deltaxml:deltaV2="A=B">This is a test paragraph.</p>
+            </section>
+            <section deltaxml:deltaV2="A=B" id="sec-xrefMe" class="sect2">
+               <div class="section-titlepage">
+                  <h3>second sect2 title</h3>
+               </div>
+               <p>This is a test paragraph.</p>
+            </section>
+         </section>
+      </article>
+   </body>
+</html>
