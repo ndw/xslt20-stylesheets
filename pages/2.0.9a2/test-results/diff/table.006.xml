@@ -171,7 +171,7 @@ The CALS default is rowsep=1/colsep=1; HTML has no equivalent default.)</p>
          </figure>
          <p deltaxml:deltaV2="A=B">Rows:</p>
          <p deltaxml:deltaV2="A=B">CALS:</p>
-         <figure deltaxml:deltaV2="A!=B" id="R.1.20" class="informaltable-wrapper">
+         <figure deltaxml:deltaV2="A!=B" class="informaltable-wrapper" id="R.1.20">
             <div deltaxml:deltaV2="A!=B" class="informaltable">
                <table deltaxml:deltaV2="A!=B" border="0"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
                   <colgroup deltaxml:deltaV2="A=B">
@@ -284,7 +284,7 @@ collapse. The default CSS stylesheet for DocBook output does this.</p>
          </figure>
          <p deltaxml:deltaV2="A=B">Tic Tac Toe (colsep, rowsep):</p>
          <p deltaxml:deltaV2="A=B">CALS:</p>
-         <figure deltaxml:deltaV2="A!=B" class="informaltable-wrapper" id="R.1.31">
+         <figure deltaxml:deltaV2="A!=B" id="R.1.31" class="informaltable-wrapper">
             <div deltaxml:deltaV2="A!=B" class="informaltable">
                <table deltaxml:deltaV2="A!=B" border="0" style="border-collapse: collapse;">
                   <colgroup deltaxml:deltaV2="A=B">
@@ -426,7 +426,7 @@ collapse. The default CSS stylesheet for DocBook output does this.</p>
          </figure>
          <p deltaxml:deltaV2="A=B">Jigsaw:</p>
          <p deltaxml:deltaV2="A=B">CALS:</p>
-         <figure deltaxml:deltaV2="A!=B" id="R.1.45" class="informaltable-wrapper">
+         <figure deltaxml:deltaV2="A!=B" class="informaltable-wrapper" id="R.1.45">
             <div deltaxml:deltaV2="A!=B" class="informaltable">
                <table deltaxml:deltaV2="A!=B" border="0"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>
                   <colgroup deltaxml:deltaV2="A=B">

@@ -30,24 +30,25 @@
             </div>
          </figure>
          <p deltaxml:deltaV2="A=B">HTML:</p>
-         <figure deltaxml:deltaV2="A=B" id="R.1.5" class="table-wrapper">
-            <div class="table">
-               <table border="1">
-                  <tfoot>
+         <figure deltaxml:deltaV2="A!=B" class="table-wrapper" id="R.1.5">
+            <div deltaxml:deltaV2="A!=B" class="table">
+               <table deltaxml:deltaV2="A!=B" border="1">
+                  <caption deltaxml:deltaV2="B" class="caption">TFoot Test</caption><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                  </deltaxml:text></deltaxml:textGroup><tfoot deltaxml:deltaV2="A=B">
                      <tr>
                         <td>Foot Left</td>
                         <td>Foot Right</td>
                      </tr>
                   </tfoot>
-                  <tbody>
+                  <tbody deltaxml:deltaV2="A=B">
                      <tr>
                         <td>Body Left</td>
                         <td>Body Right</td>
                      </tr>
                   </tbody>
                </table>
-            </div>
-            <div class="caption">TFoot Test</div>
+            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="A" class="caption">TFoot Test</div>
          </figure>
          <figure deltaxml:deltaV2="A!=B" class="table-wrapper" id="R.1.6">
             <div deltaxml:deltaV2="A=B" class="title">Table 2. Table number test</div>

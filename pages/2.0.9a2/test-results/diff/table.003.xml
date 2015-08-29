@@ -72,10 +72,19 @@ software<sup deltaxml:deltaV2="A!=B" class="footnote">
          <figure deltaxml:deltaV2="A!=B" id="R.1.6" class="table-wrapper">
             <div deltaxml:deltaV2="A!=B" class="table">
                <table deltaxml:deltaV2="A!=B" border="1">
-                  <colgroup deltaxml:deltaV2="A=B">
+                  <colgroup deltaxml:deltaV2="A">
                      <col width="2.50in"/>
-                  </colgroup>
-                  <thead deltaxml:deltaV2="A!=B" valign="top">
+                  </colgroup><caption deltaxml:deltaV2="B" class="caption">Server machine minimum required
+software<sup class="footnote">
+                        <span class="osq">[</span>
+                        <a name="R.1.6.1.1" href="#ftn.R.1.6.1.1">3</a>
+                        <span class="csq">]</span>
+                     </sup>
+                  </caption>
+                  <colgroup deltaxml:deltaV2="B">
+                     <col width="2.50in"/>
+                  </colgroup><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                  </deltaxml:text></deltaxml:textGroup><thead deltaxml:deltaV2="A!=B" valign="top">
                      <tr deltaxml:deltaV2="A!=B">
                         <td deltaxml:deltaV2="A!=B">Foo<sup deltaxml:deltaV2="A!=B" class="footnote">
                               <span deltaxml:deltaV2="A=B" class="osq">[</span>
@@ -137,12 +146,12 @@ software<sup deltaxml:deltaV2="A!=B" class="footnote">
                      </tr>
                   </tbody>
                </table>
-            </div>
-            <div deltaxml:deltaV2="A!=B" class="caption">Server machine minimum required
-software<sup deltaxml:deltaV2="A!=B" class="footnote">
-                  <span deltaxml:deltaV2="A=B" class="osq">[</span>
-                  <a deltaxml:deltaV2="A!=B" href="#ftn.R.1.6.1.1" name="R.1.6.1.1"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">a</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">3</deltaxml:text></deltaxml:textGroup></a>
-                  <span deltaxml:deltaV2="A=B" class="csq">]</span>
+            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="A" class="caption">Server machine minimum required
+software<sup class="footnote">
+                  <span class="osq">[</span>
+                  <a name="R.1.6.1.1" href="#ftn.R.1.6.1.1">a</a>
+                  <span class="csq">]</span>
                </sup>
             </div>
          </figure>
