@@ -1,0 +1,45 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head/>
+   <body>
+      <article id="R.1" class="article">
+         <header class="article-titlepage">
+            <h2>Unit Test: itemizedlist.006</h2>
+            <div class="author">
+               <h3>
+                  <span class="personname">
+                     <span class="firstname">Adam</span>
+                     <span class="surname">Di Carlo</span>
+                  </span>
+               </h3>
+            </div>
+         </header>
+         <p>Itemized list mark styles.</p>
+         <div class="itemizedlist">
+            <div class="title">Bullet marks</div>
+            <ul>
+               <li style="list-style-type: disc">
+                  <p>One</p>
+               </li>
+               <li style="list-style-type: disc">
+                  <p>Type</p>
+               </li>
+            </ul>
+         </div>
+         <div class="itemizedlist">
+            <div class="title">Box marks</div>
+            <ul>
+               <li style="list-style-type: square">
+                  <p>One</p>
+               </li>
+               <li style="list-style-type: square">
+                  <p>Type</p>
+               </li>
+            </ul>
+         </div>
+         <p>
+    Are there more?  Check CSS spec.  DSSSL styling requires CSS for
+    this; is there a way to do it w/o CSS?
+  </p>
+      </article>
+   </body>
+</html>
