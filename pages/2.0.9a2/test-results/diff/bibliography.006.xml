@@ -69,7 +69,7 @@
                </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">. </deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">. </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
             </deltaxml:text></deltaxml:textGroup></p>
          </div>
-         <div deltaxml:deltaV2="A!=B" id="Walsh97" class="biblioentry">
+         <div deltaxml:deltaV2="A!=B" class="biblioentry" id="Walsh97">
             <p deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">biblioentry</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">[</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
                </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">abbrev</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">label</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Walsh97</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">[</deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="B" class="abbrev">Walsh97</span><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">] </deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">] </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A" class="biblioset">“A Guide to XML”. <span class="author">
                      <span class="firstname">Norman</span>
@@ -98,7 +98,7 @@
                </deltaxml:text></deltaxml:textGroup></span>
             </p>
          </div>
-         <div deltaxml:deltaV2="A!=B" id="Walsh96" class="bibliomixed">
+         <div deltaxml:deltaV2="A!=B" class="bibliomixed" id="Walsh96">
             <p deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">bibliomixed</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">[Walsh96] 
   </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A" class="bibliomset">
                   <span class="personname">
