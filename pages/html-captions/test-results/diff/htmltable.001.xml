@@ -31,7 +31,8 @@
                </table>
             </div>
          </figure>
-         <figure id="R.1.4" class="table-wrapper">
+         <p>HTML:</p>
+         <figure id="R.1.5" class="table-wrapper">
             <div class="table">
                <table>
                   <caption class="caption">Table title</caption>

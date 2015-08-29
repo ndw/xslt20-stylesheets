@@ -341,6 +341,8 @@
 
 <xsl:param name="toc.section.depth">2</xsl:param>
 
+<xsl:param name="unify.table.titles" select="'0'"/>
+
 <xsl:param name="use.embed.for.svg" select="0"/>
 
 <xsl:param name="use.extensions" select="'0'"/>

@@ -44,7 +44,7 @@
                <header deltaxml:deltaV2="A=B" class="bibliography-titlepage">
                   <h2>Bibliography in a Section</h2>
                </header>
-               <div deltaxml:deltaV2="A!=B" class="biblioentry" id="xml-1">
+               <div deltaxml:deltaV2="A!=B" id="xml-1" class="biblioentry">
                   <p deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">biblioentry</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">[</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
                      </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">abbrev</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">label</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">XML 1.0</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">[</deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="B" class="abbrev">XML 1.0</span><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">] </deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">] </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
                      </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A" class="editor">
