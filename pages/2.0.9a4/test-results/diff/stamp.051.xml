@@ -1,0 +1,33 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <p deltaxml:deltaV2="A=B">The stamp image has a natural size of 200x128 pixels and can be referenced
+by various more or less silly URLs.</p>
+         <div deltaxml:deltaV2="A!=B" id="R.1.3" class="mediaobject">
+            <img deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">test/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.4">
+            <img deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.5">
+            <img deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.6">
+            <img deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">test/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="mediaobject" id="R.1.7">
+            <img deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">stamp.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">test/stamp.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+         </div>
+         <div deltaxml:deltaV2="A=B" id="R.1.8" class="mediaobject">
+            <img src="http://example.com/bar.png"/>
+         </div>
+         <div deltaxml:deltaV2="A=B" id="R.1.9" class="mediaobject">
+            <img src="http://example.org/bar.png"/>
+         </div>
+      </article>
+   </body>
+</html>
