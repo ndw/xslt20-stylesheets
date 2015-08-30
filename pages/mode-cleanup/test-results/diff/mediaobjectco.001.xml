@@ -1,0 +1,86 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <div deltaxml:deltaV2="A!=B" id="R.1.2" class="mediaobject">
+            <div deltaxml:deltaV2="A!=B" class="imageobjectco">
+               <img deltaxml:deltaV2="A!=B" border="0" usemap="#duckmap"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">graphics/duck.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">../graphics/duck.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
+               <map deltaxml:deltaV2="A=B" name="duckmap">
+                  <area shape="rect" href="#va1" coords="0,305,312,0"/>
+                  <area shape="rect" href="#va2" coords="312,305,623,0"/>
+                  <area shape="rect" href="#va3" coords="0,610,312,305"/>
+                  <area shape="rect" href="#va4" coords="312,610,623,305"/>
+               </map>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="calloutlist">
+            <table deltaxml:deltaV2="A" border="0" summary="Callout list">
+               <tr class="callout-row">
+                  <td class="callout-bug" valign="baseline" align="left">
+                     <p id="va1" class="callout">
+                        <img src="http://docbook.github.com/latest/img/1.png" alt="1" border="0"/> </p>
+                  </td>
+                  <td class="callout-body" valign="baseline" align="left">
+                     <p>Upper left corner</p>
+                  </td>
+               </tr>
+               <tr class="callout-row">
+                  <td class="callout-bug" valign="baseline" align="left">
+                     <p id="va2" class="callout">
+                        <img src="http://docbook.github.com/latest/img/2.png" alt="2" border="0"/> </p>
+                  </td>
+                  <td class="callout-body" valign="baseline" align="left">
+                     <p>Upper right corner</p>
+                  </td>
+               </tr>
+               <tr class="callout-row">
+                  <td class="callout-bug" valign="baseline" align="left">
+                     <p id="va3" class="callout">
+                        <img src="http://docbook.github.com/latest/img/3.png" alt="3" border="0"/> </p>
+                  </td>
+                  <td class="callout-body" valign="baseline" align="left">
+                     <p>Lower left corner</p>
+                  </td>
+               </tr>
+               <tr class="callout-row">
+                  <td class="callout-bug" valign="baseline" align="left">
+                     <p id="va4" class="callout">
+                        <img src="http://docbook.github.com/latest/img/4.png" alt="4" border="0"/> </p>
+                  </td>
+                  <td class="callout-body" valign="baseline" align="left">
+                     <p>Lower right corner</p>
+                  </td>
+               </tr>
+            </table><dl deltaxml:deltaV2="B">
+               <dt id="va1" class="callout">
+                  <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
+               </dt>
+               <dd>
+                  <p>Upper left corner</p>
+               </dd>
+               <dt id="va2" class="callout">
+                  <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
+               </dt>
+               <dd>
+                  <p>Upper right corner</p>
+               </dd>
+               <dt id="va3" class="callout">
+                  <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>
+               </dt>
+               <dd>
+                  <p>Lower left corner</p>
+               </dd>
+               <dt id="va4" class="callout">
+                  <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>
+               </dt>
+               <dd>
+                  <p>Lower right corner</p>
+               </dd>
+            </dl>
+         </div>
+      </article>
+   </body>
+</html>
