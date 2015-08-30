@@ -51,7 +51,7 @@
             </div>
             <p deltaxml:deltaV2="A=B">This text is irrelevant.</p>
          </section>
-         <section deltaxml:deltaV2="A!=B" id="s2" class="section">
+         <section deltaxml:deltaV2="A!=B" class="section" id="s2">
             <div deltaxml:deltaV2="A!=B" class="section-titlepage">
                <h3 deltaxml:deltaV2="A">2. Section Two Title</h3><h2 deltaxml:deltaV2="B">2. Section Two Title</h2>
             </div>
