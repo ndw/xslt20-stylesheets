@@ -28,7 +28,7 @@ software<sup deltaxml:deltaV2="A!=B" class="footnote">
                      <tr deltaxml:deltaV2="A!=B">
                         <th deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-bottom: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-bottom: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>Foo<sup deltaxml:deltaV2="A!=B" class="footnote">
                               <span deltaxml:deltaV2="A=B" class="osq">[</span>
-                              <a deltaxml:deltaV2="A!=B" name="R.1.4.3.2.1.1.1" href="#ftn.R.1.4.3.2.1.1.1"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">b</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">a</deltaxml:text></deltaxml:textGroup></a>
+                              <a deltaxml:deltaV2="A!=B" href="#ftn.R.1.4.3.2.1.1.1" name="R.1.4.3.2.1.1.1"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">b</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">a</deltaxml:text></deltaxml:textGroup></a>
                               <span deltaxml:deltaV2="A=B" class="csq">]</span>
                            </sup>
                         </th>
@@ -88,7 +88,7 @@ software<sup class="footnote">
                      <tr deltaxml:deltaV2="A!=B">
                         <td deltaxml:deltaV2="A!=B">Foo<sup deltaxml:deltaV2="A!=B" class="footnote">
                               <span deltaxml:deltaV2="A=B" class="osq">[</span>
-                              <a deltaxml:deltaV2="A!=B" href="#ftn.R.1.6.3.1.1.1" name="R.1.6.3.1.1.1"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">b</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">a</deltaxml:text></deltaxml:textGroup></a>
+                              <a deltaxml:deltaV2="A!=B" name="R.1.6.3.1.1.1" href="#ftn.R.1.6.3.1.1.1"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">b</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">a</deltaxml:text></deltaxml:textGroup></a>
                               <span deltaxml:deltaV2="A=B" class="csq">]</span>
                            </sup>
                         </td>

@@ -34,9 +34,9 @@
             </div>
          </figure>
          <p deltaxml:deltaV2="A=B">HTML. Note that HTML has much less sophisticated width control.</p>
-         <figure deltaxml:deltaV2="A!=B" class="table-wrapper" id="width-test-2">
+         <figure deltaxml:deltaV2="A!=B" id="width-test-2" class="table-wrapper">
             <div deltaxml:deltaV2="A!=B" class="table">
-               <table deltaxml:deltaV2="A!=B" border="1" xml:id="width-test-2">
+               <table deltaxml:deltaV2="A!=B" xml:id="width-test-2" border="1">
                   <caption deltaxml:deltaV2="B" class="caption">Width Test 1</caption><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
                   </deltaxml:text></deltaxml:textGroup><colgroup deltaxml:deltaV2="A=B">
                      <col span="1" width="11%"/>

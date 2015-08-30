@@ -243,7 +243,7 @@ while (@DIRS) {
 exit;</code>
             </pre>
          </section>
-         <section deltaxml:deltaV2="A!=B" class="section" id="R.1.4">
+         <section deltaxml:deltaV2="A!=B" id="R.1.4" class="section">
             <div deltaxml:deltaV2="A!=B" class="section-titlepage">
                <h3 deltaxml:deltaV2="A">3. textdata/@fileref w/o numbering or sep</h3><h2 deltaxml:deltaV2="B">3. textdata/@fileref w/o numbering or sep</h2>
             </div>
