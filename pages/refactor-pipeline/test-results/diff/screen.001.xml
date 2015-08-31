@@ -1,0 +1,40 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <div deltaxml:deltaV2="A" class="screen">
+            <pre>
+               <span class="linenumber">  1</span>
+               <span class="linenumber-separator"/>(let <a name="dl1" id="dl1"/>
+               <img src="http://docbook.github.com/latest/img/1.png" alt="1" border="0"/>loopvar <a name="dl2" id="dl2"/>
+               <img src="http://docbook.github.com/latest/img/2.png" alt="2" border="0"/>((count 1))
+<span class="linenumber">  2</span>
+               <span class="linenumber-separator"/>
+               <a name="dl3" id="dl3"/>
+               <img src="http://docbook.github.com/latest/img/3.png" alt="3" border="0"/>(if (&gt; count 10)
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <a name="dl4" id="dl4"/>
+               <img src="http://docbook.github.com/latest/img/4.png" alt="4" border="0"/>#t
+<span class="linenumber">  4</span>
+               <span class="linenumber-separator"/>    (<a name="dl5" id="dl5"/>
+               <img src="http://docbook.github.com/latest/img/5.png" alt="5" border="0"/>loopvar <a name="dl6" id="dl6"/>
+               <img src="http://docbook.github.com/latest/img/6.png" alt="6" border="0"/>(+ count 1))))</pre>
+         </div><pre deltaxml:deltaV2="B" class="screen">
+            <code>(let <a name="dl1" id="dl1"/>
+               <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>loopvar <a name="dl2" id="dl2"/>
+               <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>((count 1))
+  <a name="dl3" id="dl3"/>
+               <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>(if (&gt; count 10)
+    <a name="dl4" id="dl4"/>
+               <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>#t
+    (<a name="dl5" id="dl5"/>
+               <span data-number="5" class="callout-bug callout-bug-unicode">❺</span>loopvar <a name="dl6" id="dl6"/>
+               <span data-number="6" class="callout-bug callout-bug-unicode">❻</span>(+ count 1))))</code>
+         </pre>
+      </article>
+   </body>
+</html>
