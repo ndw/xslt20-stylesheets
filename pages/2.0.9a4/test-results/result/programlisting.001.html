@@ -6,8 +6,8 @@
          <span class="tag nodiff">&lt;header <span class="att">class="article-titlepage"</span>&gt;
             <span class="tag">&lt;h2&gt;Article wrapper&lt;/h2&gt;</span>
          &lt;/header&gt;</span>
-         <span class="tag diff del">&lt;div <span class="att">class="programlisting"</span>&gt;
-            <span class="tag">&lt;pre&gt;
+         <span class="tag diff">&lt;div <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;
+            <span class="tag diff del">&lt;pre&gt;
                <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  1&lt;/span&gt;</span>
                <span class="tag">&lt;span <span class="att">class="linenumber-separator"</span>/&gt;</span>ProgramListing: This is a test
 <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  2&lt;/span&gt;</span>
@@ -32,15 +32,34 @@
          <span class="tag nodiff">&lt;header <span class="att">class="article-titlepage"</span>&gt;
             <span class="tag">&lt;h2&gt;Article wrapper&lt;/h2&gt;</span>
          &lt;/header&gt;</span>
-         <span class="tag diff add">&lt;pre <span class="att">class="programlisting language-none line-numbers"</span>&gt;
-            <span class="tag">&lt;code&gt;ProgramListing: This is a test
+         <span class="tag diff">&lt;div <span class="att">class="<span class="diff">numbered-verbatim</span>"</span>&gt;
+            <span class="tag diff add">&lt;table <span class="att">border="0"</span>&gt;
+               <span class="tag">&lt;tr&gt;
+                  <span class="tag">&lt;td <span class="att">align="right"</span> <span class="att">valign="top"</span>&gt;
+                     <span class="tag">&lt;pre <span class="att">class="line-numbers"</span>&gt;
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;1&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;2&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;3&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;4&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;5&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;6&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;7&lt;/code&gt;</span>
+                     &lt;/pre&gt;</span>
+                  &lt;/td&gt;</span>
+                  <span class="tag">&lt;td <span class="att">valign="top"</span>&gt;
+                     <span class="tag">&lt;pre <span class="att">class="programlisting"</span>&gt;
+                        <span class="tag">&lt;code&gt;ProgramListing: This is a test
   Only a test.
 Had this been a real emegency,
   We would have fled in terror
 And you would not have been informed.
 
 Foo &lt;Bar&gt;&lt;/code&gt;</span>
-         &lt;/pre&gt;</span>
+                     &lt;/pre&gt;</span>
+                  &lt;/td&gt;</span>
+               &lt;/tr&gt;</span>
+            &lt;/table&gt;</span>
+         &lt;/div&gt;</span>
       &lt;/article&gt;</span>
    &lt;/body&gt;</span>
 &lt;/html&gt;</span></pre></td></tr><tr><td><em>The “current” CSS styling is applied
@@ -52,10 +71,17 @@ Foo &lt;Bar&gt;&lt;/code&gt;</span>
 <span class="linenumber">  4</span><span class="linenumber-separator"> </span>  We would have fled in terror
 <span class="linenumber">   </span><span class="linenumber-separator"> </span>And you would not have been informed.
 <span class="linenumber">  6</span><span class="linenumber-separator"> </span>
-<span class="linenumber">   </span><span class="linenumber-separator"> </span>Foo &lt;Bar&gt;</pre></div></article></td><td><article id="R.1" class="article"><header class="article-titlepage"><h2>Article wrapper</h2></header><pre class="programlisting language-none line-numbers"><code>ProgramListing: This is a test
+<span class="linenumber">   </span><span class="linenumber-separator"> </span>Foo &lt;Bar&gt;</pre></div></article></td><td><article id="R.1" class="article"><header class="article-titlepage"><h2>Article wrapper</h2></header><div class="numbered-verbatim"><table border="0"><tr><td align="right" valign="top"><pre class="line-numbers"><code class="line-number">1</code>
+<code class="line-number">2</code>
+<code class="line-number">3</code>
+<code class="line-number">4</code>
+<code class="line-number">5</code>
+<code class="line-number">6</code>
+<code class="line-number">7</code>
+</pre></td><td valign="top"><pre class="programlisting"><code>ProgramListing: This is a test
   Only a test.
 Had this been a real emegency,
   We would have fled in terror
 And you would not have been informed.
 
-Foo &lt;Bar&gt;</code></pre></article><script src="../../resources/base/js/prism.js"></script></td></tr></tbody></table><h2>XML source</h2><pre data-src="../src/programlisting.001.xml"></pre></body><script type="text/javascript" src="../../resources/base/js/prism.js"></script></html>
+Foo &lt;Bar&gt;</code></pre></td></tr></table></div></article></td></tr></tbody></table><h2>XML source</h2><pre data-src="../src/programlisting.001.xml"></pre></body><script type="text/javascript" src="../../resources/base/js/prism.js"></script></html>

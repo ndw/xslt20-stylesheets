@@ -5,8 +5,8 @@
          <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Article wrapper</h2>
          </header>
-         <div deltaxml:deltaV2="A" class="programlisting">
-            <pre>@rem = '--*-Perl-*--
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">unnumbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <pre deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">programlisting</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">@rem = '--*-Perl-*--
 @echo off
 perl.exe %_batchname %$
 goto endofperl
@@ -36,9 +36,8 @@ while (@DIRS) {
     }
 }
 
-exit;</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting">
-            <code>@rem = '--*-Perl-*--
+exit;</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+               </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="B">@rem = '--*-Perl-*--
 @echo off
 perl.exe %_batchname %$
 goto endofperl
@@ -68,8 +67,9 @@ while (@DIRS) {
     }
 }
 
-exit;</code>
-         </pre>
+exit;</code><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+            </deltaxml:text></deltaxml:textGroup></pre>
+         </div>
       </article>
    </body>
 </html>

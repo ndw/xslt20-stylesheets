@@ -45,8 +45,8 @@
                <div deltaxml:deltaV2="A!=B" class="section-titlepage">
                   <h4 deltaxml:deltaV2="A">1.1. Embedded <code class="tag-element">co</code>s</h4><h3 deltaxml:deltaV2="B">1.1. Embedded <code class="tag-element">co</code>s</h3>
                </div>
-               <div deltaxml:deltaV2="A" class="programlisting">
-                  <pre>
+               <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+                  <pre deltaxml:deltaV2="A">
                      <span class="linenumber">  1</span>
                      <span class="linenumber-separator"/>
                      <span class="linenumber">  2</span>
@@ -102,31 +102,60 @@
 <span class="linenumber"/>
                      <span class="linenumber-separator"/>    &lt;/refsect1&gt;
 <span class="linenumber"> 22</span>
-                     <span class="linenumber-separator"/>  &lt;/refentry&gt;</pre>
-               </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
-                  <code>
+                     <span class="linenumber-separator"/>  &lt;/refentry&gt;</pre><table deltaxml:deltaV2="B" border="0">
+                     <tr>
+                        <td align="right" valign="top">
+                           <pre class="line-numbers">
+                              <code class="line-number">1</code>
+                              <code class="line-number">2</code>
+                              <code class="line-number">3</code>
+                              <code class="line-number">4</code>
+                              <code class="line-number">5</code>
+                              <code class="line-number">6</code>
+                              <code class="line-number">7</code>
+                              <code class="line-number">8</code>
+                              <code class="line-number">9</code>
+                              <code class="line-number">10</code>
+                              <code class="line-number">11</code>
+                              <code class="line-number">12</code>
+                              <code class="line-number">13</code>
+                              <code class="line-number">14</code>
+                              <code class="line-number">15</code>
+                              <code class="line-number">16</code>
+                              <code class="line-number">17</code>
+                              <code class="line-number">18</code>
+                              <code class="line-number">19</code>
+                              <code class="line-number">20</code>
+                              <code class="line-number">21</code>
+                              <code class="line-number">22</code>
+                              <code class="line-number">23</code>
+                           </pre>
+                        </td>
+                        <td valign="top">
+                           <pre class="programlisting">
+                              <code>
   &lt;refentry&gt;
     &lt;info&gt;
       &lt;date&gt;2003-10-20&lt;/date&gt; <a href="#V1690_date" class="co" id="V1690_date-co">
-                        <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
-                     </a>
+                                    <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>
+                                 </a>
     &lt;/info&gt;
     &lt;refmeta&gt;
       &lt;refentrytitle&gt;gtk-options&lt;/refentrytitle&gt; <a href="#V1690_title" class="co" id="V1690_title-co">
-                        <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
-                     </a>
+                                    <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
+                                 </a>
       &lt;manvolnum&gt;7&lt;/manvolnum&gt; <a href="#V1690_manvolnum" class="co" id="V1690_manvolnum-co">
-                        <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>
-                     </a>
+                                    <span data-number="3" class="callout-bug callout-bug-unicode">❸</span>
+                                 </a>
       &lt;refmiscinfo class="source-name"&gt;GTK+&lt;/refmiscinfo&gt; <a href="#V1690_source-name" class="co" id="V1690_source-name-co">
-                        <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>
-                     </a>
+                                    <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>
+                                 </a>
       &lt;refmiscinfo class="version"&gt;1.2&lt;/refmiscinfo&gt; <a href="#V1690_version" class="co" id="V1690_version-co">
-                        <span data-number="5" class="callout-bug callout-bug-unicode">❺</span>
-                     </a>
+                                    <span data-number="5" class="callout-bug callout-bug-unicode">❺</span>
+                                 </a>
       &lt;refmiscinfo class="manual"&gt;GTK+ User's Manual&lt;/refmiscinfo&gt; <a href="#V1690_manual" class="co" id="V1690_manual-co">
-                        <span data-number="6" class="callout-bug callout-bug-unicode">❻</span>
-                     </a>
+                                    <span data-number="6" class="callout-bug callout-bug-unicode">❻</span>
+                                 </a>
     &lt;/refmeta&gt;
     &lt;refnamediv&gt;
       &lt;refname&gt;gtk-options&lt;/refname&gt;
@@ -139,7 +168,11 @@
     &lt;/refsect1&gt;
   &lt;/refentry&gt;
 </code>
-               </pre>
+                           </pre>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
                <div deltaxml:deltaV2="A!=B" class="calloutlist">
                   <table deltaxml:deltaV2="A" border="0" summary="Callout list">
                      <tr class="callout-row">
@@ -297,7 +330,7 @@ also that several items in co/@linkends are correctly handled.
                      <span class="linenumber-separator"/> 2/13/94   6:21           9,349  WINA20.386 <a name="wina20.386" id="wina20.386"/>
                      <img src="http://docbook.github.com/latest/img/11.png" alt="11" border="0"/>
                   </pre>
-               </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+               </div><pre deltaxml:deltaV2="B" class="screen">
                   <code> Volume in drive C is SYSTEM         Serial number is 2350:717C
  Directory of  C:\
 
@@ -408,14 +441,14 @@ also that several items in co/@linkends are correctly handled.
                   </dl>
                </div>
             </section>
-            <section deltaxml:deltaV2="A!=B" id="R.1.2.3" class="section">
+            <section deltaxml:deltaV2="A!=B" class="section" id="R.1.2.3">
                <div deltaxml:deltaV2="A!=B" class="section-titlepage">
                   <h4 deltaxml:deltaV2="A">1.2. Programlistingco</h4><h3 deltaxml:deltaV2="B">1.2. Programlistingco</h3>
                </div>
                <p deltaxml:deltaV2="A=B">This case checks that spaces are added to reach the expected
 column.</p>
-               <div deltaxml:deltaV2="A" class="programlisting">
-                  <pre>
+               <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+                  <pre deltaxml:deltaV2="A">
                      <span class="linenumber">  1</span>
                      <span class="linenumber-separator"/>
                      <span class="linenumber">  2</span>
@@ -431,9 +464,23 @@ column.</p>
                      <span class="linenumber">  6</span>
                      <span class="linenumber-separator"/>
                      <span class="linenumber"/>
-                     <span class="linenumber-separator"/>...</pre>
-               </div><pre deltaxml:deltaV2="B" data-line="2,4" class="programlisting language-none">
-                  <code>
+                     <span class="linenumber-separator"/>...</pre><table deltaxml:deltaV2="B" border="0">
+                     <tr>
+                        <td align="right" valign="top">
+                           <pre class="line-numbers">
+                              <code class="line-number">1</code>
+                              <code class="line-number">2</code>
+                              <code class="line-number">3</code>
+                              <code class="line-number">4</code>
+                              <code class="line-number">5</code>
+                              <code class="line-number">6</code>
+                              <code class="line-number">7</code>
+                              <code class="line-number">8</code>
+                           </pre>
+                        </td>
+                        <td valign="top">
+                           <pre class="programlisting">
+                              <code>
 This is a line
 This is another line
 This is a third lien
@@ -441,7 +488,11 @@ This is a third lien
 
 ...
 </code>
-               </pre>
+                           </pre>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
                <div deltaxml:deltaV2="A!=B" class="calloutlist">
                   <table deltaxml:deltaV2="A" border="0" summary="Callout list">
                      <tr class="callout-row">
@@ -459,8 +510,8 @@ is used
                      </tr>
                   </table><dl deltaxml:deltaV2="B">
                      <dt class="callout">
-                        <span class="coline">2</span>
-                        <span class="coline">4</span>
+                        <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
+                        <span data-number="4" class="callout-bug callout-bug-unicode">❹</span>
                      </dt>
                      <dd>
                         <p>
@@ -474,8 +525,8 @@ is used
 column positions into the same line, and that several markups with no column
 specification are both put at the end of the line. The special case of a markup at
 the end of the last line is checked too.</p>
-               <div deltaxml:deltaV2="A" class="programlisting">
-                  <pre>
+               <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+                  <pre deltaxml:deltaV2="A">
                      <span class="linenumber">  1</span>
                      <span class="linenumber-separator"/>
                      <span class="linenumber">  2</span>
@@ -496,9 +547,23 @@ the end of the last line is checked too.</p>
 <span class="linenumber">  8</span>
                      <span class="linenumber-separator"/>The very last line                                         <a name="poslast"/>
                      <img src="http://docbook.github.com/latest/img/5.png" alt="5" border="0"/>
-                  </pre>
-               </div><pre deltaxml:deltaV2="B" data-line="2,2,2,2,8" class="programlisting language-none">
-                  <code>
+                  </pre><table deltaxml:deltaV2="B" border="0">
+                     <tr>
+                        <td align="right" valign="top">
+                           <pre class="line-numbers">
+                              <code class="line-number">1</code>
+                              <code class="line-number">2</code>
+                              <code class="line-number">3</code>
+                              <code class="line-number">4</code>
+                              <code class="line-number">5</code>
+                              <code class="line-number">6</code>
+                              <code class="line-number">7</code>
+                              <code class="line-number">8</code>
+                           </pre>
+                        </td>
+                        <td valign="top">
+                           <pre class="programlisting">
+                              <code>
 This is a line
 This is another line
 This is a third lien
@@ -506,7 +571,11 @@ This is a third lien
 
 ...
 The very last line</code>
-               </pre>
+                           </pre>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
                <div deltaxml:deltaV2="A!=B" class="calloutlist">
                   <table deltaxml:deltaV2="A" border="0" summary="Callout list">
                      <tr class="callout-row">
@@ -524,8 +593,8 @@ is used
                      </tr>
                   </table><dl deltaxml:deltaV2="B">
                      <dt class="callout">
-                        <span class="coline">2</span>
-                        <span class="coline">2</span>
+                        <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
+                        <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>
                      </dt>
                      <dd>
                         <p>

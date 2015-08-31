@@ -31,7 +31,7 @@ text goes here.</code>
             </div>
          </figure>
          <p deltaxml:deltaV2="A=B">HTML:</p>
-         <figure deltaxml:deltaV2="A!=B" id="R.1.5" class="informaltable-wrapper">
+         <figure deltaxml:deltaV2="A!=B" class="informaltable-wrapper" id="R.1.5">
             <div deltaxml:deltaV2="A!=B" class="informaltable">
                <table deltaxml:deltaV2="A!=B" border="1">
                   <col deltaxml:deltaV2="A=B" width="1.5in"/>

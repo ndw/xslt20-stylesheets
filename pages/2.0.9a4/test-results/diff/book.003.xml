@@ -231,13 +231,13 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 </p>
             <figure deltaxml:deltaV2="A!=B" class="figure-wrapper" id="figduck">
                <div deltaxml:deltaV2="A!=B" class="figure">
-                  <div deltaxml:deltaV2="A" class="programlisting">
-                     <pre>
-A figure. Just to test the numeration.</pre>
-                  </div><pre deltaxml:deltaV2="B" class="programlisting">
-                     <code>
-A figure. Just to test the numeration.</code>
-                  </pre>
+                  <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">unnumbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+                     <pre deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">programlisting</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">
+A figure. Just to test the numeration.</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+                        </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="B">
+A figure. Just to test the numeration.</code><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                     </deltaxml:text></deltaxml:textGroup></pre>
+                  </div>
                </div>
                <div deltaxml:deltaV2="A=B" class="title">Figure 1.1. A Test Figure</div>
             </figure>
@@ -247,13 +247,13 @@ A figure. Just to test the numeration.</code>
                </div>
                <figure deltaxml:deltaV2="A!=B" class="figure-wrapper" id="figduck2">
                   <div deltaxml:deltaV2="A!=B" class="figure">
-                     <div deltaxml:deltaV2="A" class="programlisting">
-                        <pre>
-A figure. Just to test the numeration.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="programlisting">
-                        <code>
-A figure. Just to test the numeration.</code>
-                     </pre>
+                     <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">unnumbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+                        <pre deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">programlisting</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">
+A figure. Just to test the numeration.</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="B">
+A figure. Just to test the numeration.</code><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                        </deltaxml:text></deltaxml:textGroup></pre>
+                     </div>
                   </div>
                   <div deltaxml:deltaV2="A=B" class="title">Figure 1.2. Another Test Figure</div>
                </figure>
@@ -275,16 +275,16 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 </p>
-               <figure deltaxml:deltaV2="A!=B" id="example" class="example-wrapper">
+               <figure deltaxml:deltaV2="A!=B" class="example-wrapper" id="example">
                   <div deltaxml:deltaV2="A=B" class="title">Example 1.1. Test Example</div>
                   <div deltaxml:deltaV2="A!=B" class="example">
-                     <div deltaxml:deltaV2="A" class="programlisting">
-                        <pre>
-An example.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="programlisting">
-                        <code>
-An example.</code>
-                     </pre>
+                     <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">unnumbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+                        <pre deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">programlisting</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">
+An example.</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+                           </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="B">
+An example.</code><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                        </deltaxml:text></deltaxml:textGroup></pre>
+                     </div>
                   </div>
                </figure>
                <section deltaxml:deltaV2="A!=B" class="section" id="chap1.4.5">

@@ -6,8 +6,8 @@
          <span class="tag nodiff">&lt;header <span class="att">class="article-titlepage"</span>&gt;
             <span class="tag">&lt;h2&gt;Article wrapper&lt;/h2&gt;</span>
          &lt;/header&gt;</span>
-         <span class="tag diff del">&lt;div <span class="att">class="programlisting"</span>&gt;
-            <span class="tag">&lt;pre&gt;
+         <span class="tag diff">&lt;div <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;
+            <span class="tag diff del">&lt;pre&gt;
                <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  1&lt;/span&gt;</span>
                <span class="tag">&lt;span <span class="att">class="linenumber-separator"</span>/&gt;</span>#!/usr/bin/perl -- # --*-Perl-*--
 <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  2&lt;/span&gt;</span>
@@ -42,8 +42,8 @@
          <span class="tag nodiff">&lt;p&gt;This paragraph interrupts the listing. The line numbering
 continues in the following listing.
 &lt;/p&gt;</span>
-         <span class="tag diff del">&lt;div <span class="att">class="programlisting"</span>&gt;
-            <span class="tag">&lt;pre&gt;
+         <span class="tag diff">&lt;div <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;
+            <span class="tag diff del">&lt;pre&gt;
                <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt; 16&lt;/span&gt;</span>
                <span class="tag">&lt;span <span class="att">class="linenumber-separator"</span>/&gt;</span>while ($file) {
 <span class="tag">&lt;span <span class="att">class="linenumber"</span>/&gt;</span>
@@ -100,8 +100,31 @@ continues in the following listing.
          <span class="tag nodiff">&lt;header <span class="att">class="article-titlepage"</span>&gt;
             <span class="tag">&lt;h2&gt;Article wrapper&lt;/h2&gt;</span>
          &lt;/header&gt;</span>
-         <span class="tag diff add">&lt;pre <span class="att">class="programlisting language-none line-numbers"</span>&gt;
-            <span class="tag">&lt;code&gt;#!/usr/bin/perl -- # --*-Perl-*--
+         <span class="tag diff">&lt;div <span class="att">class="<span class="diff">numbered-verbatim</span>"</span>&gt;
+            <span class="tag diff add">&lt;table <span class="att">border="0"</span>&gt;
+               <span class="tag">&lt;tr&gt;
+                  <span class="tag">&lt;td <span class="att">align="right"</span> <span class="att">valign="top"</span>&gt;
+                     <span class="tag">&lt;pre <span class="att">class="line-numbers"</span>&gt;
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;1&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;2&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;3&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;4&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;5&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;6&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;7&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;8&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;9&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;10&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;11&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;12&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;13&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;14&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;15&lt;/code&gt;</span>
+                     &lt;/pre&gt;</span>
+                  &lt;/td&gt;</span>
+                  <span class="tag">&lt;td <span class="att">valign="top"</span>&gt;
+                     <span class="tag">&lt;pre <span class="att">class="programlisting"</span>&gt;
+                        <span class="tag">&lt;code&gt;#!/usr/bin/perl -- # --*-Perl-*--
 
 use Getopt::Std;
 
@@ -116,12 +139,47 @@ $file = shift @ARGV || die $usage;
 $opt = '-u' if $opt_u;
 $opt = '-p' if $opt_p;
 $opt = '-m' if $opt_m;&lt;/code&gt;</span>
-         &lt;/pre&gt;</span>
+                     &lt;/pre&gt;</span>
+                  &lt;/td&gt;</span>
+               &lt;/tr&gt;</span>
+            &lt;/table&gt;</span>
+         &lt;/div&gt;</span>
          <span class="tag nodiff">&lt;p&gt;This paragraph interrupts the listing. The line numbering
 continues in the following listing.
 &lt;/p&gt;</span>
-         <span class="tag diff add">&lt;pre <span class="att">class="programlisting language-none line-numbers"</span> <span class="att">data-start="16"</span>&gt;
-            <span class="tag">&lt;code&gt;while ($file) {
+         <span class="tag diff">&lt;div <span class="att">class="<span class="diff">numbered-verbatim</span>"</span>&gt;
+            <span class="tag diff add">&lt;table <span class="att">border="0"</span>&gt;
+               <span class="tag">&lt;tr&gt;
+                  <span class="tag">&lt;td <span class="att">align="right"</span> <span class="att">valign="top"</span>&gt;
+                     <span class="tag">&lt;pre <span class="att">class="line-numbers"</span>&gt;
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;16&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;17&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;18&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;19&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;20&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;21&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;22&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;23&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;24&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;25&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;26&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;27&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;28&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;29&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;30&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;31&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;32&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;33&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;34&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;35&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;36&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;37&lt;/code&gt;</span>
+                        <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;38&lt;/code&gt;</span>
+                     &lt;/pre&gt;</span>
+                  &lt;/td&gt;</span>
+                  <span class="tag">&lt;td <span class="att">valign="top"</span>&gt;
+                     <span class="tag">&lt;pre <span class="att">class="programlisting"</span>&gt;
+                        <span class="tag">&lt;code&gt;while ($file) {
     print "Converting $file to $opt linebreaks.\n" if !$opt_q;
     open (F, "$file");
     binmode F;
@@ -144,7 +202,11 @@ continues in the following listing.
 
     $file = shift @ARGV;
 }&lt;/code&gt;</span>
-         &lt;/pre&gt;</span>
+                     &lt;/pre&gt;</span>
+                  &lt;/td&gt;</span>
+               &lt;/tr&gt;</span>
+            &lt;/table&gt;</span>
+         &lt;/div&gt;</span>
       &lt;/article&gt;</span>
    &lt;/body&gt;</span>
 &lt;/html&gt;</span></pre></td></tr><tr><td><em>The “current” CSS styling is applied
@@ -188,7 +250,22 @@ continues in the following listing.
 <span class="linenumber">   </span><span class="linenumber-separator"> </span>    close (F);
 <span class="linenumber"> 36</span><span class="linenumber-separator"> </span>
 <span class="linenumber">   </span><span class="linenumber-separator"> </span>    $file = shift @ARGV;
-<span class="linenumber"> 38</span><span class="linenumber-separator"> </span>}</pre></div></article></td><td><article id="R.1" class="article"><header class="article-titlepage"><h2>Article wrapper</h2></header><pre class="programlisting language-none line-numbers"><code>#!/usr/bin/perl -- # --*-Perl-*--
+<span class="linenumber"> 38</span><span class="linenumber-separator"> </span>}</pre></div></article></td><td><article id="R.1" class="article"><header class="article-titlepage"><h2>Article wrapper</h2></header><div class="numbered-verbatim"><table border="0"><tr><td align="right" valign="top"><pre class="line-numbers"><code class="line-number">1</code>
+<code class="line-number">2</code>
+<code class="line-number">3</code>
+<code class="line-number">4</code>
+<code class="line-number">5</code>
+<code class="line-number">6</code>
+<code class="line-number">7</code>
+<code class="line-number">8</code>
+<code class="line-number">9</code>
+<code class="line-number">10</code>
+<code class="line-number">11</code>
+<code class="line-number">12</code>
+<code class="line-number">13</code>
+<code class="line-number">14</code>
+<code class="line-number">15</code>
+</pre></td><td valign="top"><pre class="programlisting"><code>#!/usr/bin/perl -- # --*-Perl-*--
 
 use Getopt::Std;
 
@@ -202,9 +279,32 @@ $file = shift @ARGV || die $usage;
 
 $opt = '-u' if $opt_u;
 $opt = '-p' if $opt_p;
-$opt = '-m' if $opt_m;</code></pre><p>This paragraph interrupts the listing. The line numbering
+$opt = '-m' if $opt_m;</code></pre></td></tr></table></div><p>This paragraph interrupts the listing. The line numbering
 continues in the following listing.
-</p><pre data-start="16" class="programlisting language-none line-numbers"><code>while ($file) {
+</p><div class="numbered-verbatim"><table border="0"><tr><td align="right" valign="top"><pre class="line-numbers"><code class="line-number">16</code>
+<code class="line-number">17</code>
+<code class="line-number">18</code>
+<code class="line-number">19</code>
+<code class="line-number">20</code>
+<code class="line-number">21</code>
+<code class="line-number">22</code>
+<code class="line-number">23</code>
+<code class="line-number">24</code>
+<code class="line-number">25</code>
+<code class="line-number">26</code>
+<code class="line-number">27</code>
+<code class="line-number">28</code>
+<code class="line-number">29</code>
+<code class="line-number">30</code>
+<code class="line-number">31</code>
+<code class="line-number">32</code>
+<code class="line-number">33</code>
+<code class="line-number">34</code>
+<code class="line-number">35</code>
+<code class="line-number">36</code>
+<code class="line-number">37</code>
+<code class="line-number">38</code>
+</pre></td><td valign="top"><pre class="programlisting"><code>while ($file) {
     print "Converting $file to $opt linebreaks.\n" if !$opt_q;
     open (F, "$file");
     binmode F;
@@ -226,4 +326,4 @@ continues in the following listing.
     close (F);
 
     $file = shift @ARGV;
-}</code></pre></article><script src="../../resources/base/js/prism.js"></script></td></tr></tbody></table><h2>XML source</h2><pre data-src="../src/programlisting.009.xml"></pre></body><script type="text/javascript" src="../../resources/base/js/prism.js"></script></html>
+}</code></pre></td></tr></table></div></article></td></tr></tbody></table><h2>XML source</h2><pre data-src="../src/programlisting.009.xml"></pre></body><script type="text/javascript" src="../../resources/base/js/prism.js"></script></html>

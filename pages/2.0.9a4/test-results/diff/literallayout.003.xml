@@ -15,7 +15,7 @@
             <span class="linenumber">  4</span>
             <span class="linenumber-separator"> </span>  We would have fled in terror<br/>
             <span class="linenumber">   </span>
-            <span class="linenumber-separator"> </span>And you would not have been informed.</div><pre deltaxml:deltaV2="B" class="literallayout language-none line-numbers">
+            <span class="linenumber-separator"> </span>And you would not have been informed.</div><pre deltaxml:deltaV2="B" class="literallayout">
             <code>LiteralLayout: This is a test
   Only a test.
 Had this been a real emegency,
@@ -34,7 +34,7 @@ And you would not have been informed.</code>
                <span class="linenumber-separator"/>  We would have fled in terror
 <span class="linenumber"/>
                <span class="linenumber-separator"/>And you would not have been informed.</pre>
-         </div><pre deltaxml:deltaV2="B" class="literallayout language-none line-numbers">
+         </div><pre deltaxml:deltaV2="B" class="literallayout">
             <code>LiteralLayout(monospaced): This is a test
   Only a test.
 Had this been a real emegency,
