@@ -1,0 +1,67 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dbp="http://docbook.github.com/ns/pipeline" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" xmlns:exf="http://exproc.org/standard/functions" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <p deltaxml:deltaV2="A">No expected result exists.</p><article deltaxml:deltaV2="B" id="R.1" class="article">
+         <header class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <p>This is a test of table normalization.</p>
+         <p>HTML:</p>
+         <figure id="R.1.4" class="informaltable-wrapper">
+            <div class="informaltable">
+               <table>
+                  <tbody>
+                     <tr>
+                        <td>R1C1</td>
+                        <td>R1C2</td>
+                     </tr>
+                     <tr>
+                        <td>R2C1</td>
+                        <td>R2C2</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </figure>
+         <figure id="R.1.5" class="table-wrapper">
+            <div class="table">
+               <table>
+                  <caption class="caption">Caption</caption>
+                  <tbody>
+                     <tr>
+                        <td>R1C1</td>
+                        <td>R1C2</td>
+                     </tr>
+                     <tr>
+                        <td>R2C1</td>
+                        <td>R2C2</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </figure>
+         <figure id="R.1.6" class="informaltable-wrapper">
+            <div class="informaltable">
+               <table>
+                  <thead>
+                     <tr>
+                        <th>H-R1C1</th>
+                        <th>H-R1C2</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>R1C1</td>
+                        <td>R1C2</td>
+                     </tr>
+                     <tr>
+                        <td>R2C1</td>
+                        <td>R2C2</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </figure>
+      </article>
+   </body>
+</html>
