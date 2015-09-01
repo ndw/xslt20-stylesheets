@@ -1,0 +1,36 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <figure deltaxml:deltaV2="A!=B" id="R.1.2" class="example-wrapper">
+            <div deltaxml:deltaV2="A=B" class="title">Example 1. An Example</div>
+            <div deltaxml:deltaV2="A!=B" class="example">
+               <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+                  <pre deltaxml:deltaV2="A">
+This is a programlisting in an example.</pre><table deltaxml:deltaV2="B" border="0">
+                     <tr>
+                        <td align="right" valign="top">
+                           <pre class="line-numbers">
+                              <code class="line-number">1</code>
+                              <code class="line-number">2</code>
+                              <code class="line-number">3</code>
+                           </pre>
+                        </td>
+                        <td valign="top">
+                           <pre class="programlisting">
+                              <code>
+This is a programlisting in an example.
+</code>
+                           </pre>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </figure>
+      </article>
+   </body>
+</html>

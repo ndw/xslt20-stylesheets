@@ -1,0 +1,405 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <div deltaxml:deltaV2="A=B" class="toc">
+            <p>
+               <b>Table of Contents</b>
+            </p>
+            <ul class="toc">
+               <li>
+                  <span>
+                     <a href="#R.1.2">1. imagedata/@fileref + numbering + sep.</a>
+                  </span>
+               </li>
+               <li>
+                  <span>
+                     <a href="#R.1.3">2. inlinegraphic/@fileref + numbering</a>
+                  </span>
+               </li>
+               <li>
+                  <span>
+                     <a href="#R.1.4">3. textdata/@fileref w/o numbering or sep</a>
+                  </span>
+               </li>
+            </ul>
+         </div>
+         <section deltaxml:deltaV2="A!=B" id="R.1.2" class="section">
+            <div deltaxml:deltaV2="A!=B" class="section-titlepage">
+               <h3 deltaxml:deltaV2="A">1. imagedata/@fileref + numbering + sep.</h3><h2 deltaxml:deltaV2="B">1. imagedata/@fileref + numbering + sep.</h2>
+            </div>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <pre deltaxml:deltaV2="A">
+                  <span class="linenumber">  1</span>
+                  <span class="linenumber-separator"> &gt;</span>@rem = '--*-Perl-*--                                       <a name="prologue1"/>
+                  <img src="http://localhost:8119/base/img/1.png" alt="1" border="0"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>@echo off
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>perl.exe %_batchname %$
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>goto endofperl                                             <a name="skipeof1"/>
+                  <img src="http://localhost:8119/base/img/2.png" alt="2" border="0"/>
+                  <span class="linenumber">  5</span>
+                  <span class="linenumber-separator"> &gt;</span>@rem ';
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span># Compress mail...
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>require 'n:/home/nwalsh/lib/cygnus.pl';                    <a name="xreq1"/>
+                  <img src="http://localhost:8119/base/img/3.png" alt="3" border="0"/>
+                  <span class="linenumber"> 10</span>
+                  <span class="linenumber-separator"> &gt;</span>require 'timelocal.pl';                                    <a name="require1"/>
+                  <img src="http://localhost:8119/base/img/3.png" alt="3" border="0"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>use Cwd;   <a name="use1"/>
+                  <img src="http://localhost:8119/base/img/4.png" alt="4" border="0"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>select (STDERR); $| = 1;
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>select (STDOUT); $| = 1;
+<span class="linenumber"> 15</span>
+                  <span class="linenumber-separator"> &gt;</span>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>@DIRS = ("/home/nwalsh/Mail");
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>while (@DIRS) {
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>    $dir = shift @DIRS;
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>    opendir (DIR, $dir);
+<span class="linenumber"> 20</span>
+                  <span class="linenumber-separator"> &gt;</span>    while ($fname = readdir(DIR)) {
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>        $file = "$dir/$fname";
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>        next if ! -d $file;
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>        next if $fname =~ /^\.\.?$/;
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>
+                  <span class="linenumber"> 25</span>
+                  <span class="linenumber-separator"> &gt;</span>        print "$file\n";
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>        push (@DIRS, $file);
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>        &amp;compress ($file);                                 <a name="funccall1"/>
+                  <img src="http://localhost:8119/base/img/5.png" alt="5" border="0"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>    }
+<span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>}
+<span class="linenumber"> 30</span>
+                  <span class="linenumber-separator"> &gt;</span>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"> &gt;</span>exit;</pre><table deltaxml:deltaV2="B" border="0">
+                  <tr>
+                     <td align="right" valign="top">
+                        <pre class="line-numbers">
+                           <code class="line-number">1</code>
+                           <code class="line-number">2</code>
+                           <code class="line-number">3</code>
+                           <code class="line-number">4</code>
+                           <code class="line-number">5</code>
+                           <code class="line-number">6</code>
+                           <code class="line-number">7</code>
+                           <code class="line-number">8</code>
+                           <code class="line-number">9</code>
+                           <code class="line-number">10</code>
+                           <code class="line-number">11</code>
+                           <code class="line-number">12</code>
+                           <code class="line-number">13</code>
+                           <code class="line-number">14</code>
+                           <code class="line-number">15</code>
+                           <code class="line-number">16</code>
+                           <code class="line-number">17</code>
+                           <code class="line-number">18</code>
+                           <code class="line-number">19</code>
+                           <code class="line-number">20</code>
+                           <code class="line-number">21</code>
+                           <code class="line-number">22</code>
+                           <code class="line-number">23</code>
+                           <code class="line-number">24</code>
+                           <code class="line-number">25</code>
+                           <code class="line-number">26</code>
+                           <code class="line-number">27</code>
+                           <code class="line-number">28</code>
+                           <code class="line-number">29</code>
+                           <code class="line-number">30</code>
+                           <code class="line-number">31</code>
+                        </pre>
+                     </td>
+                     <td valign="top">
+                        <pre class="programlisting">
+                           <code>@rem = '--*-Perl-*--
+@echo off
+perl.exe %_batchname %$
+goto endofperl
+@rem ';
+
+# Compress mail...
+
+require 'n:/home/nwalsh/lib/cygnus.pl';
+require 'timelocal.pl';
+use Cwd;
+
+select (STDERR); $| = 1;
+select (STDOUT); $| = 1;
+
+@DIRS = ("/home/nwalsh/Mail");
+while (@DIRS) {
+    $dir = shift @DIRS;
+    opendir (DIR, $dir);
+    while ($fname = readdir(DIR)) {
+        $file = "$dir/$fname";
+        next if ! -d $file;
+        next if $fname =~ /^\.\.?$/;
+
+        print "$file\n";
+        push (@DIRS, $file);
+        &amp;compress ($file);
+    }
+}
+
+exit;</code>
+                        </pre>
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </section>
+         <section deltaxml:deltaV2="A!=B" id="R.1.3" class="section">
+            <div deltaxml:deltaV2="A!=B" class="section-titlepage">
+               <h3 deltaxml:deltaV2="A">2. inlinegraphic/@fileref + numbering</h3><h2 deltaxml:deltaV2="B">2. inlinegraphic/@fileref + numbering</h2>
+            </div>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <pre deltaxml:deltaV2="A">
+                  <span class="linenumber">  1</span>
+                  <span class="linenumber-separator"/>@rem = '--*-Perl-*--                                       <a name="prologue2"/>
+                  <img src="http://localhost:8119/base/img/1.png" alt="1" border="0"/>
+                  <span class="linenumber">  2</span>
+                  <span class="linenumber-separator"/>@echo off
+<span class="linenumber"/>
+                  <span class="linenumber-separator"/>perl.exe %_batchname %$
+<span class="linenumber">  4</span>
+                  <span class="linenumber-separator"/>goto endofperl                                             <a name="skipeof2"/>
+                  <img src="http://localhost:8119/base/img/2.png" alt="2" border="0"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"/>@rem ';
+<span class="linenumber">  6</span>
+                  <span class="linenumber-separator"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"/># Compress mail...
+<span class="linenumber">  8</span>
+                  <span class="linenumber-separator"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"/>require 'n:/home/nwalsh/lib/cygnus.pl';                    <a name="xreq2"/>
+                  <img src="http://localhost:8119/base/img/3.png" alt="3" border="0"/>
+                  <span class="linenumber"> 10</span>
+                  <span class="linenumber-separator"/>require 'timelocal.pl';                                    <a name="require22"/>
+                  <img src="http://localhost:8119/base/img/3.png" alt="3" border="0"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"/>use Cwd;   <a name="use2"/>
+                  <img src="http://localhost:8119/base/img/4.png" alt="4" border="0"/>
+                  <span class="linenumber"> 12</span>
+                  <span class="linenumber-separator"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"/>select (STDERR); $| = 1;
+<span class="linenumber"> 14</span>
+                  <span class="linenumber-separator"/>select (STDOUT); $| = 1;
+<span class="linenumber"/>
+                  <span class="linenumber-separator"/>
+                  <span class="linenumber"> 16</span>
+                  <span class="linenumber-separator"/>@DIRS = ("/home/nwalsh/Mail");
+<span class="linenumber"/>
+                  <span class="linenumber-separator"/>while (@DIRS) {
+<span class="linenumber"> 18</span>
+                  <span class="linenumber-separator"/>    $dir = shift @DIRS;
+<span class="linenumber"/>
+                  <span class="linenumber-separator"/>    opendir (DIR, $dir);
+<span class="linenumber"> 20</span>
+                  <span class="linenumber-separator"/>    while ($fname = readdir(DIR)) {
+<span class="linenumber"/>
+                  <span class="linenumber-separator"/>        $file = "$dir/$fname";
+<span class="linenumber"> 22</span>
+                  <span class="linenumber-separator"/>        next if ! -d $file;
+<span class="linenumber"/>
+                  <span class="linenumber-separator"/>        next if $fname =~ /^\.\.?$/;
+<span class="linenumber"> 24</span>
+                  <span class="linenumber-separator"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"/>        print "$file\n";
+<span class="linenumber"> 26</span>
+                  <span class="linenumber-separator"/>        push (@DIRS, $file);
+<span class="linenumber"/>
+                  <span class="linenumber-separator"/>        &amp;compress ($file);                                 <a name="funccall2"/>
+                  <img src="http://localhost:8119/base/img/5.png" alt="5" border="0"/>
+                  <span class="linenumber"> 28</span>
+                  <span class="linenumber-separator"/>    }
+<span class="linenumber"/>
+                  <span class="linenumber-separator"/>}
+<span class="linenumber"> 30</span>
+                  <span class="linenumber-separator"/>
+                  <span class="linenumber"/>
+                  <span class="linenumber-separator"/>exit;</pre><table deltaxml:deltaV2="B" border="0">
+                  <tr>
+                     <td align="right" valign="top">
+                        <pre class="line-numbers">
+                           <code class="line-number">1</code>
+                           <code class="line-number">2</code>
+                           <code class="line-number">3</code>
+                           <code class="line-number">4</code>
+                           <code class="line-number">5</code>
+                           <code class="line-number">6</code>
+                           <code class="line-number">7</code>
+                           <code class="line-number">8</code>
+                           <code class="line-number">9</code>
+                           <code class="line-number">10</code>
+                           <code class="line-number">11</code>
+                           <code class="line-number">12</code>
+                           <code class="line-number">13</code>
+                           <code class="line-number">14</code>
+                           <code class="line-number">15</code>
+                           <code class="line-number">16</code>
+                           <code class="line-number">17</code>
+                           <code class="line-number">18</code>
+                           <code class="line-number">19</code>
+                           <code class="line-number">20</code>
+                           <code class="line-number">21</code>
+                           <code class="line-number">22</code>
+                           <code class="line-number">23</code>
+                           <code class="line-number">24</code>
+                           <code class="line-number">25</code>
+                           <code class="line-number">26</code>
+                           <code class="line-number">27</code>
+                           <code class="line-number">28</code>
+                           <code class="line-number">29</code>
+                           <code class="line-number">30</code>
+                           <code class="line-number">31</code>
+                        </pre>
+                     </td>
+                     <td valign="top">
+                        <pre class="programlisting">
+                           <code>@rem = '--*-Perl-*--
+@echo off
+perl.exe %_batchname %$
+goto endofperl
+@rem ';
+
+# Compress mail...
+
+require 'n:/home/nwalsh/lib/cygnus.pl';
+require 'timelocal.pl';
+use Cwd;
+
+select (STDERR); $| = 1;
+select (STDOUT); $| = 1;
+
+@DIRS = ("/home/nwalsh/Mail");
+while (@DIRS) {
+    $dir = shift @DIRS;
+    opendir (DIR, $dir);
+    while ($fname = readdir(DIR)) {
+        $file = "$dir/$fname";
+        next if ! -d $file;
+        next if $fname =~ /^\.\.?$/;
+
+        print "$file\n";
+        push (@DIRS, $file);
+        &amp;compress ($file);
+    }
+}
+
+exit;</code>
+                        </pre>
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </section>
+         <section deltaxml:deltaV2="A!=B" class="section" id="R.1.4">
+            <div deltaxml:deltaV2="A!=B" class="section-titlepage">
+               <h3 deltaxml:deltaV2="A">3. textdata/@fileref w/o numbering or sep</h3><h2 deltaxml:deltaV2="B">3. textdata/@fileref w/o numbering or sep</h2>
+            </div>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">unnumbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <pre deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">programlisting</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">@rem = '--*-Perl-*--                                       </deltaxml:text></deltaxml:textGroup><a deltaxml:deltaV2="A" name="prologue3"/>
+                  <img deltaxml:deltaV2="A" src="http://localhost:8119/base/img/1.png" alt="1" border="0"/><code deltaxml:deltaV2="B">@rem = '--*-Perl-*--
+@echo off
+perl.exe %_batchname %$
+goto endofperl
+@rem ';
+
+# Compress mail...
+
+require 'n:/home/nwalsh/lib/cygnus.pl';
+require 'timelocal.pl';
+use Cwd;
+
+select (STDERR); $| = 1;
+select (STDOUT); $| = 1;
+
+@DIRS = ("/home/nwalsh/Mail");
+while (@DIRS) {
+    $dir = shift @DIRS;
+    opendir (DIR, $dir);
+    while ($fname = readdir(DIR)) {
+        $file = "$dir/$fname";
+        next if ! -d $file;
+        next if $fname =~ /^\.\.?$/;
+
+        print "$file\n";
+        push (@DIRS, $file);
+        &amp;compress ($file);
+    }
+}
+
+exit;</code><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">
+@echo off
+perl.exe %_batchname %$
+goto endofperl                                             </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+               </deltaxml:text></deltaxml:textGroup><a deltaxml:deltaV2="A" name="skipeof3"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><img deltaxml:deltaV2="A" src="http://localhost:8119/base/img/2.png" alt="2" border="0"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+@rem ';
+
+# Compress mail...
+
+require 'n:/home/nwalsh/lib/cygnus.pl';                    </deltaxml:text></deltaxml:textGroup><a deltaxml:deltaV2="A" name="xreq3"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><img deltaxml:deltaV2="A" src="http://localhost:8119/base/img/3.png" alt="3" border="0"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+require 'timelocal.pl';                                    </deltaxml:text></deltaxml:textGroup><a deltaxml:deltaV2="A" name="require3"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><img deltaxml:deltaV2="A" src="http://localhost:8119/base/img/3.png" alt="3" border="0"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+use Cwd;   </deltaxml:text></deltaxml:textGroup><a deltaxml:deltaV2="A" name="use3"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><img deltaxml:deltaV2="A" src="http://localhost:8119/base/img/4.png" alt="4" border="0"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+
+select (STDERR); $| = 1;
+select (STDOUT); $| = 1;
+
+@DIRS = ("/home/nwalsh/Mail");
+while (@DIRS) {
+    $dir = shift @DIRS;
+    opendir (DIR, $dir);
+    while ($fname = readdir(DIR)) {
+        $file = "$dir/$fname";
+        next if ! -d $file;
+        next if $fname =~ /^\.\.?$/;
+
+        print "$file\n";
+        push (@DIRS, $file);
+        &amp;compress ($file);                                 </deltaxml:text></deltaxml:textGroup><a deltaxml:deltaV2="A" name="funccall3"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+                  </deltaxml:text></deltaxml:textGroup><img deltaxml:deltaV2="A" src="http://localhost:8119/base/img/5.png" alt="5" border="0"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+    }
+}
+
+exit;</deltaxml:text></deltaxml:textGroup></pre>
+            </div>
+         </section>
+      </article>
+   </body>
+</html>
