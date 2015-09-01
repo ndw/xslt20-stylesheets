@@ -1,0 +1,75 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">unnumbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <pre deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">programlisting</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">@rem = '--*-Perl-*--
+@echo off
+perl.exe %_batchname %$
+goto endofperl
+@rem ';
+
+# Compress mail...
+
+require 'n:/home/nwalsh/lib/cygnus.pl';
+require 'timelocal.pl';
+use Cwd;
+
+select (STDERR); $| = 1;
+select (STDOUT); $| = 1;
+
+@DIRS = ("/home/nwalsh/Mail");
+while (@DIRS) {
+    $dir = shift @DIRS;
+    opendir (DIR, $dir);
+    while ($fname = readdir(DIR)) {
+        $file = "$dir/$fname";
+        next if ! -d $file;
+        next if $fname =~ /^\.\.?$/;
+
+        print "$file\n";
+        push (@DIRS, $file);
+        &amp;compress ($file);
+    }
+}
+
+exit;</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+               </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="B">@rem = '--*-Perl-*--
+@echo off
+perl.exe %_batchname %$
+goto endofperl
+@rem ';
+
+# Compress mail...
+
+require 'n:/home/nwalsh/lib/cygnus.pl';
+require 'timelocal.pl';
+use Cwd;
+
+select (STDERR); $| = 1;
+select (STDOUT); $| = 1;
+
+@DIRS = ("/home/nwalsh/Mail");
+while (@DIRS) {
+    $dir = shift @DIRS;
+    opendir (DIR, $dir);
+    while ($fname = readdir(DIR)) {
+        $file = "$dir/$fname";
+        next if ! -d $file;
+        next if $fname =~ /^\.\.?$/;
+
+        print "$file\n";
+        push (@DIRS, $file);
+        &amp;compress ($file);
+    }
+}
+
+exit;</code><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+            </deltaxml:text></deltaxml:textGroup></pre>
+         </div>
+      </article>
+   </body>
+</html>

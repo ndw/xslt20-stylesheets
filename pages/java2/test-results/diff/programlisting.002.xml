@@ -1,0 +1,66 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B"/>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <pre deltaxml:deltaV2="A">
+               <span class="linenumber">  1</span>
+               <span class="linenumber-separator"/>&lt;article xmlns="http://docbook.org/ns/docbook" version="5.0"&gt;
+<span class="linenumber">  2</span>
+               <span class="linenumber-separator"/>&lt;title&gt;Article wrapper&lt;/title&gt;
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <span class="linenumber">  4</span>
+               <span class="linenumber-separator"/>&lt;programlisting&gt;&lt;inlinemediaobject&gt;
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>&lt;imageobject&gt;
+<span class="linenumber">  6</span>
+               <span class="linenumber-separator"/>&lt;imagedata format="linespecific" fileref="programlisting.002.xml"/&gt;
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>&lt;/imageobject&gt;
+<span class="linenumber">  8</span>
+               <span class="linenumber-separator"/>&lt;/inlinemediaobject&gt;&lt;/programlisting&gt;
+<span class="linenumber"/>
+               <span class="linenumber-separator"/>
+               <span class="linenumber"> 10</span>
+               <span class="linenumber-separator"/>&lt;/article&gt;</pre><table deltaxml:deltaV2="B" border="0">
+               <tr>
+                  <td align="right" valign="top">
+                     <pre class="line-numbers">
+                        <code class="line-number">1</code>
+                        <code class="line-number">2</code>
+                        <code class="line-number">3</code>
+                        <code class="line-number">4</code>
+                        <code class="line-number">5</code>
+                        <code class="line-number">6</code>
+                        <code class="line-number">7</code>
+                        <code class="line-number">8</code>
+                        <code class="line-number">9</code>
+                        <code class="line-number">10</code>
+                        <code class="line-number">11</code>
+                     </pre>
+                  </td>
+                  <td valign="top">
+                     <pre class="programlisting">
+                        <code>&lt;article xmlns="http://docbook.org/ns/docbook" version="5.0"&gt;
+&lt;title&gt;Article wrapper&lt;/title&gt;
+
+&lt;programlisting&gt;&lt;inlinemediaobject&gt;
+&lt;imageobject&gt;
+&lt;imagedata format="linespecific" fileref="programlisting.002.xml"/&gt;
+&lt;/imageobject&gt;
+&lt;/inlinemediaobject&gt;&lt;/programlisting&gt;
+
+&lt;/article&gt;
+</code>
+                     </pre>
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </article>
+   </body>
+</html>
