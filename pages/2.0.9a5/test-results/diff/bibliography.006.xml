@@ -98,7 +98,7 @@
                </deltaxml:text></deltaxml:textGroup></span>
             </p>
          </div>
-         <div deltaxml:deltaV2="A!=B" class="bibliomixed" id="Walsh96">
+         <div deltaxml:deltaV2="A!=B" id="Walsh96" class="bibliomixed">
             <p deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">bibliomixed</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">[Walsh96] 
   </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A" class="bibliomset">
                   <span class="personname">

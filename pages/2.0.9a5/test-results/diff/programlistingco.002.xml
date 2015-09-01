@@ -176,7 +176,7 @@ exit;</code>
                </table>
             </div>
          </section>
-         <section deltaxml:deltaV2="A!=B" id="R.1.3" class="section">
+         <section deltaxml:deltaV2="A!=B" class="section" id="R.1.3">
             <div deltaxml:deltaV2="A!=B" class="section-titlepage">
                <h3 deltaxml:deltaV2="A">2. inlinegraphic/@fileref + numbering</h3><h2 deltaxml:deltaV2="B">2. inlinegraphic/@fileref + numbering</h2>
             </div>

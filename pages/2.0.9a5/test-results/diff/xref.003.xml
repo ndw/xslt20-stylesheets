@@ -77,7 +77,7 @@
                   <p>Substance of example</p>
                </div>
             </figure>
-            <figure deltaxml:deltaV2="A!=B" class="table-wrapper" id="table">
+            <figure deltaxml:deltaV2="A!=B" id="table" class="table-wrapper">
                <div deltaxml:deltaV2="A=B" class="title">Table 1. Long Title for Table</div>
                <div deltaxml:deltaV2="A!=B" class="table">
                   <table deltaxml:deltaV2="A!=B" border="0" summary="Table 1. Long Title for Table"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:style deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; </deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; </deltaxml:attributeValue></dxa:style></deltaxml:attributes>

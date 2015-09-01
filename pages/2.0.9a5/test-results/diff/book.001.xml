@@ -1227,7 +1227,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   </li>
                </ul>
             </div>
-            <article deltaxml:deltaV2="A!=B" id="app1" class="appendix">
+            <article deltaxml:deltaV2="A!=B" class="appendix" id="app1">
                <header deltaxml:deltaV2="A=B" class="appendix-titlepage">
                   <h2>Appendix A. First Appendix</h2>
                </header>
@@ -1313,7 +1313,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
 </p>
                <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <section deltaxml:deltaV2="A!=B" class="section" id="a1s1">
+               <section deltaxml:deltaV2="A!=B" id="a1s1" class="section">
                   <div deltaxml:deltaV2="A!=B" class="section-titlepage">
                      <h3 deltaxml:deltaV2="A">1. First Section</h3><h2 deltaxml:deltaV2="B">1. First Section</h2>
                   </div>
