@@ -408,7 +408,7 @@ also that several items in co/@linkends are correctly handled.
                   </dl>
                </div>
             </section>
-            <section deltaxml:deltaV2="A!=B" class="section" id="R.1.2.3">
+            <section deltaxml:deltaV2="A!=B" id="R.1.2.3" class="section">
                <div deltaxml:deltaV2="A!=B" class="section-titlepage">
                   <h4 deltaxml:deltaV2="A">1.2. Programlistingco</h4><h3 deltaxml:deltaV2="B">1.2. Programlistingco</h3>
                </div>

@@ -113,7 +113,7 @@ Some introductory preamble. Some introductory preamble.</p>
                      <tr deltaxml:deltaV2="A!=B" id="R.1.2.5.5.2" class="qandaentry">
                         <td deltaxml:deltaV2="A=B" align="left" valign="top" id="R.1.2.5.5.2.2" class="answer-label"/>
                         <td deltaxml:deltaV2="A!=B" valign="top" class="answer" align="left">
-                           <figure deltaxml:deltaV2="A!=B" class="example-wrapper" id="R.1.2.5.5.2.2.1">
+                           <figure deltaxml:deltaV2="A!=B" id="R.1.2.5.5.2.2.1" class="example-wrapper">
                               <div deltaxml:deltaV2="A=B" class="title">Example 5. <code class="filename">file.name</code>
                               </div>
                               <div deltaxml:deltaV2="A!=B" class="example">
