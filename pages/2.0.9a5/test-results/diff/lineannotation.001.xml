@@ -18,7 +18,7 @@
                <span class="linenumber-separator"/>lines that have no      <em class="lineannotation">annotation 2</em>
                <span class="linenumber"/>
                <span class="linenumber-separator"/>particular meaning</pre>
-         </div><pre deltaxml:deltaV2="B" class="screen">
+         </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
             <code>This is a
 screen                  <em class="lineannotation">annotation 1</em>
 with several

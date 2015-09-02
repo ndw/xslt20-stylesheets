@@ -14,7 +14,7 @@
             <span class="city">North Pole</span>, <span class="state">AK</span>  <span class="postcode">12345</span>
             <br/>
             <span class="country">US</span>
-         </div><pre deltaxml:deltaV2="B" class="address">
+         </div><pre deltaxml:deltaV2="B" class="address language-none">
             <code>
                <span class="personname">Santa Clause</span>
                <span class="street">1 Main Street</span>
@@ -32,7 +32,7 @@
             <code class="email">&lt;<a href="mailto:no-one@example.com">no-one@example.com</a>&gt;</code>
             <br/>
             <code class="uri">http://www.example.com/</code>
-         </div><pre deltaxml:deltaV2="B" class="address">
+         </div><pre deltaxml:deltaV2="B" class="address language-none">
             <code>Information:
 <span class="phone">+1-914-555-1212</span>
                <span class="fax">+1-213-555-1212</span>
@@ -47,7 +47,7 @@
             <span class="pob">P.O. Box 123</span>
             <br/>
             <span class="city">Anytown</span>, <span class="state">XX</span>  <span class="postcode">12345</span>
-         </div><pre deltaxml:deltaV2="B" class="address">
+         </div><pre deltaxml:deltaV2="B" class="address language-none">
             <code>
                <span class="otheraddr whynotorgname">Some Company</span>
                <span class="pob">P.O. Box 123</span>

@@ -36,13 +36,13 @@
             </div>
             <p deltaxml:deltaV2="A!=B">
       This is first test paragraph.
-      <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">unnumbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-                  <pre deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">programlisting</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">#include &lt;stdio.h&gt;
-      </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
-                     </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="B">#include &lt;stdio.h&gt;
-      </code><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
-                  </deltaxml:text></deltaxml:textGroup></pre>
-               </div>
+      <div deltaxml:deltaV2="A" class="programlisting">
+                  <pre>#include &lt;stdio.h&gt;
+      </pre>
+               </div><pre deltaxml:deltaV2="B" class="programlisting language-none">
+                  <code>#include &lt;stdio.h&gt;
+      </code>
+               </pre>
                <a deltaxml:deltaV2="A=B" class="indexterm" name="sec1.2.2"/>
             </p>
          </section>

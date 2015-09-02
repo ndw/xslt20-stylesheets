@@ -309,7 +309,7 @@
 
 <xsl:param name="symbol.font.family" select="'Symbol,ZapfDingbats'"/>
 
-<xsl:param name="syntax-highlighter" select="'0'"/>
+<xsl:param name="syntax-highlighter" select="'1'"/>
 
 <xsl:param name="table.cell.border.color" select="''"/>
 

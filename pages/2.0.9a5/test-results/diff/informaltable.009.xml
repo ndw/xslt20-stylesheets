@@ -21,7 +21,7 @@
                <span class="linenumber-separator"/>|        D        |        |        E        |
 <span class="linenumber"/>
                <span class="linenumber-separator"/>+........+........+........+........+........+</pre>
-         </div><pre deltaxml:deltaV2="B" class="screen">
+         </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
             <code>+........+........+........+........+........+
 |        A        |        |        B        |
 +........+........+........+........+........+

@@ -20,7 +20,7 @@
                         </td>
                         <td deltaxml:deltaV2="A!=B">
                            <div deltaxml:deltaV2="A" class="literallayout">Some literal layout<br/>
-text goes here.</div><pre deltaxml:deltaV2="B" class="literallayout">
+text goes here.</div><pre deltaxml:deltaV2="B" class="literallayout language-none">
                               <code>Some literal layout
 text goes here.</code>
                            </pre>
@@ -43,7 +43,7 @@ text goes here.</code>
                         </td>
                         <td deltaxml:deltaV2="A!=B">
                            <div deltaxml:deltaV2="A" class="literallayout">Some literal layout<br/>
-text goes here.</div><pre deltaxml:deltaV2="B" class="literallayout">
+text goes here.</div><pre deltaxml:deltaV2="B" class="literallayout language-none">
                               <code>Some literal layout
 text goes here.</code>
                            </pre>

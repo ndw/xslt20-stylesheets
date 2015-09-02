@@ -71,7 +71,7 @@
                <a name="dl22" id="dl22"/>(22)#t
 <span class="linenumber"> 20</span>
                <span class="linenumber-separator"/>    (<a name="dl23" id="dl23"/>(23)loopvar <a name="dl24" id="dl24"/>(24)(+ count 1))))</pre>
-         </div><pre deltaxml:deltaV2="B" class="screen">
+         </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
             <code>
 (let <a name="dl1" id="dl1"/>
                <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>loopvar <a name="dl2" id="dl2"/>

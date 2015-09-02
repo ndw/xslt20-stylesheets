@@ -18,8 +18,8 @@ footnotes as end notes, and footnotes at bottom of page
 (<em class="parameter">
                <code>bop-footnotes</code>
             </em> in DSSSL).</p>
-         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-            <pre deltaxml:deltaV2="A">
+         <div deltaxml:deltaV2="A" class="programlisting">
+            <pre>
                <span class="linenumber">  1</span>
                <span class="linenumber-separator"/>      hostname RTA
 <span class="linenumber">  2</span>
@@ -31,31 +31,17 @@ footnotes as end notes, and footnotes at bottom of page
                   <span class="csq">]</span>
                </sup>
                <span class="linenumber">  4</span>
-               <span class="linenumber-separator"/>          network 192.134.7.0/24 area 0</pre><table deltaxml:deltaV2="B" border="0">
-               <tr>
-                  <td align="right" valign="top">
-                     <pre class="line-numbers">
-                        <code class="line-number">1</code>
-                        <code class="line-number">2</code>
-                        <code class="line-number">3</code>
-                        <code class="line-number">4</code>
-                     </pre>
-                  </td>
-                  <td valign="top">
-                     <pre class="programlisting">
-                        <code>      hostname RTA
+               <span class="linenumber-separator"/>          network 192.134.7.0/24 area 0</pre>
+         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
+            <code>      hostname RTA
       router ospf
           ospf router-id 192.134.7.241	<sup class="footnote">
-                              <span class="osq">[</span>
-                              <a name="R.1.3.1" href="#ftn.R.1.3.1">1</a>
-                              <span class="csq">]</span>
-                           </sup>
+                  <span class="osq">[</span>
+                  <a name="R.1.3.1" href="#ftn.R.1.3.1">1</a>
+                  <span class="csq">]</span>
+               </sup>
           network 192.134.7.0/24 area 0</code>
-                     </pre>
-                  </td>
-               </tr>
-            </table>
-         </div>
+         </pre>
          <div deltaxml:deltaV2="A!=B" class="footnotes">
             <hr deltaxml:deltaV2="A=B" width="100" align="left" class="footnotes-divider"/>
             <div deltaxml:deltaV2="A!=B" class="footnote">

@@ -20,22 +20,22 @@
                         <div deltaxml:deltaV2="A=B" class="title">Example 1. <code class="filename">file.name</code>
                         </div>
                         <div deltaxml:deltaV2="A!=B" class="example">
-                           <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">unnumbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-                              <pre deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">programlisting</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">// Hello, World</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
-                                 </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="B">// Hello, World</code><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
-                              </deltaxml:text></deltaxml:textGroup></pre>
-                           </div>
+                           <div deltaxml:deltaV2="A" class="programlisting">
+                              <pre>// Hello, World</pre>
+                           </div><pre deltaxml:deltaV2="B" class="programlisting language-none">
+                              <code>// Hello, World</code>
+                           </pre>
                         </div>
                      </figure>
                      <figure deltaxml:deltaV2="A!=B" class="example-wrapper" id="a1.2">
                         <div deltaxml:deltaV2="A=B" class="title">Example 2. <code class="filename">file2.name</code>
                         </div>
                         <div deltaxml:deltaV2="A!=B" class="example">
-                           <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">unnumbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-                              <pre deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">programlisting</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">// Goodbye, World</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
-                                 </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="B">// Goodbye, World</code><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
-                              </deltaxml:text></deltaxml:textGroup></pre>
-                           </div>
+                           <div deltaxml:deltaV2="A" class="programlisting">
+                              <pre>// Goodbye, World</pre>
+                           </div><pre deltaxml:deltaV2="B" class="programlisting language-none">
+                              <code>// Goodbye, World</code>
+                           </pre>
                         </div>
                      </figure>
                   </td>

@@ -1,35 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Article wrapper</title><meta charset="utf-8" /><meta name="generator" content="DocBook XSL 2.0 Stylesheets V2.0.9a5" /><link rel="stylesheet" type="text/css" href="../../resources/base/css/default.css" /><script type="text/javascript" src="../../resources/base/js/dbmodnizr.js"></script><link href="../../resources/base/css/db-noprism.css" rel="stylesheet" type="text/css" /></head><body><article id="R.1" class="article"><header class="article-titlepage"><h2>Article wrapper</h2></header><div class="numbered-verbatim"><table border="0"><tr><td align="right" valign="top"><pre class="line-numbers"><code class="line-number">1</code>
-<code class="line-number">2</code>
-<code class="line-number">3</code>
-<code class="line-number">4</code>
-<code class="line-number">5</code>
-<code class="line-number">6</code>
-<code class="line-number">7</code>
-<code class="line-number">8</code>
-<code class="line-number">9</code>
-<code class="line-number">10</code>
-<code class="line-number">11</code>
-<code class="line-number">12</code>
-<code class="line-number">13</code>
-<code class="line-number">14</code>
-<code class="line-number">15</code>
-<code class="line-number">16</code>
-<code class="line-number">17</code>
-<code class="line-number">18</code>
-<code class="line-number">19</code>
-<code class="line-number">20</code>
-<code class="line-number">21</code>
-<code class="line-number">22</code>
-<code class="line-number">23</code>
-<code class="line-number">24</code>
-<code class="line-number">25</code>
-<code class="line-number">26</code>
-<code class="line-number">27</code>
-<code class="line-number">28</code>
-<code class="line-number">29</code>
-<code class="line-number">30</code>
-<code class="line-number">31</code>
-</pre></td><td valign="top"><pre class="programlisting"><code>@rem = '--*-Perl-*--
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Article wrapper</title><meta charset="utf-8" /><meta name="generator" content="DocBook XSL 2.0 Stylesheets V2.0.9a5" /><link rel="stylesheet" type="text/css" href="../../resources/base/css/default.css" /><script type="text/javascript" src="../../resources/base/js/dbmodnizr.js"></script><link href="../../resources/base/css/prism.css" rel="stylesheet" type="text/css" /><link href="../../resources/base/css/db-prism.css" rel="stylesheet" type="text/css" /></head><body><article id="R.1" class="article"><header class="article-titlepage"><h2>Article wrapper</h2></header><pre data-line="1,4,9,10,11,27" class="programlisting language-none"><code>@rem = '--*-Perl-*--
 @echo off
 perl.exe %_batchname %$
 goto endofperl
@@ -59,10 +28,10 @@ while (@DIRS) {
     }
 }
 
-exit;</code></pre></td></tr></table></div><div class="calloutlist"><dl><dt class="callout"><span data-number="1" class="callout-bug callout-bug-unicode">❶</span></dt><dd><p>The prologue handles embedding a Perl script in a DOS batch file.</p></dd><dt id="skipeof-desc" class="callout"><span data-number="4" class="callout-bug callout-bug-unicode">❹</span></dt><dd><p>The <code class="literal">goto</code> statement, interpreted by the DOS
+exit;</code></pre><div class="calloutlist"><dl><dt class="callout"><span class="coline">1</span></dt><dd><p>The prologue handles embedding a Perl script in a DOS batch file.</p></dd><dt id="skipeof-desc" class="callout"><span class="coline">4</span></dt><dd><p>The <code class="literal">goto</code> statement, interpreted by the DOS
 batch file interpreter, skips over the body of the Perl script. (Note
 that this callout has an “id” attribute that is referenced by a
-“linkends” attribute on the callout bug for line 4 above.)</p></dd><dt class="callout"><span data-number="9" class="callout-bug callout-bug-unicode">❾</span><span data-number="10" class="callout-bug callout-bug-unicode">❿</span></dt><dd><p>The <code class="literal">require</code> statement sources in external program
-fragments.</p></dd><dt class="callout"><span data-number="11" class="callout-bug callout-bug-text">11</span></dt><dd><p>The <code class="literal">use</code> statement is similar, but has additional
+“linkends” attribute on the callout bug for line 4 above.)</p></dd><dt class="callout"><span class="coline">9</span><span class="coline">10</span></dt><dd><p>The <code class="literal">require</code> statement sources in external program
+fragments.</p></dd><dt class="callout"><span class="coline">11</span></dt><dd><p>The <code class="literal">use</code> statement is similar, but has additional
 utility.  It is a Perl5 function.  (Note that this callout area specifies
-both a line and a column.)</p></dd><dt class="callout"><span data-number="27" class="callout-bug callout-bug-text">27</span></dt><dd><p>This is a user subroutine call.</p></dd></dl></div></article></body></html>
+both a line and a column.)</p></dd><dt class="callout"><span class="coline">27</span></dt><dd><p>This is a user subroutine call.</p></dd></dl></div></article><script src="../../resources/base/js/prism.js"></script></body></html>

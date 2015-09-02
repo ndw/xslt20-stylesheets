@@ -17,7 +17,7 @@ is successfully loaded (which it isn't from file: URIs).</p>
             <span class="linenumber">  4</span>
             <span class="linenumber-separator"> </span>  We would have fled in terror<br/>
             <span class="linenumber">   </span>
-            <span class="linenumber-separator"> </span>And you would not have been informed.</div><pre deltaxml:deltaV2="B" class="literallayout">
+            <span class="linenumber-separator"> </span>And you would not have been informed.</div><pre deltaxml:deltaV2="B" class="literallayout language-none line-numbers">
             <code>LiteralLayout: This is a test
   Only a test.
 Had this been a real emegency,

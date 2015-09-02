@@ -56,32 +56,19 @@
                <p deltaxml:deltaV2="A=B">This is a less minimal RefEntry.</p>
                <figure deltaxml:deltaV2="A!=B" id="evenlessminimal.4.3" class="figure-wrapper">
                   <div deltaxml:deltaV2="A!=B" class="figure">
-                     <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-                        <pre deltaxml:deltaV2="A">
+                     <div deltaxml:deltaV2="A" class="programlisting">
+                        <pre>
                            <span class="linenumber">  1</span>
                            <span class="linenumber-separator"/>Testing
 <span class="linenumber">  2</span>
                            <span class="linenumber-separator"/>Some
 <span class="linenumber"/>
-                           <span class="linenumber-separator"/>Text</pre><table deltaxml:deltaV2="B" border="0">
-                           <tr>
-                              <td align="right" valign="top">
-                                 <pre class="line-numbers">
-                                    <code class="line-number">1</code>
-                                    <code class="line-number">2</code>
-                                    <code class="line-number">3</code>
-                                 </pre>
-                              </td>
-                              <td valign="top">
-                                 <pre class="programlisting">
-                                    <code>Testing
+                           <span class="linenumber-separator"/>Text</pre>
+                     </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
+                        <code>Testing
 Some
 Text</code>
-                                 </pre>
-                              </td>
-                           </tr>
-                        </table>
-                     </div>
+                     </pre>
                   </div>
                   <div deltaxml:deltaV2="A=B" class="title">Figure 1. Some Program</div>
                </figure>
