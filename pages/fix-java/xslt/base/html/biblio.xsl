@@ -13,7 +13,7 @@
 
 <xsl:template match="db:bibliography">
   <article>
-    <xsl:sequence select="f:html-attributes(.)"/>
+    <xsl:sequence select="f:html-attributes(., f:node-id(.))"/>
 
     <xsl:call-template name="t:titlepage"/>
 
@@ -23,7 +23,7 @@
 
 <xsl:template match="db:bibliodiv">
   <div>
-    <xsl:sequence select="f:html-attributes(.)"/>
+    <xsl:sequence select="f:html-attributes(., f:node-id(.))"/>
 
     <xsl:call-template name="t:titlepage"/>
 
@@ -33,42 +33,12 @@
 
 <xsl:template match="db:bibliolist">
   <div>
-    <xsl:sequence select="f:html-attributes(.)"/>
+    <xsl:sequence select="f:html-attributes(., f:node-id(.))"/>
 
     <xsl:call-template name="t:titlepage"/>
 
     <xsl:apply-templates/>
   </div>
-</xsl:template>
-
-<xsl:template match="db:biblioentry[not(node())]|db:bibliomixed[not(node())]"
-              priority="100">
-  <xsl:variable name="id" select="@xml:id"/>
-
-  <xsl:choose>
-    <xsl:when test="not($id)">
-      <xsl:message>
-        <xsl:text>Error: </xsl:text>
-        <xsl:text>empty </xsl:text>
-        <xsl:value-of select="local-name(.)"/>
-        <xsl:text> with no id.</xsl:text>
-      </xsl:message>
-    </xsl:when>
-    <xsl:when test="$external.bibliography/key('id', $id)">
-      <xsl:apply-templates select="$external.bibliography/key('id', $id)"/>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:message>
-        <xsl:text>Error: </xsl:text>
-        <xsl:text>$bibliography.collection doesn't contain </xsl:text>
-        <xsl:value-of select="$id"/>
-      </xsl:message>
-      <xsl:copy>
-        <xsl:copy-of select="@*"/>
-        <xsl:text>???</xsl:text>
-      </xsl:copy>
-    </xsl:otherwise>
-  </xsl:choose>
 </xsl:template>
 
 <xsl:template match="db:biblioentry|db:bibliomixed">

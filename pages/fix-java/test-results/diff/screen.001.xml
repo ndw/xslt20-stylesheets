@@ -23,7 +23,7 @@
                <span class="linenumber-separator"/>    (<a name="dl5" id="dl5"/>
                <img src="http://docbook.github.com/latest/img/5.png" alt="5" border="0"/>loopvar <a name="dl6" id="dl6"/>
                <img src="http://docbook.github.com/latest/img/6.png" alt="6" border="0"/>(+ count 1))))</pre>
-         </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+         </div><pre deltaxml:deltaV2="B" class="screen">
             <code>(let <a name="dl1" id="dl1"/>
                <span data-number="1" class="callout-bug callout-bug-unicode">❶</span>loopvar <a name="dl2" id="dl2"/>
                <span data-number="2" class="callout-bug callout-bug-unicode">❷</span>((count 1))

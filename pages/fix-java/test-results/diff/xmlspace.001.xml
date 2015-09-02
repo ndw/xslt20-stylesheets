@@ -5,8 +5,8 @@
          <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Article wrapper</h2>
          </header>
-         <div deltaxml:deltaV2="A" class="programlisting">
-            <pre>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <pre deltaxml:deltaV2="A">
                <span class="linenumber">  1</span>
                <span class="linenumber-separator"/>ProgramListing: This is a test
 <span class="linenumber">  2</span>
@@ -20,16 +20,33 @@
 <span class="linenumber">  6</span>
                <span class="linenumber-separator"/>
                <span class="linenumber"/>
-               <span class="linenumber-separator"/>Foo &lt;Bar&gt;</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
-            <code>ProgramListing: This is a test
+               <span class="linenumber-separator"/>Foo &lt;Bar&gt;</pre><table deltaxml:deltaV2="B" border="0">
+               <tr>
+                  <td align="right" valign="top">
+                     <pre class="line-numbers">
+                        <code class="line-number">1</code>
+                        <code class="line-number">2</code>
+                        <code class="line-number">3</code>
+                        <code class="line-number">4</code>
+                        <code class="line-number">5</code>
+                        <code class="line-number">6</code>
+                        <code class="line-number">7</code>
+                     </pre>
+                  </td>
+                  <td valign="top">
+                     <pre class="programlisting">
+                        <code>ProgramListing: This is a test
   Only a test.
 Had this been a real emegency,
   We would have fled in terror
 And you would not have been informed.
 
 Foo &lt;Bar&gt;</code>
-         </pre>
+                     </pre>
+                  </td>
+               </tr>
+            </table>
+         </div>
       </article>
    </body>
 </html>

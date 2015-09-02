@@ -41,6 +41,37 @@
   <p:with-option name="path" select="resolve-uri($srcdir, exf:cwd())"/>
 </p:directory-list>
 
+<!-- p:directory-list doesn't sort files; this stylesheet puts them
+     in alphabetic order. It doesn't matter to the tests, but it
+     makes the display easier to grok when they're running.
+-->
+<p:xslt>
+  <p:input port="stylesheet">
+    <p:inline>
+      <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      xmlns:c="http://www.w3.org/ns/xproc-step"
+                      version="2.0">
+        <xsl:template match="c:directory">
+          <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:apply-templates select="*">
+              <xsl:sort select="@name" order="ascending"/>
+            </xsl:apply-templates>
+          </xsl:copy>
+        </xsl:template>
+        <xsl:template match="element()">
+          <xsl:copy>
+            <xsl:apply-templates select="@*,node()"/>
+          </xsl:copy>
+        </xsl:template>
+        <xsl:template match="attribute()|text()">
+          <xsl:copy/>
+        </xsl:template>
+      </xsl:stylesheet>
+    </p:inline>
+  </p:input>
+</p:xslt>
+
 <p:for-each name="loop">
   <p:iteration-source select="/c:directory/c:file"/>
 
@@ -140,32 +171,45 @@
     </p:input>
   </cx:pretty-print>
 
-  <cx:delta-xml name="diff">
-    <p:input port="source">
-      <p:pipe step="A" port="result"/>
-    </p:input>
-    <p:input port="alternate">
-      <p:pipe step="B" port="result"/>
-    </p:input>
-    <p:input port="dxp">
-      <p:inline>
-        <comparatorPipeline>
-          <outputProperties>
-            <property name="indent" literalValue="no"/>
-          </outputProperties>
-          <outputFileExtension extension="xml"/>
-          <comparatorFeatures>
-            <feature name="http://deltaxml.com/api/feature/deltaV2"
-                     literalValue="true"/>
-            <feature name="http://deltaxml.com/api/feature/isFullDelta"
-                     literalValue="true"/>
-            <feature name="http://deltaxml.com/api/feature/enhancedMatch1"
-                     literalValue="true"/>
-          </comparatorFeatures>
-        </comparatorPipeline>
-      </p:inline>
-    </p:input>
-  </cx:delta-xml>
+  <p:choose name="diff">
+    <p:when test="p:step-available('cx:delta-xml')">
+      <p:output port="result"/>
+      <cx:delta-xml>
+        <p:input port="source">
+          <p:pipe step="A" port="result"/>
+        </p:input>
+        <p:input port="alternate">
+          <p:pipe step="B" port="result"/>
+        </p:input>
+        <p:input port="dxp">
+          <p:inline>
+            <comparatorPipeline>
+              <outputProperties>
+                <property name="indent" literalValue="no"/>
+              </outputProperties>
+              <outputFileExtension extension="xml"/>
+              <comparatorFeatures>
+                <feature name="http://deltaxml.com/api/feature/deltaV2"
+                         literalValue="true"/>
+                <feature name="http://deltaxml.com/api/feature/isFullDelta"
+                         literalValue="true"/>
+                <feature name="http://deltaxml.com/api/feature/enhancedMatch1"
+                         literalValue="true"/>
+              </comparatorFeatures>
+            </comparatorPipeline>
+          </p:inline>
+        </p:input>
+      </cx:delta-xml>
+    </p:when>
+    <p:otherwise>
+      <p:output port="result"/>
+      <p:identity>
+        <p:input port="source">
+          <p:pipe step="B" port="result"/>
+        </p:input>
+      </p:identity>
+    </p:otherwise>
+  </p:choose>
 
   <p:store method="xml">
     <p:with-option name="href"

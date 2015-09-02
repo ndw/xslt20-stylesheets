@@ -357,7 +357,7 @@
                         <span class="linenumber-separator"/>that starts with a line of space. [break here]
 <span class="linenumber"/>
                         <span class="linenumber-separator"/>And it ends with a line of space.</pre>
-                  </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                  </div><pre deltaxml:deltaV2="B" class="screen">
                      <code>This is a screen [break here]
 that starts with a line of space. [break here]
 And it ends with a line of space.
@@ -372,7 +372,7 @@ And it ends with a line of space.
                         <span class="linenumber-separator"/>that does not start with a line of space. [break here]
 <span class="linenumber"/>
                         <span class="linenumber-separator"/>And does not end with a line of space.</pre>
-                  </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                  </div><pre deltaxml:deltaV2="B" class="screen">
                      <code>This is a screen [break here]
 that does not start with a line of space. [break here]
 And does not end with a line of space.</code>
@@ -388,7 +388,7 @@ And does not end with a line of space.</code>
                            <span class="linenumber-separator"/>And does not end with a line of space but is followed
 <span class="linenumber">  4</span>
                            <span class="linenumber-separator"/>by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                     </div><pre deltaxml:deltaV2="B" class="screen">
                         <code>This is a screen within a normal paragraph [break here]
 that does not start with a line of space. [break here]
 And does not end with a line of space but is followed
@@ -406,7 +406,7 @@ by a line of space.</code>
                            <span class="linenumber-separator"/>And does not end with a line of space and is not followed
 <span class="linenumber">  4</span>
                            <span class="linenumber-separator"/>by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                     </div><pre deltaxml:deltaV2="B" class="screen">
                         <code>This is a screen within a normal paragraph [break here]
 that does not start with a line of space. [break here]
 And does not end with a line of space and is not followed
@@ -422,7 +422,7 @@ by a line of space.</code>
                            <span class="linenumber-separator"/>that starts with a line of space. [break here]
 <span class="linenumber"/>
                            <span class="linenumber-separator"/>And ends with a line of space but is not followed by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                     </div><pre deltaxml:deltaV2="B" class="screen">
                         <code>This is a screen within a normal paragraph [break here]
 that starts with a line of space. [break here]
 And ends with a line of space but is not followed by a line of space.
@@ -438,7 +438,7 @@ And ends with a line of space but is not followed by a line of space.
                            <span class="linenumber-separator"/>that starts with a line of space. [break here]
 <span class="linenumber"/>
                            <span class="linenumber-separator"/>And ends with a line of space and is followed by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                     </div><pre deltaxml:deltaV2="B" class="screen">
                         <code>This is a screen within a normal paragraph [break here]
 that starts with a line of space. [break here]
 And ends with a line of space and is followed by a line of space.
@@ -458,7 +458,7 @@ And ends with a line of space and is followed by a line of space.
                            <span class="linenumber-separator"/>that starts with a 2 lines of space. [break here]
 <span class="linenumber"/>
                            <span class="linenumber-separator"/>And ends with 3 lines of space and is followed by a line of space.</pre>
-                     </div><pre deltaxml:deltaV2="B" class="screen language-none line-numbers">
+                     </div><pre deltaxml:deltaV2="B" class="screen">
                         <code>
 
 This is a screen within a normal paragraph [break here]
@@ -638,10 +638,12 @@ that's two lines long.</pre>
                               </sup> </p>
                         </div>
                         <div class="footnote-body-wrapper">
-                           <p>Stuff here <pre class="programlisting">
-                                 <code>This is a program listing
+                           <p>Stuff here <div class="unnumbered-verbatim">
+                                 <pre class="programlisting">
+                                    <code>This is a program listing
 that's two lines long.</code>
-                              </pre>
+                                 </pre>
+                              </div>
                            </p>
                         </div>
                      </div>

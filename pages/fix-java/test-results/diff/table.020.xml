@@ -26,6 +26,7 @@
          <figure id="R.1.5" class="table-wrapper">
             <div class="table">
                <table>
+                  <caption class="caption">Caption</caption>
                   <tbody>
                      <tr>
                         <td>R1C1</td>
@@ -38,7 +39,6 @@
                   </tbody>
                </table>
             </div>
-            <div class="caption">Caption</div>
          </figure>
          <figure id="R.1.6" class="informaltable-wrapper">
             <div class="informaltable">

@@ -1,5 +1,5 @@
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Results for book.003.xml</title><link rel="stylesheet" type="text/css" href="../../resources/base/css/default.css" /><script type="text/javascript" src="../../resources/base/js/dbmodnizr.js"></script><link rel="stylesheet" type="text/css" href="../../resources/base/css/prism.css" /><link rel="stylesheet" type="text/css" href="../../resources/base/css/db-prism.css" /><link href="../style/show-results.css" rel="stylesheet" type="text/css" /></head><body><h1>DocBook XSLT 2.0 Stylesheet output:
-          book.003.xml</h1><table class="diffs"><tbody><tr><th>Expected (<span class="exdiff">6</span> differences)</th><th>Actual (<span class="adiff">6</span> differences)</th></tr><tr><td><pre class="show-diff"><span class="tag diff">&lt;html&gt;
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Results for book.003.xml</title><link rel="stylesheet" type="text/css" href="../../resources/base/css/default.css" /><script type="text/javascript" src="../../resources/base/js/dbmodnizr.js"></script><link rel="stylesheet" type="text/css" href="../../resources/base/css/prism.css" /><link rel="stylesheet" type="text/css" href="../../resources/base/css/db-prism.css" /><link href="../style/show-results.css" rel="stylesheet" type="text/css" /><meta name="deltaxml" content="true" /></head><body><h1>DocBook XSLT 2.0 Stylesheet output:
+          book.003.xml</h1><table class="diffs"><tbody><tr><th>Expected (<span class="exdiff">3</span> differences)</th><th>Actual (<span class="adiff">6</span> differences)</th></tr><tr><td><pre class="show-diff"><span class="tag diff">&lt;html&gt;
    <span class="tag nodiff">&lt;head/&gt;</span>
    <span class="tag diff">&lt;body&gt;
       <span class="tag diff">&lt;article <span class="att">class="book"</span> <span class="att">id="book"</span>&gt;
@@ -232,9 +232,9 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 &lt;/p&gt;</span>
             <span class="tag diff">&lt;figure <span class="att">class="figure-wrapper"</span> <span class="att">id="figduck"</span>&gt;
                <span class="tag diff">&lt;div <span class="att">class="figure"</span>&gt;
-                  <span class="tag diff del">&lt;div <span class="att">class="programlisting"</span>&gt;
-                     <span class="tag">&lt;pre&gt;
-A figure. Just to test the numeration.&lt;/pre&gt;</span>
+                  <span class="tag diff">&lt;div <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;
+                     <span class="tag diff">&lt;pre <span class="att">class="<span class="diff"></span>"</span>&gt;<span class="diff">
+A figure. Just to test the numeration.</span>&lt;/pre&gt;</span>
                   &lt;/div&gt;</span>
                &lt;/div&gt;</span>
                <span class="tag nodiff">&lt;div <span class="att">class="title"</span>&gt;Figure 1.1. A Test Figure&lt;/div&gt;</span>
@@ -245,9 +245,9 @@ A figure. Just to test the numeration.&lt;/pre&gt;</span>
                &lt;/div&gt;</span>
                <span class="tag diff">&lt;figure <span class="att">class="figure-wrapper"</span> <span class="att">id="figduck2"</span>&gt;
                   <span class="tag diff">&lt;div <span class="att">class="figure"</span>&gt;
-                     <span class="tag diff del">&lt;div <span class="att">class="programlisting"</span>&gt;
-                        <span class="tag">&lt;pre&gt;
-A figure. Just to test the numeration.&lt;/pre&gt;</span>
+                     <span class="tag diff">&lt;div <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;
+                        <span class="tag diff">&lt;pre <span class="att">class="<span class="diff"></span>"</span>&gt;<span class="diff">
+A figure. Just to test the numeration.</span>&lt;/pre&gt;</span>
                      &lt;/div&gt;</span>
                   &lt;/div&gt;</span>
                   <span class="tag nodiff">&lt;div <span class="att">class="title"</span>&gt;Figure 1.2. Another Test Figure&lt;/div&gt;</span>
@@ -273,9 +273,9 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
                <span class="tag diff">&lt;figure <span class="att">class="example-wrapper"</span> <span class="att">id="example"</span>&gt;
                   <span class="tag nodiff">&lt;div <span class="att">class="title"</span>&gt;Example 1.1. Test Example&lt;/div&gt;</span>
                   <span class="tag diff">&lt;div <span class="att">class="example"</span>&gt;
-                     <span class="tag diff del">&lt;div <span class="att">class="programlisting"</span>&gt;
-                        <span class="tag">&lt;pre&gt;
-An example.&lt;/pre&gt;</span>
+                     <span class="tag diff">&lt;div <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;
+                        <span class="tag diff">&lt;pre <span class="att">class="<span class="diff"></span>"</span>&gt;<span class="diff">
+An example.</span>&lt;/pre&gt;</span>
                      &lt;/div&gt;</span>
                   &lt;/div&gt;</span>
                &lt;/figure&gt;</span>
@@ -562,10 +562,12 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 &lt;/p&gt;</span>
             <span class="tag diff">&lt;figure <span class="att">class="figure-wrapper"</span> <span class="att">id="figduck"</span>&gt;
                <span class="tag diff">&lt;div <span class="att">class="figure"</span>&gt;
-                  <span class="tag diff add">&lt;pre <span class="att">class="programlisting"</span>&gt;
-                     <span class="tag">&lt;code&gt;
-A figure. Just to test the numeration.&lt;/code&gt;</span>
-                  &lt;/pre&gt;</span>
+                  <span class="tag diff">&lt;div <span class="att">class="<span class="diff">unnumbered-verbatim</span>"</span>&gt;
+                     <span class="tag diff">&lt;pre <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;<span class="diff">
+                        </span><span class="tag diff add">&lt;code&gt;
+A figure. Just to test the numeration.&lt;/code&gt;</span><span class="diff">
+                     </span>&lt;/pre&gt;</span>
+                  &lt;/div&gt;</span>
                &lt;/div&gt;</span>
                <span class="tag nodiff">&lt;div <span class="att">class="title"</span>&gt;Figure 1.1. A Test Figure&lt;/div&gt;</span>
             &lt;/figure&gt;</span>
@@ -575,10 +577,12 @@ A figure. Just to test the numeration.&lt;/code&gt;</span>
                &lt;/div&gt;</span>
                <span class="tag diff">&lt;figure <span class="att">class="figure-wrapper"</span> <span class="att">id="figduck2"</span>&gt;
                   <span class="tag diff">&lt;div <span class="att">class="figure"</span>&gt;
-                     <span class="tag diff add">&lt;pre <span class="att">class="programlisting"</span>&gt;
-                        <span class="tag">&lt;code&gt;
-A figure. Just to test the numeration.&lt;/code&gt;</span>
-                     &lt;/pre&gt;</span>
+                     <span class="tag diff">&lt;div <span class="att">class="<span class="diff">unnumbered-verbatim</span>"</span>&gt;
+                        <span class="tag diff">&lt;pre <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;<span class="diff">
+                           </span><span class="tag diff add">&lt;code&gt;
+A figure. Just to test the numeration.&lt;/code&gt;</span><span class="diff">
+                        </span>&lt;/pre&gt;</span>
+                     &lt;/div&gt;</span>
                   &lt;/div&gt;</span>
                   <span class="tag nodiff">&lt;div <span class="att">class="title"</span>&gt;Figure 1.2. Another Test Figure&lt;/div&gt;</span>
                &lt;/figure&gt;</span>
@@ -603,10 +607,12 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
                <span class="tag diff">&lt;figure <span class="att">class="example-wrapper"</span> <span class="att">id="example"</span>&gt;
                   <span class="tag nodiff">&lt;div <span class="att">class="title"</span>&gt;Example 1.1. Test Example&lt;/div&gt;</span>
                   <span class="tag diff">&lt;div <span class="att">class="example"</span>&gt;
-                     <span class="tag diff add">&lt;pre <span class="att">class="programlisting"</span>&gt;
-                        <span class="tag">&lt;code&gt;
-An example.&lt;/code&gt;</span>
-                     &lt;/pre&gt;</span>
+                     <span class="tag diff">&lt;div <span class="att">class="<span class="diff">unnumbered-verbatim</span>"</span>&gt;
+                        <span class="tag diff">&lt;pre <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;<span class="diff">
+                           </span><span class="tag diff add">&lt;code&gt;
+An example.&lt;/code&gt;</span><span class="diff">
+                        </span>&lt;/pre&gt;</span>
+                     &lt;/div&gt;</span>
                   &lt;/div&gt;</span>
                &lt;/figure&gt;</span>
                <span class="tag diff">&lt;section <span class="att">class="section"</span> <span class="att">id="chap1.4.5"</span>&gt;
@@ -659,9 +665,10 @@ Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
          &lt;/article&gt;</span>
       &lt;/article&gt;</span>
    &lt;/body&gt;</span>
-&lt;/html&gt;</span></pre></td></tr><tr><td colspan="2"><em>Note: The same “current” CSS styling is applied
-                  to both expected and actual results below. This may
-                  produce incorrect results in the “expected” column.</em></td></tr><tr><td><article id="book" class="book"><header class="book-titlepage"><h1>Unit Test: book.003</h1><div class="authorgroup"><div class="author"><h3><span class="orgname">SomeCorp</span></h3></div><div class="author"><h3><span class="personname"><span class="firstname">Norman</span> <span class="surname">Walsh</span></span></h3></div><div class="editor"><h4 class="editedby">Edited by</h4><h3><span class="personname"><span class="firstname">Jane</span> <span class="surname">Doe</span></span></h3></div></div><p class="CVS">$Id: book.003.xml 4056 2004-11-23 13:28:50Z nwalsh $</p><div class="copyright">Copyright © <span class="years">1998, 1999, 2000, 2001, 2002</span> <span class="holders"><span class="holder">Norman Walsh</span></span></div><div class="legalnotice"><p>
+&lt;/html&gt;</span></pre></td></tr><tr><td><em>The “current” CSS styling is applied
+                  to the this entire document; the results in this
+                  column may be anomalous. Also, image links are broken
+                  in this column.</em></td><td> </td></tr><tr><td><article id="book" class="book"><header class="book-titlepage"><h1>Unit Test: book.003</h1><div class="authorgroup"><div class="author"><h3><span class="orgname">SomeCorp</span></h3></div><div class="author"><h3><span class="personname"><span class="firstname">Norman</span> <span class="surname">Walsh</span></span></h3></div><div class="editor"><h4 class="editedby">Edited by</h4><h3><span class="personname"><span class="firstname">Jane</span> <span class="surname">Doe</span></span></h3></div></div><p class="CVS">$Id: book.003.xml 4056 2004-11-23 13:28:50Z nwalsh $</p><div class="copyright">Copyright © <span class="years">1998, 1999, 2000, 2001, 2002</span> <span class="holders"><span class="holder">Norman Walsh</span></span></div><div class="legalnotice"><p>
 Some legal notice. Some legal notice. Some legal notice.
 Some legal notice. Some legal notice. Some legal notice.
 Some legal notice. Some legal notice. Some legal notice.
@@ -787,9 +794,9 @@ Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
-</p><figure id="figduck" class="figure-wrapper"><div class="figure"><pre class="programlisting"><code>
-A figure. Just to test the numeration.</code></pre></div><div class="title">Figure 1.1. A Test Figure</div></figure><section id="chap1.4" class="section"><div class="section-titlepage"><h2>1. First Section</h2></div><figure id="figduck2" class="figure-wrapper"><div class="figure"><pre class="programlisting"><code>
-A figure. Just to test the numeration.</code></pre></div><div class="title">Figure 1.2. Another Test Figure</div></figure><p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+</p><figure id="figduck" class="figure-wrapper"><div class="figure"><div class="unnumbered-verbatim"><pre class="programlisting"><code>
+A figure. Just to test the numeration.</code></pre></div></div><div class="title">Figure 1.1. A Test Figure</div></figure><section id="chap1.4" class="section"><div class="section-titlepage"><h2>1. First Section</h2></div><figure id="figduck2" class="figure-wrapper"><div class="figure"><div class="unnumbered-verbatim"><pre class="programlisting"><code>
+A figure. Just to test the numeration.</code></pre></div></div><div class="title">Figure 1.2. Another Test Figure</div></figure><p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
@@ -806,8 +813,8 @@ Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
-</p><figure id="example" class="example-wrapper"><div class="title">Example 1.1. Test Example</div><div class="example"><pre class="programlisting"><code>
-An example.</code></pre></div></figure><section id="chap1.4.5" class="section"><div class="section-titlepage"><h3>1.1. First Subsection</h3></div><p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+</p><figure id="example" class="example-wrapper"><div class="title">Example 1.1. Test Example</div><div class="example"><div class="unnumbered-verbatim"><pre class="programlisting"><code>
+An example.</code></pre></div></div></figure><section id="chap1.4.5" class="section"><div class="section-titlepage"><h3>1.1. First Subsection</h3></div><p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
@@ -841,4 +848,4 @@ Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
 Blah blah blah blah blah blah blah blah. Blah blah blah blah.
 Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
-</p></section></article></article><script src="../../resources/base/js/prism.js"></script></td></tr></tbody></table><h2>XML source</h2><pre data-src="../src/book.003.xml"></pre></body><script type="text/javascript" src="../../resources/base/js/prism.js"></script></html>
+</p></section></article></article></td></tr></tbody></table><h2>XML source</h2><pre data-src="../src/book.003.xml"></pre></body><script type="text/javascript" src="../../resources/base/js/prism.js"></script></html>

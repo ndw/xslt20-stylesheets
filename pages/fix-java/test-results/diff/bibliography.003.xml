@@ -1,7 +1,7 @@
 <html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
    <head deltaxml:deltaV2="A=B"/>
    <body deltaxml:deltaV2="A!=B">
-      <article deltaxml:deltaV2="A!=B" class="bibliography">
+      <article deltaxml:deltaV2="A!=B" class="bibliography"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:id deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">R.1</deltaxml:attributeValue></dxa:id></deltaxml:attributes>
          <header deltaxml:deltaV2="A=B" class="bibliography-titlepage">
             <h2>Unit Test: bibliography.003</h2>
          </header>
@@ -41,7 +41,7 @@ parameter.</p>
                </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">. </deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">. </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
             </deltaxml:text></deltaxml:textGroup></p>
          </div>
-         <div deltaxml:deltaV2="A!=B" class="bibliomixed" id="Walsh96-3">
+         <div deltaxml:deltaV2="A!=B" id="Walsh96-3" class="bibliomixed">
             <p deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">bibliomixed</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">[Walsh96-3] 
   </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A" class="bibliomset">
                   <span class="personname">
@@ -97,7 +97,7 @@ World Wide Web Consortium, 2002.
 </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
             </deltaxml:text></deltaxml:textGroup></p>
          </div>
-         <div deltaxml:deltaV2="A!=B" class="bibliomixed" id="bib.docbook43">
+         <div deltaxml:deltaV2="A!=B" id="bib.docbook43" class="bibliomixed">
             <p deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">bibliomixed</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">[</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
                </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">abbrev</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">label</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">DocBook V4.3</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">[</deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="B" class="abbrev">DocBook V4.3</span><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">] </deltaxml:text></deltaxml:textGroup></span><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">] Norman Walsh, editor.
 </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">

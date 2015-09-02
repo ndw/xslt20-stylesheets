@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Results for calloutlist.003.xml</title><link rel="stylesheet" type="text/css" href="../../resources/base/css/default.css" /><script type="text/javascript" src="../../resources/base/js/dbmodnizr.js"></script><link rel="stylesheet" type="text/css" href="../../resources/base/css/prism.css" /><link rel="stylesheet" type="text/css" href="../../resources/base/css/db-prism.css" /><link href="../style/show-results.css" rel="stylesheet" type="text/css" /></head><body><h1>DocBook XSLT 2.0 Stylesheet output:
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Results for calloutlist.003.xml</title><link rel="stylesheet" type="text/css" href="../../resources/base/css/default.css" /><script type="text/javascript" src="../../resources/base/js/dbmodnizr.js"></script><link rel="stylesheet" type="text/css" href="../../resources/base/css/prism.css" /><link rel="stylesheet" type="text/css" href="../../resources/base/css/db-prism.css" /><link href="../style/show-results.css" rel="stylesheet" type="text/css" /><meta name="deltaxml" content="true" /></head><body><h1>DocBook XSLT 2.0 Stylesheet output:
           calloutlist.003.xml</h1><table class="diffs"><tbody><tr><th>Expected (<span class="exdiff">11</span> differences)</th><th>Actual (<span class="adiff">11</span> differences)</th></tr><tr><td><pre class="show-diff"><span class="tag diff">&lt;html&gt;
    <span class="tag nodiff">&lt;head/&gt;</span>
    <span class="tag diff">&lt;body&gt;
@@ -46,8 +46,8 @@
                <span class="tag diff">&lt;div <span class="att">class="section-titlepage"</span>&gt;
                   <span class="tag diff del">&lt;h4&gt;1.1. Embedded <span class="tag">&lt;code <span class="att">class="tag-element"</span>&gt;co&lt;/code&gt;</span>s&lt;/h4&gt;</span>
                &lt;/div&gt;</span>
-               <span class="tag diff del">&lt;div <span class="att">class="programlisting"</span>&gt;
-                  <span class="tag">&lt;pre&gt;
+               <span class="tag diff">&lt;div <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;
+                  <span class="tag diff del">&lt;pre&gt;
                      <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  1&lt;/span&gt;</span>
                      <span class="tag">&lt;span <span class="att">class="linenumber-separator"</span>/&gt;</span>
                      <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  2&lt;/span&gt;</span>
@@ -277,8 +277,8 @@ also that several items in co/@linkends are correctly handled.
                &lt;/div&gt;</span>
                <span class="tag nodiff">&lt;p&gt;This case checks that spaces are added to reach the expected
 column.&lt;/p&gt;</span>
-               <span class="tag diff del">&lt;div <span class="att">class="programlisting"</span>&gt;
-                  <span class="tag">&lt;pre&gt;
+               <span class="tag diff">&lt;div <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;
+                  <span class="tag diff del">&lt;pre&gt;
                      <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  1&lt;/span&gt;</span>
                      <span class="tag">&lt;span <span class="att">class="linenumber-separator"</span>/&gt;</span>
                      <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  2&lt;/span&gt;</span>
@@ -317,8 +317,8 @@ is used
 column positions into the same line, and that several markups with no column
 specification are both put at the end of the line. The special case of a markup at
 the end of the last line is checked too.&lt;/p&gt;</span>
-               <span class="tag diff del">&lt;div <span class="att">class="programlisting"</span>&gt;
-                  <span class="tag">&lt;pre&gt;
+               <span class="tag diff">&lt;div <span class="att">class="<span class="diff">programlisting</span>"</span>&gt;
+                  <span class="tag diff del">&lt;pre&gt;
                      <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  1&lt;/span&gt;</span>
                      <span class="tag">&lt;span <span class="att">class="linenumber-separator"</span>/&gt;</span>
                      <span class="tag">&lt;span <span class="att">class="linenumber"</span>&gt;  2&lt;/span&gt;</span>
@@ -409,30 +409,61 @@ is used
                <span class="tag diff">&lt;div <span class="att">class="section-titlepage"</span>&gt;
                   <span class="tag diff add">&lt;h3&gt;1.1. Embedded <span class="tag">&lt;code <span class="att">class="tag-element"</span>&gt;co&lt;/code&gt;</span>s&lt;/h3&gt;</span>
                &lt;/div&gt;</span>
-               <span class="tag diff add">&lt;pre <span class="att">class="programlisting language-none line-numbers"</span>&gt;
-                  <span class="tag">&lt;code&gt;
+               <span class="tag diff">&lt;div <span class="att">class="<span class="diff">numbered-verbatim</span>"</span>&gt;
+                  <span class="tag diff add">&lt;table <span class="att">border="0"</span>&gt;
+                     <span class="tag">&lt;tr&gt;
+                        <span class="tag">&lt;td <span class="att">align="right"</span> <span class="att">valign="top"</span>&gt;
+                           <span class="tag">&lt;pre <span class="att">class="line-numbers"</span>&gt;
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;1&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;2&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;3&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;4&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;5&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;6&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;7&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;8&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;9&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;10&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;11&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;12&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;13&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;14&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;15&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;16&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;17&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;18&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;19&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;20&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;21&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;22&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;23&lt;/code&gt;</span>
+                           &lt;/pre&gt;</span>
+                        &lt;/td&gt;</span>
+                        <span class="tag">&lt;td <span class="att">valign="top"</span>&gt;
+                           <span class="tag">&lt;pre <span class="att">class="programlisting"</span>&gt;
+                              <span class="tag">&lt;code&gt;
   &lt;refentry&gt;
     &lt;info&gt;
       &lt;date&gt;2003-10-20&lt;/date&gt; <span class="tag">&lt;a <span class="att">class="co"</span> <span class="att">href="#V1690_date"</span> <span class="att">id="V1690_date-co"</span>&gt;
-                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="1"</span>&gt;❶&lt;/span&gt;</span>
-                     &lt;/a&gt;</span>
+                                    <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="1"</span>&gt;❶&lt;/span&gt;</span>
+                                 &lt;/a&gt;</span>
     &lt;/info&gt;
     &lt;refmeta&gt;
       &lt;refentrytitle&gt;gtk-options&lt;/refentrytitle&gt; <span class="tag">&lt;a <span class="att">class="co"</span> <span class="att">href="#V1690_title"</span> <span class="att">id="V1690_title-co"</span>&gt;
-                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="2"</span>&gt;❷&lt;/span&gt;</span>
-                     &lt;/a&gt;</span>
+                                    <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="2"</span>&gt;❷&lt;/span&gt;</span>
+                                 &lt;/a&gt;</span>
       &lt;manvolnum&gt;7&lt;/manvolnum&gt; <span class="tag">&lt;a <span class="att">class="co"</span> <span class="att">href="#V1690_manvolnum"</span> <span class="att">id="V1690_manvolnum-co"</span>&gt;
-                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="3"</span>&gt;❸&lt;/span&gt;</span>
-                     &lt;/a&gt;</span>
+                                    <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="3"</span>&gt;❸&lt;/span&gt;</span>
+                                 &lt;/a&gt;</span>
       &lt;refmiscinfo class="source-name"&gt;GTK+&lt;/refmiscinfo&gt; <span class="tag">&lt;a <span class="att">class="co"</span> <span class="att">href="#V1690_source-name"</span> <span class="att">id="V1690_source-name-co"</span>&gt;
-                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="4"</span>&gt;❹&lt;/span&gt;</span>
-                     &lt;/a&gt;</span>
+                                    <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="4"</span>&gt;❹&lt;/span&gt;</span>
+                                 &lt;/a&gt;</span>
       &lt;refmiscinfo class="version"&gt;1.2&lt;/refmiscinfo&gt; <span class="tag">&lt;a <span class="att">class="co"</span> <span class="att">href="#V1690_version"</span> <span class="att">id="V1690_version-co"</span>&gt;
-                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="5"</span>&gt;❺&lt;/span&gt;</span>
-                     &lt;/a&gt;</span>
+                                    <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="5"</span>&gt;❺&lt;/span&gt;</span>
+                                 &lt;/a&gt;</span>
       &lt;refmiscinfo class="manual"&gt;GTK+ User's Manual&lt;/refmiscinfo&gt; <span class="tag">&lt;a <span class="att">class="co"</span> <span class="att">href="#V1690_manual"</span> <span class="att">id="V1690_manual-co"</span>&gt;
-                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="6"</span>&gt;❻&lt;/span&gt;</span>
-                     &lt;/a&gt;</span>
+                                    <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="6"</span>&gt;❻&lt;/span&gt;</span>
+                                 &lt;/a&gt;</span>
     &lt;/refmeta&gt;
     &lt;refnamediv&gt;
       &lt;refname&gt;gtk-options&lt;/refname&gt;
@@ -445,7 +476,11 @@ is used
     &lt;/refsect1&gt;
   &lt;/refentry&gt;
 &lt;/code&gt;</span>
-               &lt;/pre&gt;</span>
+                           &lt;/pre&gt;</span>
+                        &lt;/td&gt;</span>
+                     &lt;/tr&gt;</span>
+                  &lt;/table&gt;</span>
+               &lt;/div&gt;</span>
                <span class="tag diff">&lt;div <span class="att">class="calloutlist"</span>&gt;
                   <span class="tag diff add">&lt;dl&gt;
                      <span class="tag">&lt;dt <span class="att">class="callout"</span> <span class="att">id="V1690_date"</span>&gt;
@@ -497,7 +532,7 @@ Another <span class="tag">&lt;code <span class="att">class="tag-element"</span>&
 first <span class="tag">&lt;code <span class="att">class="tag-element"</span>&gt;coref&lt;/code&gt;</span> is not valid, the second one is valid. It checks
 also that several items in co/@linkends are correctly handled.
 &lt;/p&gt;</span>
-               <span class="tag diff add">&lt;pre <span class="att">class="screen language-none line-numbers"</span>&gt;
+               <span class="tag diff add">&lt;pre <span class="att">class="screen"</span>&gt;
                   <span class="tag">&lt;code&gt; Volume in drive C is SYSTEM         Serial number is 2350:717C
  Directory of  C:\
 
@@ -567,8 +602,24 @@ also that several items in co/@linkends are correctly handled.
                &lt;/div&gt;</span>
                <span class="tag nodiff">&lt;p&gt;This case checks that spaces are added to reach the expected
 column.&lt;/p&gt;</span>
-               <span class="tag diff add">&lt;pre <span class="att">class="programlisting language-none"</span> <span class="att">data-line="2,4"</span>&gt;
-                  <span class="tag">&lt;code&gt;
+               <span class="tag diff">&lt;div <span class="att">class="<span class="diff">numbered-verbatim</span>"</span>&gt;
+                  <span class="tag diff add">&lt;table <span class="att">border="0"</span>&gt;
+                     <span class="tag">&lt;tr&gt;
+                        <span class="tag">&lt;td <span class="att">align="right"</span> <span class="att">valign="top"</span>&gt;
+                           <span class="tag">&lt;pre <span class="att">class="line-numbers"</span>&gt;
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;1&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;2&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;3&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;4&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;5&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;6&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;7&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;8&lt;/code&gt;</span>
+                           &lt;/pre&gt;</span>
+                        &lt;/td&gt;</span>
+                        <span class="tag">&lt;td <span class="att">valign="top"</span>&gt;
+                           <span class="tag">&lt;pre <span class="att">class="programlisting"</span>&gt;
+                              <span class="tag">&lt;code&gt;
 This is a line
 This is another line
 This is a third lien
@@ -576,12 +627,16 @@ This is a third lien
 
 ...
 &lt;/code&gt;</span>
-               &lt;/pre&gt;</span>
+                           &lt;/pre&gt;</span>
+                        &lt;/td&gt;</span>
+                     &lt;/tr&gt;</span>
+                  &lt;/table&gt;</span>
+               &lt;/div&gt;</span>
                <span class="tag diff">&lt;div <span class="att">class="calloutlist"</span>&gt;
                   <span class="tag diff add">&lt;dl&gt;
                      <span class="tag">&lt;dt <span class="att">class="callout"</span>&gt;
-                        <span class="tag">&lt;span <span class="att">class="coline"</span>&gt;2&lt;/span&gt;</span>
-                        <span class="tag">&lt;span <span class="att">class="coline"</span>&gt;4&lt;/span&gt;</span>
+                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="2"</span>&gt;❷&lt;/span&gt;</span>
+                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="4"</span>&gt;❹&lt;/span&gt;</span>
                      &lt;/dt&gt;</span>
                      <span class="tag">&lt;dd&gt;
                         <span class="tag">&lt;p&gt;
@@ -595,8 +650,24 @@ is used
 column positions into the same line, and that several markups with no column
 specification are both put at the end of the line. The special case of a markup at
 the end of the last line is checked too.&lt;/p&gt;</span>
-               <span class="tag diff add">&lt;pre <span class="att">class="programlisting language-none"</span> <span class="att">data-line="2,2,2,2,8"</span>&gt;
-                  <span class="tag">&lt;code&gt;
+               <span class="tag diff">&lt;div <span class="att">class="<span class="diff">numbered-verbatim</span>"</span>&gt;
+                  <span class="tag diff add">&lt;table <span class="att">border="0"</span>&gt;
+                     <span class="tag">&lt;tr&gt;
+                        <span class="tag">&lt;td <span class="att">align="right"</span> <span class="att">valign="top"</span>&gt;
+                           <span class="tag">&lt;pre <span class="att">class="line-numbers"</span>&gt;
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;1&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;2&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;3&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;4&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;5&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;6&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;7&lt;/code&gt;</span>
+                              <span class="tag">&lt;code <span class="att">class="line-number"</span>&gt;8&lt;/code&gt;</span>
+                           &lt;/pre&gt;</span>
+                        &lt;/td&gt;</span>
+                        <span class="tag">&lt;td <span class="att">valign="top"</span>&gt;
+                           <span class="tag">&lt;pre <span class="att">class="programlisting"</span>&gt;
+                              <span class="tag">&lt;code&gt;
 This is a line
 This is another line
 This is a third lien
@@ -604,12 +675,16 @@ This is a third lien
 
 ...
 The very last line&lt;/code&gt;</span>
-               &lt;/pre&gt;</span>
+                           &lt;/pre&gt;</span>
+                        &lt;/td&gt;</span>
+                     &lt;/tr&gt;</span>
+                  &lt;/table&gt;</span>
+               &lt;/div&gt;</span>
                <span class="tag diff">&lt;div <span class="att">class="calloutlist"</span>&gt;
                   <span class="tag diff add">&lt;dl&gt;
                      <span class="tag">&lt;dt <span class="att">class="callout"</span>&gt;
-                        <span class="tag">&lt;span <span class="att">class="coline"</span>&gt;2&lt;/span&gt;</span>
-                        <span class="tag">&lt;span <span class="att">class="coline"</span>&gt;2&lt;/span&gt;</span>
+                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="2"</span>&gt;❷&lt;/span&gt;</span>
+                        <span class="tag">&lt;span <span class="att">class="callout-bug callout-bug-unicode"</span> <span class="att">data-number="2"</span>&gt;❷&lt;/span&gt;</span>
                      &lt;/dt&gt;</span>
                      <span class="tag">&lt;dd&gt;
                         <span class="tag">&lt;p&gt;
@@ -623,9 +698,10 @@ is used
          &lt;/section&gt;</span>
       &lt;/article&gt;</span>
    &lt;/body&gt;</span>
-&lt;/html&gt;</span></pre></td></tr><tr><td colspan="2"><em>Note: The same “current” CSS styling is applied
-                  to both expected and actual results below. This may
-                  produce incorrect results in the “expected” column.</em></td></tr><tr><td><article id="R.1" class="article"><header class="article-titlepage"><h2>Unit Test: calloutlist.003</h2><div class="author"><h3><span class="personname"><span class="firstname">Benoit</span> <span class="surname">Guillon</span></span></h3></div></header><div class="toc"><p><b>Table of Contents</b></p><ul class="toc"><li><span><a href="#R.1.2">1. Callouts</a></span><ul class="toc"><li><span><a href="#R.1.2.2">1.1. Embedded <code class="tag-element">co</code>s</a></span></li><li><span><a href="#R.1.2.3">1.2. Programlistingco</a></span></li></ul></li></ul></div><section id="R.1.2" class="section"><div class="section-titlepage"><h3>1. Callouts</h3></div><section id="R.1.2.2" class="section"><div class="section-titlepage"><h4>1.1. Embedded <code class="tag-element">co</code>s</h4></div><div class="programlisting"><pre><span class="linenumber">  1</span><span class="linenumber-separator"> </span>
+&lt;/html&gt;</span></pre></td></tr><tr><td><em>The “current” CSS styling is applied
+                  to the this entire document; the results in this
+                  column may be anomalous. Also, image links are broken
+                  in this column.</em></td><td> </td></tr><tr><td><article id="R.1" class="article"><header class="article-titlepage"><h2>Unit Test: calloutlist.003</h2><div class="author"><h3><span class="personname"><span class="firstname">Benoit</span> <span class="surname">Guillon</span></span></h3></div></header><div class="toc"><p><b>Table of Contents</b></p><ul class="toc"><li><span><a href="#R.1.2">1. Callouts</a></span><ul class="toc"><li><span><a href="#R.1.2.2">1.1. Embedded <code class="tag-element">co</code>s</a></span></li><li><span><a href="#R.1.2.3">1.2. Programlistingco</a></span></li></ul></li></ul></div><section id="R.1.2" class="section"><div class="section-titlepage"><h3>1. Callouts</h3></div><section id="R.1.2.2" class="section"><div class="section-titlepage"><h4>1.1. Embedded <code class="tag-element">co</code>s</h4></div><div class="programlisting"><pre><span class="linenumber">  1</span><span class="linenumber-separator"> </span>
 <span class="linenumber">  2</span><span class="linenumber-separator"> </span>  &lt;refentry&gt;
 <span class="linenumber">   </span><span class="linenumber-separator"> </span>    &lt;info&gt;
 <span class="linenumber">  4</span><span class="linenumber-separator"> </span>      &lt;date&gt;2003-10-20&lt;/date&gt; <a href="#V1690_date" class="co" id="V1690_date-co"><img src="http://docbook.github.com/latest/img/1.png" alt="1" border="0" /></a>
@@ -695,7 +771,30 @@ the end of the last line is checked too.</p><div class="programlisting"><pre><sp
 <span class="linenumber">  8</span><span class="linenumber-separator"> </span>The very last line                                         <a name="poslast"></a><img src="http://docbook.github.com/latest/img/5.png" alt="5" border="0" /></pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr class="callout-row"><td class="callout-bug" valign="baseline" align="left"><p class="callout"><img src="http://docbook.github.com/latest/img/1.png" alt="1" border="0" /><img src="http://docbook.github.com/latest/img/2.png" alt="2" border="0" /> </p></td><td class="callout-body" valign="baseline" align="left"><p>
 here <code class="function">HermiteNormalFormIntegerMat</code>
 is used
-</p></td></tr></table></div></section></section></article></td><td><article id="R.1" class="article"><header class="article-titlepage"><h2>Unit Test: calloutlist.003</h2><div class="author"><h3><span class="personname"><span class="firstname">Benoit</span> <span class="surname">Guillon</span></span></h3></div></header><div class="toc"><p><b>Table of Contents</b></p><ul class="toc"><li><span><a href="#R.1.2">1. Callouts</a></span><ul class="toc"><li><span><a href="#R.1.2.2">1.1. Embedded <code class="tag-element">co</code>s</a></span></li><li><span><a href="#R.1.2.3">1.2. Programlistingco</a></span></li></ul></li></ul></div><section id="R.1.2" class="section"><div class="section-titlepage"><h2>1. Callouts</h2></div><section id="R.1.2.2" class="section"><div class="section-titlepage"><h3>1.1. Embedded <code class="tag-element">co</code>s</h3></div><pre class="programlisting language-none line-numbers"><code>
+</p></td></tr></table></div></section></section></article></td><td><article id="R.1" class="article"><header class="article-titlepage"><h2>Unit Test: calloutlist.003</h2><div class="author"><h3><span class="personname"><span class="firstname">Benoit</span> <span class="surname">Guillon</span></span></h3></div></header><div class="toc"><p><b>Table of Contents</b></p><ul class="toc"><li><span><a href="#R.1.2">1. Callouts</a></span><ul class="toc"><li><span><a href="#R.1.2.2">1.1. Embedded <code class="tag-element">co</code>s</a></span></li><li><span><a href="#R.1.2.3">1.2. Programlistingco</a></span></li></ul></li></ul></div><section id="R.1.2" class="section"><div class="section-titlepage"><h2>1. Callouts</h2></div><section id="R.1.2.2" class="section"><div class="section-titlepage"><h3>1.1. Embedded <code class="tag-element">co</code>s</h3></div><div class="numbered-verbatim"><table border="0"><tr><td align="right" valign="top"><pre class="line-numbers"><code class="line-number">1</code>
+<code class="line-number">2</code>
+<code class="line-number">3</code>
+<code class="line-number">4</code>
+<code class="line-number">5</code>
+<code class="line-number">6</code>
+<code class="line-number">7</code>
+<code class="line-number">8</code>
+<code class="line-number">9</code>
+<code class="line-number">10</code>
+<code class="line-number">11</code>
+<code class="line-number">12</code>
+<code class="line-number">13</code>
+<code class="line-number">14</code>
+<code class="line-number">15</code>
+<code class="line-number">16</code>
+<code class="line-number">17</code>
+<code class="line-number">18</code>
+<code class="line-number">19</code>
+<code class="line-number">20</code>
+<code class="line-number">21</code>
+<code class="line-number">22</code>
+<code class="line-number">23</code>
+</pre></td><td valign="top"><pre class="programlisting"><code>
   &lt;refentry&gt;
     &lt;info&gt;
       &lt;date&gt;2003-10-20&lt;/date&gt; <a href="#V1690_date" class="co" id="V1690_date-co"><span data-number="1" class="callout-bug callout-bug-unicode">❶</span></a>
@@ -717,11 +816,11 @@ is used
       are common to all GTK+ based applications.&lt;/para&gt;
     &lt;/refsect1&gt;
   &lt;/refentry&gt;
-</code></pre><div class="calloutlist"><dl><dt id="V1690_date" class="callout"><a href="#V1690_date-co" class="callout-link"><span data-number="1" class="callout-bug callout-bug-unicode">❶</span></a> </dt><dd><p>Sets the “<span class="quote">date</span>” part of the header/footer.</p></dd><dt id="V1690_title" class="callout"><a href="#V1690_title-co" class="callout-link"><span data-number="2" class="callout-bug callout-bug-unicode">❷</span></a> </dt><dd><p>Sets the “<span class="quote">title</span>” part.</p></dd><dt id="V1690_manvolnum" class="callout"><a href="#V1690_manvolnum-co" class="callout-link"><span data-number="3" class="callout-bug callout-bug-unicode">❸</span></a> </dt><dd><p>Sets the “<span class="quote">section</span>” part.</p></dd><dt id="V1690_source-name" class="callout"><a href="#V1690_source-name-co" class="callout-link"><span data-number="4" class="callout-bug callout-bug-unicode">❹</span></a> </dt><dd><p>Sets the “<span class="quote">source name</span>” part.</p></dd><dt id="V1690_version" class="callout"><a href="#V1690_version-co" class="callout-link"><span data-number="5" class="callout-bug callout-bug-unicode">❺</span></a> </dt><dd><p>Sets the “<span class="quote">version</span>” part.</p></dd><dt id="V1690_manual" class="callout"><a href="#V1690_manual-co" class="callout-link"><span data-number="6" class="callout-bug callout-bug-unicode">❻</span></a> </dt><dd><p>Sets the “<span class="quote">manual</span>” part.</p></dd></dl></div><p>
+</code></pre></td></tr></table></div><div class="calloutlist"><dl><dt id="V1690_date" class="callout"><a href="#V1690_date-co" class="callout-link"><span data-number="1" class="callout-bug callout-bug-unicode">❶</span></a> </dt><dd><p>Sets the “<span class="quote">date</span>” part of the header/footer.</p></dd><dt id="V1690_title" class="callout"><a href="#V1690_title-co" class="callout-link"><span data-number="2" class="callout-bug callout-bug-unicode">❷</span></a> </dt><dd><p>Sets the “<span class="quote">title</span>” part.</p></dd><dt id="V1690_manvolnum" class="callout"><a href="#V1690_manvolnum-co" class="callout-link"><span data-number="3" class="callout-bug callout-bug-unicode">❸</span></a> </dt><dd><p>Sets the “<span class="quote">section</span>” part.</p></dd><dt id="V1690_source-name" class="callout"><a href="#V1690_source-name-co" class="callout-link"><span data-number="4" class="callout-bug callout-bug-unicode">❹</span></a> </dt><dd><p>Sets the “<span class="quote">source name</span>” part.</p></dd><dt id="V1690_version" class="callout"><a href="#V1690_version-co" class="callout-link"><span data-number="5" class="callout-bug callout-bug-unicode">❺</span></a> </dt><dd><p>Sets the “<span class="quote">version</span>” part.</p></dd><dt id="V1690_manual" class="callout"><a href="#V1690_manual-co" class="callout-link"><span data-number="6" class="callout-bug callout-bug-unicode">❻</span></a> </dt><dd><p>Sets the “<span class="quote">manual</span>” part.</p></dd></dl></div><p>
 Another <code class="tag-element">screen</code> including <code class="tag-element">coref</code> too. The
 first <code class="tag-element">coref</code> is not valid, the second one is valid. It checks
 also that several items in co/@linkends are correctly handled.
-</p><pre class="screen language-none line-numbers"><code> Volume in drive C is SYSTEM         Serial number is 2350:717C
+</p><pre class="screen"><code> Volume in drive C is SYSTEM         Serial number is 2350:717C
  Directory of  C:\
 
 10/17/97   9:04         &lt;DIR&gt;    bin
@@ -744,27 +843,43 @@ also that several items in co/@linkends are correctly handled.
   Some sort of <span class="trademark">Windows 3.1™</span> hack for some 386 processors,
   as I recall.
   </p></dd></dl></div></section><section id="R.1.2.3" class="section"><div class="section-titlepage"><h3>1.2. Programlistingco</h3></div><p>This case checks that spaces are added to reach the expected
-column.</p><pre data-line="2,4" class="programlisting language-none"><code>
+column.</p><div class="numbered-verbatim"><table border="0"><tr><td align="right" valign="top"><pre class="line-numbers"><code class="line-number">1</code>
+<code class="line-number">2</code>
+<code class="line-number">3</code>
+<code class="line-number">4</code>
+<code class="line-number">5</code>
+<code class="line-number">6</code>
+<code class="line-number">7</code>
+<code class="line-number">8</code>
+</pre></td><td valign="top"><pre class="programlisting"><code>
 This is a line
 This is another line
 This is a third lien
 
 
 ...
-</code></pre><div class="calloutlist"><dl><dt class="callout"><span class="coline">2</span><span class="coline">4</span></dt><dd><p>
+</code></pre></td></tr></table></div><div class="calloutlist"><dl><dt class="callout"><span data-number="2" class="callout-bug callout-bug-unicode">❷</span><span data-number="4" class="callout-bug callout-bug-unicode">❹</span></dt><dd><p>
 here <code class="function">HermiteNormalFormIntegerMat</code>
 is used
 </p></dd></dl></div><p>This programlistingco checks that you can put several markups at different
 column positions into the same line, and that several markups with no column
 specification are both put at the end of the line. The special case of a markup at
-the end of the last line is checked too.</p><pre data-line="2,2,2,2,8" class="programlisting language-none"><code>
+the end of the last line is checked too.</p><div class="numbered-verbatim"><table border="0"><tr><td align="right" valign="top"><pre class="line-numbers"><code class="line-number">1</code>
+<code class="line-number">2</code>
+<code class="line-number">3</code>
+<code class="line-number">4</code>
+<code class="line-number">5</code>
+<code class="line-number">6</code>
+<code class="line-number">7</code>
+<code class="line-number">8</code>
+</pre></td><td valign="top"><pre class="programlisting"><code>
 This is a line
 This is another line
 This is a third lien
 
 
 ...
-The very last line</code></pre><div class="calloutlist"><dl><dt class="callout"><span class="coline">2</span><span class="coline">2</span></dt><dd><p>
+The very last line</code></pre></td></tr></table></div><div class="calloutlist"><dl><dt class="callout"><span data-number="2" class="callout-bug callout-bug-unicode">❷</span><span data-number="2" class="callout-bug callout-bug-unicode">❷</span></dt><dd><p>
 here <code class="function">HermiteNormalFormIntegerMat</code>
 is used
-</p></dd></dl></div></section></section></article><script src="../../resources/base/js/prism.js"></script></td></tr></tbody></table><h2>XML source</h2><pre data-src="../src/calloutlist.003.xml"></pre></body><script type="text/javascript" src="../../resources/base/js/prism.js"></script></html>
+</p></dd></dl></div></section></section></article></td></tr></tbody></table><h2>XML source</h2><pre data-src="../src/calloutlist.003.xml"></pre></body><script type="text/javascript" src="../../resources/base/js/prism.js"></script></html>

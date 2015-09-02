@@ -5,8 +5,8 @@
          <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Article wrapper</h2>
          </header>
-         <div deltaxml:deltaV2="A" class="programlisting">
-            <pre>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <pre deltaxml:deltaV2="A">
                <span class="linenumber">  1</span>
                <span class="linenumber-separator"/>#!/usr/bin/perl -- # --*-Perl-*--
 <span class="linenumber">  2</span>
@@ -36,9 +36,30 @@
 <span class="linenumber"> 14</span>
                <span class="linenumber-separator"/>$opt = '-p' if $opt_p;
 <span class="linenumber"/>
-               <span class="linenumber-separator"/>$opt = '-m' if $opt_m;</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
-            <code>#!/usr/bin/perl -- # --*-Perl-*--
+               <span class="linenumber-separator"/>$opt = '-m' if $opt_m;</pre><table deltaxml:deltaV2="B" border="0">
+               <tr>
+                  <td align="right" valign="top">
+                     <pre class="line-numbers">
+                        <code class="line-number">1</code>
+                        <code class="line-number">2</code>
+                        <code class="line-number">3</code>
+                        <code class="line-number">4</code>
+                        <code class="line-number">5</code>
+                        <code class="line-number">6</code>
+                        <code class="line-number">7</code>
+                        <code class="line-number">8</code>
+                        <code class="line-number">9</code>
+                        <code class="line-number">10</code>
+                        <code class="line-number">11</code>
+                        <code class="line-number">12</code>
+                        <code class="line-number">13</code>
+                        <code class="line-number">14</code>
+                        <code class="line-number">15</code>
+                     </pre>
+                  </td>
+                  <td valign="top">
+                     <pre class="programlisting">
+                        <code>#!/usr/bin/perl -- # --*-Perl-*--
 
 use Getopt::Std;
 
@@ -53,12 +74,16 @@ $file = shift @ARGV || die $usage;
 $opt = '-u' if $opt_u;
 $opt = '-p' if $opt_p;
 $opt = '-m' if $opt_m;</code>
-         </pre>
+                     </pre>
+                  </td>
+               </tr>
+            </table>
+         </div>
          <p deltaxml:deltaV2="A=B">This paragraph interrupts the listing. The line numbering
 continues in the following listing.
 </p>
-         <div deltaxml:deltaV2="A" class="programlisting">
-            <pre>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <pre deltaxml:deltaV2="A">
                <span class="linenumber"> 16</span>
                <span class="linenumber-separator"/>while ($file) {
 <span class="linenumber"/>
@@ -104,9 +129,38 @@ continues in the following listing.
                <span class="linenumber"/>
                <span class="linenumber-separator"/>    $file = shift @ARGV;
 <span class="linenumber"> 38</span>
-               <span class="linenumber-separator"/>}</pre>
-         </div><pre deltaxml:deltaV2="B" data-start="16" class="programlisting language-none line-numbers">
-            <code>while ($file) {
+               <span class="linenumber-separator"/>}</pre><table deltaxml:deltaV2="B" border="0">
+               <tr>
+                  <td align="right" valign="top">
+                     <pre class="line-numbers">
+                        <code class="line-number">16</code>
+                        <code class="line-number">17</code>
+                        <code class="line-number">18</code>
+                        <code class="line-number">19</code>
+                        <code class="line-number">20</code>
+                        <code class="line-number">21</code>
+                        <code class="line-number">22</code>
+                        <code class="line-number">23</code>
+                        <code class="line-number">24</code>
+                        <code class="line-number">25</code>
+                        <code class="line-number">26</code>
+                        <code class="line-number">27</code>
+                        <code class="line-number">28</code>
+                        <code class="line-number">29</code>
+                        <code class="line-number">30</code>
+                        <code class="line-number">31</code>
+                        <code class="line-number">32</code>
+                        <code class="line-number">33</code>
+                        <code class="line-number">34</code>
+                        <code class="line-number">35</code>
+                        <code class="line-number">36</code>
+                        <code class="line-number">37</code>
+                        <code class="line-number">38</code>
+                     </pre>
+                  </td>
+                  <td valign="top">
+                     <pre class="programlisting">
+                        <code>while ($file) {
     print "Converting $file to $opt linebreaks.\n" if !$opt_q;
     open (F, "$file");
     binmode F;
@@ -129,7 +183,11 @@ continues in the following listing.
 
     $file = shift @ARGV;
 }</code>
-         </pre>
+                     </pre>
+                  </td>
+               </tr>
+            </table>
+         </div>
       </article>
    </body>
 </html>

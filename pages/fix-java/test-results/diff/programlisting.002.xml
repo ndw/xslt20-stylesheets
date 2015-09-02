@@ -5,8 +5,8 @@
          <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Article wrapper</h2>
          </header>
-         <div deltaxml:deltaV2="A" class="programlisting">
-            <pre>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <pre deltaxml:deltaV2="A">
                <span class="linenumber">  1</span>
                <span class="linenumber-separator"/>&lt;article xmlns="http://docbook.org/ns/docbook" version="5.0"&gt;
 <span class="linenumber">  2</span>
@@ -26,9 +26,26 @@
 <span class="linenumber"/>
                <span class="linenumber-separator"/>
                <span class="linenumber"> 10</span>
-               <span class="linenumber-separator"/>&lt;/article&gt;</pre>
-         </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
-            <code>&lt;article xmlns="http://docbook.org/ns/docbook" version="5.0"&gt;
+               <span class="linenumber-separator"/>&lt;/article&gt;</pre><table deltaxml:deltaV2="B" border="0">
+               <tr>
+                  <td align="right" valign="top">
+                     <pre class="line-numbers">
+                        <code class="line-number">1</code>
+                        <code class="line-number">2</code>
+                        <code class="line-number">3</code>
+                        <code class="line-number">4</code>
+                        <code class="line-number">5</code>
+                        <code class="line-number">6</code>
+                        <code class="line-number">7</code>
+                        <code class="line-number">8</code>
+                        <code class="line-number">9</code>
+                        <code class="line-number">10</code>
+                        <code class="line-number">11</code>
+                     </pre>
+                  </td>
+                  <td valign="top">
+                     <pre class="programlisting">
+                        <code>&lt;article xmlns="http://docbook.org/ns/docbook" version="5.0"&gt;
 &lt;title&gt;Article wrapper&lt;/title&gt;
 
 &lt;programlisting&gt;&lt;inlinemediaobject&gt;
@@ -39,7 +56,11 @@
 
 &lt;/article&gt;
 </code>
-         </pre>
+                     </pre>
+                  </td>
+               </tr>
+            </table>
+         </div>
       </article>
    </body>
 </html>

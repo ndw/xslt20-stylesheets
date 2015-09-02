@@ -1,7 +1,7 @@
 <html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
    <head deltaxml:deltaV2="A=B"/>
    <body deltaxml:deltaV2="A!=B">
-      <article deltaxml:deltaV2="A!=B" class="bibliography">
+      <article deltaxml:deltaV2="A!=B" class="bibliography"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:id deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">R.1</deltaxml:attributeValue></dxa:id></deltaxml:attributes>
          <header deltaxml:deltaV2="A=B" class="bibliography-titlepage">
             <h2>Unit Test: bibliography.001</h2>
          </header>
@@ -98,7 +98,7 @@
                </deltaxml:text></deltaxml:textGroup></span>
             </p>
          </div>
-         <div deltaxml:deltaV2="A!=B" id="Walsh96" class="bibliomixed">
+         <div deltaxml:deltaV2="A!=B" class="bibliomixed" id="Walsh96">
             <p deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="B"><dxa:class deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">bibliomixed</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">[Walsh96] 
   </deltaxml:text></deltaxml:textGroup><span deltaxml:deltaV2="A" class="bibliomset">
                   <span class="personname">

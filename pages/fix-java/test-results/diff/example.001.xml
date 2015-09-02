@@ -8,14 +8,27 @@
          <figure deltaxml:deltaV2="A!=B" id="R.1.2" class="example-wrapper">
             <div deltaxml:deltaV2="A=B" class="title">Example 1. An Example</div>
             <div deltaxml:deltaV2="A!=B" class="example">
-               <div deltaxml:deltaV2="A" class="programlisting">
-                  <pre>
-This is a programlisting in an example.</pre>
-               </div><pre deltaxml:deltaV2="B" class="programlisting language-none line-numbers">
-                  <code>
+               <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">programlisting</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">numbered-verbatim</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+                  <pre deltaxml:deltaV2="A">
+This is a programlisting in an example.</pre><table deltaxml:deltaV2="B" border="0">
+                     <tr>
+                        <td align="right" valign="top">
+                           <pre class="line-numbers">
+                              <code class="line-number">1</code>
+                              <code class="line-number">2</code>
+                              <code class="line-number">3</code>
+                           </pre>
+                        </td>
+                        <td valign="top">
+                           <pre class="programlisting">
+                              <code>
 This is a programlisting in an example.
 </code>
-               </pre>
+                           </pre>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
             </div>
          </figure>
       </article>
