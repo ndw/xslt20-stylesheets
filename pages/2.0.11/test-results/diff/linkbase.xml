@@ -1,0 +1,21 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A!=B">
+      <link deltaxml:deltaV2="A=B" href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
+      <link deltaxml:deltaV2="A=B" rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
+      <link deltaxml:deltaV2="A=B" href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
+      <link deltaxml:deltaV2="A!=B" type="text/css" rel="stylesheet"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:href deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/start/jquery-ui.css</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/start/jquery-ui.css</deltaxml:attributeValue></dxa:href></deltaxml:attributes></link>
+      <meta deltaxml:deltaV2="A=B" charset="utf-8"/>
+      <meta deltaxml:deltaV2="A=B" name="generator" content="DocBook XSL 2.0 Stylesheets Vxxx"/>
+      <script deltaxml:deltaV2="A=B" type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
+      <script deltaxml:deltaV2="A" type="text/javascript" src="../../resources/js/nhrefs.js"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+      </deltaxml:text></deltaxml:textGroup><script deltaxml:deltaV2="A" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+      </deltaxml:text></deltaxml:textGroup><script deltaxml:deltaV2="A" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"/><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+      </deltaxml:text></deltaxml:textGroup><title deltaxml:deltaV2="A=B">???</title>
+   </head>
+   <body deltaxml:deltaV2="A!=B">
+      <script deltaxml:deltaV2="B" type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"/><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+      </deltaxml:text></deltaxml:textGroup><script deltaxml:deltaV2="B" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"/><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+      </deltaxml:text></deltaxml:textGroup><script deltaxml:deltaV2="B" type="text/javascript" src="../../resources/js/nhrefs.js"/><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+      </deltaxml:text></deltaxml:textGroup><script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+   </body>
+</html>

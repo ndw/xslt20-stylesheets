@@ -1,0 +1,80 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
+      <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
+      <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
+      <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
+      <meta charset="utf-8"/>
+      <meta name="generator" content="DocBook XSL 2.0 Stylesheets Vxxx"/>
+      <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
+      <title>Article wrapper</title>
+   </head>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <p deltaxml:deltaV2="A=B">This article tests admonitions.</p>
+         <div deltaxml:deltaV2="A!=B" class="tip admonition">
+            <h3 deltaxml:deltaV2="A=B">Tip</h3>
+            <p deltaxml:deltaV2="A">This tip has no title.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This tip has no title.</p>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="note admonition">
+            <h3 deltaxml:deltaV2="A=B">Note</h3>
+            <p deltaxml:deltaV2="A">This note has no title.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This note has no title.</p>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="important admonition">
+            <h3 deltaxml:deltaV2="A=B">Important</h3>
+            <p deltaxml:deltaV2="A">This important has no title.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This important has no title.</p>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="warning admonition">
+            <h3 deltaxml:deltaV2="A=B">Warning</h3>
+            <p deltaxml:deltaV2="A">This warning has no title.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This warning has no title.</p>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="caution admonition">
+            <h3 deltaxml:deltaV2="A=B">Caution</h3>
+            <p deltaxml:deltaV2="A">This caution has no title.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This caution has no title.</p>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="tip admonition">
+            <h3 deltaxml:deltaV2="A=B">Tip Title</h3>
+            <p deltaxml:deltaV2="A">This is a tip.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This is a tip.</p>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="note admonition">
+            <h3 deltaxml:deltaV2="A=B">Note Title</h3>
+            <p deltaxml:deltaV2="A">This is a note.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This is a note.</p>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="important admonition">
+            <h3 deltaxml:deltaV2="A=B">Important Title</h3>
+            <p deltaxml:deltaV2="A">This is an important.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This is an important.</p>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="warning admonition">
+            <h3 deltaxml:deltaV2="A=B">Warning Title</h3>
+            <p deltaxml:deltaV2="A">This is a warning.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This is a warning.</p>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="caution admonition">
+            <h3 deltaxml:deltaV2="A=B">Caution Title</h3>
+            <p deltaxml:deltaV2="A">This is a caution.</p><div deltaxml:deltaV2="B" class="admonition-body">
+               <p>This is a caution.</p>
+            </div>
+         </div>
+      </article>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+   </body>
+</html>
