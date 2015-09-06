@@ -1,0 +1,53 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A!=B">
+      <link deltaxml:deltaV2="A=B" href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
+      <link deltaxml:deltaV2="A=B" rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
+      <link deltaxml:deltaV2="A=B" href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
+      <meta deltaxml:deltaV2="A=B" charset="utf-8"/>
+      <meta deltaxml:deltaV2="A=B" name="generator" content="DocBook XSL 2.0 Stylesheets Vxxx"/>
+      <script deltaxml:deltaV2="A=B" type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
+      <style deltaxml:deltaV2="A" type="text/css">
+body { background-image: url('../../resources/base/img/draft.svg');
+       background-repeat: no-repeat;
+       background-position: center center;
+       /* The following property make the watermark "fixed" on the page. */
+       /* I think that's just a bit too distracting for the reader... */
+       /* background-attachment: fixed; */
+     }
+</style><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+      </deltaxml:text></deltaxml:textGroup><title deltaxml:deltaV2="A=B">Unit Test: article.002.xml</title>
+   </head>
+   <body deltaxml:deltaV2="A=B" class="draft">
+      <article id="article" class="article">
+         <header class="article-titlepage">
+            <h2>Unit Test: article.002.xml</h2>
+            <div class="authorgroup">
+               <div class="author">
+                  <h3>
+                     <span class="personname">
+                        <span class="firstname">Norman</span>
+                        <span class="surname">Walsh</span>
+                     </span>
+                  </h3>
+               </div>
+               <div class="author">
+                  <h3>
+                     <span class="personname">
+                        <span class="firstname">Jane</span>
+                        <span class="surname">Doe</span>
+                     </span>
+                  </h3>
+               </div>
+            </div>
+            <div class="abstract">
+               <p>This is the abstract.</p>
+               <p>It has several paras.</p>
+               <p>It has several paras.</p>
+            </div>
+         </header>
+         <p>This is an article tests.</p>
+         <p>I'd like to thank all the tests that came before me.</p>
+      </article>
+      <script src="../../resources/js/prism.js"/>
+   </body>
+</html>

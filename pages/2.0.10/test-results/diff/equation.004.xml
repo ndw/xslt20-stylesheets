@@ -1,0 +1,54 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:p0="http://www.w3.org/1998/Math/MathML" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head>
+      <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
+      <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
+      <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
+      <meta charset="utf-8"/>
+      <meta name="generator" content="DocBook XSL 2.0 Stylesheets Vxxx"/>
+      <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
+      <title>MathML Equations</title>
+   </head>
+   <body>
+      <article id="R.1" class="article">
+         <header class="article-titlepage">
+            <h2>MathML Equations</h2>
+         </header>
+         <figure id="R.1.2" class="equation-wrapper">
+            <div class="equation">
+               <p0:math display="block">
+                  <p0:mrow>
+                     <p0:mi>x</p0:mi>
+                     <p0:mo>=</p0:mo>
+                     <p0:mfrac>
+                        <p0:mrow>
+                           <p0:mo form="prefix">−</p0:mo>
+                           <p0:mi>b</p0:mi>
+                           <p0:mo>±</p0:mo>
+                           <p0:msqrt>
+                              <p0:msup>
+                                 <p0:mi>b</p0:mi>
+                                 <p0:mn>2</p0:mn>
+                              </p0:msup>
+                              <p0:mo>−</p0:mo>
+                              <p0:mn>4</p0:mn>
+                              <p0:mo>⁢</p0:mo>
+                              <p0:mi>a</p0:mi>
+                              <p0:mo>⁢</p0:mo>
+                              <p0:mi>c</p0:mi>
+                           </p0:msqrt>
+                        </p0:mrow>
+                        <p0:mrow>
+                           <p0:mn>2</p0:mn>
+                           <p0:mo>⁢</p0:mo>
+                           <p0:mi>a</p0:mi>
+                        </p0:mrow>
+                     </p0:mfrac>
+                  </p0:mrow>
+               </p0:math>
+            </div>
+            <div class="title">Equation 1. Quadratic formula</div>
+         </figure>
+      </article>
+      <script src="../../resources/js/prism.js"/>
+   </body>
+</html>
