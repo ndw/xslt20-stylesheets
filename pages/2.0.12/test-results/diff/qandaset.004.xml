@@ -1,0 +1,69 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
+      <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
+      <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
+      <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
+      <meta charset="utf-8"/>
+      <meta name="generator" content="DocBook XSL 2.0 Stylesheets Vxxx"/>
+      <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
+      <title>Unit Test: qandaset.004</title>
+   </head>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Unit Test: qandaset.004</h2>
+            <div class="author">
+               <h3>
+                  <span class="personname">
+                     <span class="firstname">Stephane</span>
+                     <span class="surname">Bortzmeyer</span>
+                  </span>
+               </h3>
+            </div>
+         </header>
+         <div deltaxml:deltaV2="A!=B" class="qandaset">
+            <h2 deltaxml:deltaV2="A=B">Exercices</h2>
+            <div deltaxml:deltaV2="A!=B" class="qandadiv">
+               <h3 deltaxml:deltaV2="A=B">First test</h3>
+               <table deltaxml:deltaV2="A!=B" summary="Q&amp;A Set" border="0" class="qandaentries">
+                  <tr deltaxml:deltaV2="A=B" id="R.1.2.2.2" class="qandaentry">
+                     <td align="left" valign="top" id="R.1.2.2.2.1" class="question-label">1.1.</td>
+                     <td align="left" valign="top" class="question">
+                        <p>Do something.</p>
+                     </td>
+                  </tr>
+                  <tr deltaxml:deltaV2="A!=B" class="qandaentry" id="R.1.2.2.2">
+                     <td deltaxml:deltaV2="A=B" align="left" valign="top" id="R.1.2.2.2.2" class="answer-label"/>
+                     <td deltaxml:deltaV2="A!=B" valign="top" align="left" class="answer">
+                        <p deltaxml:deltaV2="A!=B">It is possible<sup deltaxml:deltaV2="A!=B" class="footnote">
+                              <span deltaxml:deltaV2="A=B" class="osq">[</span>
+                              <a deltaxml:deltaV2="A!=B" href="#ftn.R.1.2.2.2.2.1.1"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:name deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.2.2.2.1.1</deltaxml:attributeValue></dxa:name><dxa:id deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.2.2.2.1.1</deltaxml:attributeValue></dxa:id></deltaxml:attributes>1</a>
+                              <span deltaxml:deltaV2="A=B" class="csq">]</span>
+                           </sup>to solve the problem?</p>
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div deltaxml:deltaV2="A!=B" class="footnotes">
+            <hr deltaxml:deltaV2="A=B" width="100" align="left" class="footnotes-divider"/>
+            <div deltaxml:deltaV2="A!=B" class="footnote">
+               <div deltaxml:deltaV2="A!=B" class="footnote-wrapper">
+                  <div deltaxml:deltaV2="A!=B" class="footnote-symbol-wrapper">
+                     <p deltaxml:deltaV2="A!=B">
+                        <sup deltaxml:deltaV2="A!=B">
+                           <span deltaxml:deltaV2="A=B" class="osq">[</span>
+                           <a deltaxml:deltaV2="A!=B" href="#R.1.2.2.2.2.1.1"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:name deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">ftn.R.1.2.2.2.2.1.1</deltaxml:attributeValue></dxa:name><dxa:id deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">ftn.R.1.2.2.2.2.1.1</deltaxml:attributeValue></dxa:id></deltaxml:attributes>1</a>
+                           <span deltaxml:deltaV2="A=B" class="csq">]</span>
+                        </sup> </p>
+                  </div>
+                  <div deltaxml:deltaV2="A=B" class="footnote-body-wrapper">
+                     <p>May be.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </article>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+   </body>
+</html>

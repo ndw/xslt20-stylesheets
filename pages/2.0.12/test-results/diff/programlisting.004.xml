@@ -1,0 +1,61 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
+      <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
+      <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
+      <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
+      <meta charset="utf-8"/>
+      <meta name="generator" content="DocBook XSL 2.0 Stylesheets Vxxx"/>
+      <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
+      <title>Unit Test: programlisting.004</title>
+   </head>
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+            <h2>Unit Test: programlisting.004</h2>
+            <div class="author">
+               <h3>
+                  <span class="personname">
+                     <span class="firstname">Stéphane</span>
+                     <span class="surname">Bortzmeyer</span>
+                  </span>
+               </h3>
+            </div>
+         </header>
+         <p deltaxml:deltaV2="A=B">Testing footnote within programlisting. Please try with
+footnotes as end notes, and footnotes at bottom of page
+(<em class="parameter">
+               <code>bop-footnotes</code>
+            </em> in DSSSL).</p>
+         <pre deltaxml:deltaV2="A!=B" class="programlisting language-none line-numbers">
+            <code deltaxml:deltaV2="A!=B">      hostname RTA
+      router ospf
+          ospf router-id 192.134.7.241	<sup deltaxml:deltaV2="A!=B" class="footnote">
+                  <span deltaxml:deltaV2="A=B" class="osq">[</span>
+                  <a deltaxml:deltaV2="A!=B" href="#ftn.R.1.3.1"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:name deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.3.1</deltaxml:attributeValue></dxa:name><dxa:id deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.3.1</deltaxml:attributeValue></dxa:id></deltaxml:attributes>1</a>
+                  <span deltaxml:deltaV2="A=B" class="csq">]</span>
+               </sup>
+          network 192.134.7.0/24 area 0</code>
+         </pre>
+         <div deltaxml:deltaV2="A!=B" class="footnotes">
+            <hr deltaxml:deltaV2="A=B" width="100" align="left" class="footnotes-divider"/>
+            <div deltaxml:deltaV2="A!=B" class="footnote">
+               <div deltaxml:deltaV2="A!=B" class="footnote-wrapper">
+                  <div deltaxml:deltaV2="A!=B" class="footnote-symbol-wrapper">
+                     <p deltaxml:deltaV2="A!=B">
+                        <sup deltaxml:deltaV2="A!=B">
+                           <span deltaxml:deltaV2="A=B" class="osq">[</span>
+                           <a deltaxml:deltaV2="A!=B" href="#R.1.3.1"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:name deltaxml:deltaV2="A"><deltaxml:attributeValue deltaxml:deltaV2="A">ftn.R.1.3.1</deltaxml:attributeValue></dxa:name><dxa:id deltaxml:deltaV2="B"><deltaxml:attributeValue deltaxml:deltaV2="B">ftn.R.1.3.1</deltaxml:attributeValue></dxa:id></deltaxml:attributes>1</a>
+                           <span deltaxml:deltaV2="A=B" class="csq">]</span>
+                        </sup> </p>
+                  </div>
+                  <div deltaxml:deltaV2="A=B" class="footnote-body-wrapper">
+                     <p>It is not
+necessary to set the router ID.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </article>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+   </body>
+</html>
