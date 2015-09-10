@@ -1,6 +1,0 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dbp="http://docbook.github.com/ns/pipeline" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" xmlns:exf="http://exproc.org/standard/functions" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head deltaxml:deltaV2="A=B"/>
-   <body deltaxml:deltaV2="A!=B"><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-      </deltaxml:text></deltaxml:textGroup><p deltaxml:deltaV2="A">No expected result exists.</p><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-   </deltaxml:text></deltaxml:textGroup></body>
-</html>
