@@ -1,0 +1,34 @@
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head>
+      <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
+      <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
+      <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
+      <meta charset="utf-8"/>
+      <meta name="generator" content="DocBook XSL 2.0 Stylesheets Vxxx"/>
+      <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
+      <title>Article wrapper</title>
+   </head>
+   <body>
+      <article id="R.1" class="article">
+         <header class="article-titlepage">
+            <h2>Article wrapper</h2>
+         </header>
+         <p>Testing <code class="tag-element">uri</code>.</p>
+         <div class="itemizedlist">
+            <ul>
+               <li>
+                  <p>
+                     <code class="uri">uri</code>
+                  </p>
+               </li>
+               <li>
+                  <p>
+                     <code class="uri">uri type=sometype</code>
+                  </p>
+               </li>
+            </ul>
+         </div>
+      </article>
+      <script src="../../resources/js/prism.js"/>
+   </body>
+</html>
