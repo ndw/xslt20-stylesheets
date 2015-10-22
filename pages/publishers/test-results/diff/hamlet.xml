@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head>
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -9,16 +9,162 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>The Tragedy of Hamlet, Prince of Denmark</title>
    </head>
-   <body>
-      <article id="R.1" class="book">
-         <header class="book-titlepage">
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="book">
+         <header deltaxml:deltaV2="A=B" class="book-titlepage">
             <h1>The Tragedy of Hamlet, Prince of Denmark</h1>
          </header>
-         <div class="toc">
-            <p>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <p deltaxml:deltaV2="A">
                <b>Table of Contents</b>
-            </p>
-            <ul class="toc">
+            </p><div deltaxml:deltaV2="B" class="toc">
+               <p>
+                  <b>Table of Contents</b>
+               </p>
+               <ul class="toc">
+                  <li>
+                     <span>
+                        <a href="#R.1.2">1. Dramatis Personae</a>
+                     </span>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.3">1. ACT I</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.3.2">1. SCENE I.  Elsinore. A platform before the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.3">2. SCENE II.  A room of state in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.4">3. SCENE III.  A room in Polonius' house.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.5">4. SCENE IV.  The platform.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.6">5. SCENE V.  Another part of the platform.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.4">2. ACT II</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.4.2">1. SCENE I.  A room in POLONIUS' house.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.3">2. SCENE II.  A room in the castle.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.5">3. ACT III</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.5.2">1. SCENE I.  A room in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.3">2. SCENE II.  A hall in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.4">3. SCENE III.  A room in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.5">4. SCENE IV.  The Queen's closet.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.6">4. ACT IV</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.6.2">1. SCENE I.  A room in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.3">2. SCENE II.  Another room in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.4">3. SCENE III.  Another room in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.5">4. SCENE IV.  A plain in Denmark.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.6">5. SCENE V.  Elsinore. A room in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.7">6. SCENE VI.  Another room in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.8">7. SCENE VII.  Another room in the castle.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.7">5. ACT V</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.7.2">1. SCENE I.  A churchyard.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.7.3">2. SCENE II.  A hall in the castle.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                <li>
                   <span>
                      <a href="#R.1.2">1. Dramatis Personae</a>
@@ -161,7 +307,7 @@
                </li>
             </ul>
          </div>
-         <article id="R.1.2" class="preface">
+         <article deltaxml:deltaV2="A=B" id="R.1.2" class="preface">
             <header class="preface-titlepage">
                <h2>Dramatis Personae</h2>
             </header>
@@ -253,15 +399,46 @@
             </p>
             <p>SCENE  Denmark.</p>
          </article>
-         <article id="R.1.3" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" id="R.1.3" class="chapter">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 1. ACT I</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.3.2">1. SCENE I.  Elsinore. A platform before the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.3">2. SCENE II.  A room of state in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.4">3. SCENE III.  A room in Polonius' house.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.5">4. SCENE IV.  The platform.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.6">5. SCENE V.  Another part of the platform.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.3.2">1. SCENE I.  Elsinore. A platform before the castle.</a>
@@ -289,7 +466,7 @@
                   </li>
                </ul>
             </div>
-            <section id="R.1.3.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Elsinore. A platform before the castle.</h2>
                </div>
@@ -792,7 +969,7 @@
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  A room of state in the castle.</h2>
                </div>
@@ -1460,7 +1637,7 @@ and Attendants</p>
                </div>
                <p>Exit</p>
             </section>
-            <section id="R.1.3.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  A room in Polonius' house.</h2>
                </div>
@@ -1734,7 +1911,7 @@ and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  The platform.</h2>
                </div>
@@ -1991,7 +2168,7 @@ and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.6" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  Another part of the platform.</h2>
                </div>
@@ -2533,15 +2710,31 @@ and Attendants</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article id="R.1.4" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.4">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 2. ACT II</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.4.2">1. SCENE I.  A room in POLONIUS' house.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.3">2. SCENE II.  A room in the castle.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.4.2">1. SCENE I.  A room in POLONIUS' house.</a>
@@ -2554,7 +2747,7 @@ and Attendants</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.4.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  A room in POLONIUS' house.</h2>
                </div>
@@ -2879,7 +3072,7 @@ and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.4.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  A room in the castle.</h2>
                </div>
@@ -4355,15 +4548,41 @@ Attendants</p>
                <p>Exit</p>
             </section>
          </article>
-         <article id="R.1.5" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" id="R.1.5" class="chapter">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 3. ACT III</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.5.2">1. SCENE I.  A room in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.3">2. SCENE II.  A hall in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.4">3. SCENE III.  A room in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.5">4. SCENE IV.  The Queen's closet.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.5.2">1. SCENE I.  A room in the castle.</a>
@@ -4386,7 +4605,7 @@ Attendants</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.5.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  A room in the castle.</h2>
                </div>
@@ -4829,7 +5048,7 @@ OPHELIA, ROSENCRANTZ, and GUILDENSTERN</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  A hall in the castle.</h2>
                </div>
@@ -5968,7 +6187,7 @@ in the end accepts his love</p>
                </div>
                <p>Exit</p>
             </section>
-            <section id="R.1.5.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  A room in the castle.</h2>
                </div>
@@ -6129,7 +6348,7 @@ in the end accepts his love</p>
                </div>
                <p>Exit</p>
             </section>
-            <section id="R.1.5.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  The Queen's closet.</h2>
                </div>
@@ -6664,15 +6883,56 @@ in the end accepts his love</p>
                <p>Exeunt severally; HAMLET dragging in POLONIUS</p>
             </section>
          </article>
-         <article id="R.1.6" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" id="R.1.6" class="chapter">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 4. ACT IV</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.6.2">1. SCENE I.  A room in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.3">2. SCENE II.  Another room in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.4">3. SCENE III.  Another room in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.5">4. SCENE IV.  A plain in Denmark.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.6">5. SCENE V.  Elsinore. A room in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.7">6. SCENE VI.  Another room in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.8">7. SCENE VII.  Another room in the castle.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.6.2">1. SCENE I.  A room in the castle.</a>
@@ -6710,7 +6970,7 @@ in the end accepts his love</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.6.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  A room in the castle.</h2>
                </div>
@@ -6802,7 +7062,7 @@ and GUILDENSTERN</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Another room in the castle.</h2>
                </div>
@@ -6927,7 +7187,7 @@ and GUILDENSTERN</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  Another room in the castle.</h2>
                </div>
@@ -7148,7 +7408,7 @@ and GUILDENSTERN</p>
                </div>
                <p>Exit</p>
             </section>
-            <section id="R.1.6.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  A plain in Denmark.</h2>
                </div>
@@ -7312,7 +7572,7 @@ and GUILDENSTERN</p>
                </div>
                <p>Exit</p>
             </section>
-            <section id="R.1.6.6" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  Elsinore. A room in the castle.</h2>
                </div>
@@ -7902,7 +8162,7 @@ and GUILDENSTERN</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.7" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  Another room in the castle.</h2>
                </div>
@@ -7980,7 +8240,7 @@ and GUILDENSTERN</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.8" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VII.  Another room in the castle.</h2>
                </div>
@@ -8404,15 +8664,31 @@ and GUILDENSTERN</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article id="R.1.7" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.7">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 5. ACT V</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.7.2">1. SCENE I.  A churchyard.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.7.3">2. SCENE II.  A hall in the castle.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.7.2">1. SCENE I.  A churchyard.</a>
@@ -8425,7 +8701,7 @@ and GUILDENSTERN</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.7.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  A churchyard.</h2>
                </div>
@@ -9312,7 +9588,7 @@ CLAUDIUS, QUEEN GERTRUDE, their trains, &amp;c</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.7.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  A hall in the castle.</h2>
                </div>
@@ -10508,6 +10784,6 @@ bodies; after which a peal of ordnance is shot off</p>
             </section>
          </article>
       </article>
-      <script src="../../resources/js/prism.js"/>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
    </body>
 </html>

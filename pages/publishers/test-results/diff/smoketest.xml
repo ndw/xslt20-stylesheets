@@ -14,7 +14,7 @@
             <h2>Smoke test</h2>
          </header>
          <div deltaxml:deltaV2="A!=B" id="book.2" class="mediaobject" title="The “1” callout scaled 325%">
-            <img deltaxml:deltaV2="A!=B" src="http://docbook.github.com/latest/img/1.png" alt="The “1” callout scaled 325%"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:width deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">39</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">1755</deltaxml:attributeValue></dxa:width></deltaxml:attributes></img>
+            <img deltaxml:deltaV2="A!=B" width="39" alt="The “1” callout scaled 325%"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:src deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">http://docbook.github.com/latest/img/1.png</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">http://docbook.github.com/latest/resources/img/1.png</deltaxml:attributeValue></dxa:src></deltaxml:attributes></img>
          </div>
       </article>
       <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>

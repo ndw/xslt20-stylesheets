@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head>
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -9,16 +9,202 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>The Tragedy of Macbeth</title>
    </head>
-   <body>
-      <article id="R.1" class="book">
-         <header class="book-titlepage">
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="book">
+         <header deltaxml:deltaV2="A=B" class="book-titlepage">
             <h1>The Tragedy of Macbeth</h1>
          </header>
-         <div class="toc">
-            <p>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <p deltaxml:deltaV2="A">
                <b>Table of Contents</b>
-            </p>
-            <ul class="toc">
+            </p><div deltaxml:deltaV2="B" class="toc">
+               <p>
+                  <b>Table of Contents</b>
+               </p>
+               <ul class="toc">
+                  <li>
+                     <span>
+                        <a href="#R.1.2">1. Dramatis Personae</a>
+                     </span>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.3">1. ACT I</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.3.2">1. SCENE I.  A desert place.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.3">2. SCENE II.  A camp near Forres.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.4">3. SCENE III.  A heath near Forres.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.5">4. SCENE IV.  Forres. The palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.6">5. SCENE V.  Inverness. Macbeth's castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.7">6. SCENE VI.  Before Macbeth's castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.8">7. SCENE VII.  Macbeth's castle.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.4">2. ACT II</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.4.2">1. SCENE I.  Court of Macbeth's castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.3">2. SCENE II.  The same.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.4">3. SCENE III.  The same.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.5">4. SCENE IV.  Outside Macbeth's castle.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.5">3. ACT III</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.5.2">1. SCENE I.  Forres. The palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.3">2. SCENE II.  The palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.4">3. SCENE III.  A park near the palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.5">4. SCENE IV.  The same. Hall in the palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.6">5. SCENE V.  A Heath.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.7">6. SCENE VI.  Forres. The palace.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.6">4. ACT IV</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.6.2">1. SCENE I.  A cavern. In the middle, a boiling cauldron.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.3">2. SCENE II.  Fife. Macduff's castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.4">3. SCENE III.  England. Before the King's palace.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.7">5. ACT V</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.7.2">1. SCENE I.  Dunsinane. Ante-room in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.7.3">2. SCENE II.  The country near Dunsinane.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.7.4">3. SCENE III.  Dunsinane. A room in the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.7.5">4. SCENE IV.  Country near Birnam wood.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.7.6">5. SCENE V.  Dunsinane. Within the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.7.7">6. SCENE VI.  Dunsinane. Before the castle.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.7.8">7. SCENE VII.  Another part of the field.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.7.9">8. SCENE VIII.  Another part of the field.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                <li>
                   <span>
                      <a href="#R.1.2">1. Dramatis Personae</a>
@@ -201,7 +387,7 @@
                </li>
             </ul>
          </div>
-         <article id="R.1.2" class="preface">
+         <article deltaxml:deltaV2="A=B" id="R.1.2" class="preface">
             <header class="preface-titlepage">
                <h2>Dramatis Personae</h2>
             </header>
@@ -304,15 +490,56 @@
             </p>
             <p>SCENE  Scotland: England.</p>
          </article>
-         <article id="R.1.3" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.3">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 1. ACT I</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.3.2">1. SCENE I.  A desert place.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.3">2. SCENE II.  A camp near Forres.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.4">3. SCENE III.  A heath near Forres.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.5">4. SCENE IV.  Forres. The palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.6">5. SCENE V.  Inverness. Macbeth's castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.7">6. SCENE VI.  Before Macbeth's castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.8">7. SCENE VII.  Macbeth's castle.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.3.2">1. SCENE I.  A desert place.</a>
@@ -350,7 +577,7 @@
                   </li>
                </ul>
             </div>
-            <section id="R.1.3.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  A desert place.</h2>
                </div>
@@ -420,7 +647,7 @@
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  A camp near Forres.</h2>
                </div>
@@ -596,7 +823,7 @@ LENNOX, with Attendants, meeting a bleeding Sergeant</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  A heath near Forres.</h2>
                </div>
@@ -1039,7 +1266,7 @@ LENNOX, with Attendants, meeting a bleeding Sergeant</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  Forres. The palace.</h2>
                </div>
@@ -1170,7 +1397,7 @@ and Attendants</p>
                </div>
                <p>Flourish. Exeunt</p>
             </section>
-            <section id="R.1.3.6" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  Inverness. Macbeth's castle.</h2>
                </div>
@@ -1317,7 +1544,7 @@ and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.7" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  Before Macbeth's castle.</h2>
                </div>
@@ -1399,7 +1626,7 @@ and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.8" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VII.  Macbeth's castle.</h2>
                </div>
@@ -1567,15 +1794,41 @@ stage. Then enter MACBETH</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article id="R.1.4" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.4">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 2. ACT II</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.4.2">1. SCENE I.  Court of Macbeth's castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.3">2. SCENE II.  The same.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.4">3. SCENE III.  The same.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.5">4. SCENE IV.  Outside Macbeth's castle.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.4.2">1. SCENE I.  Court of Macbeth's castle.</a>
@@ -1598,7 +1851,7 @@ stage. Then enter MACBETH</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.4.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Court of Macbeth's castle.</h2>
                </div>
@@ -1761,7 +2014,7 @@ stage. Then enter MACBETH</p>
                </div>
                <p>Exit</p>
             </section>
-            <section id="R.1.4.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  The same.</h2>
                </div>
@@ -2007,7 +2260,7 @@ stage. Then enter MACBETH</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.4.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  The same.</h2>
                </div>
@@ -2487,7 +2740,7 @@ stage. Then enter MACBETH</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.4.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  Outside Macbeth's castle.</h2>
                </div>
@@ -2652,15 +2905,51 @@ stage. Then enter MACBETH</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article id="R.1.5" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.5">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 3. ACT III</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.5.2">1. SCENE I.  Forres. The palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.3">2. SCENE II.  The palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.4">3. SCENE III.  A park near the palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.5">4. SCENE IV.  The same. Hall in the palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.6">5. SCENE V.  A Heath.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.7">6. SCENE VI.  Forres. The palace.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.5.2">1. SCENE I.  Forres. The palace.</a>
@@ -2693,7 +2982,7 @@ stage. Then enter MACBETH</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.5.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Forres. The palace.</h2>
                </div>
@@ -3025,7 +3314,7 @@ Attendants</p>
                </div>
                <p>Exit</p>
             </section>
-            <section id="R.1.5.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  The palace.</h2>
                </div>
@@ -3166,7 +3455,7 @@ Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  A park near the palace.</h2>
                </div>
@@ -3309,7 +3598,7 @@ Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  The same. Hall in the palace.</h2>
                </div>
@@ -3759,7 +4048,7 @@ MACBETH's place</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.6" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  A Heath.</h2>
                </div>
@@ -3820,7 +4109,7 @@ away,' &amp;c</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.7" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  Forres. The palace.</h2>
                </div>
@@ -3913,15 +4202,36 @@ away,' &amp;c</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article id="R.1.6" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.6">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 4. ACT IV</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.6.2">1. SCENE I.  A cavern. In the middle, a boiling cauldron.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.3">2. SCENE II.  Fife. Macduff's castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.4">3. SCENE III.  England. Before the King's palace.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.6.2">1. SCENE I.  A cavern. In the middle, a boiling cauldron.</a>
@@ -3939,7 +4249,7 @@ away,' &amp;c</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.6.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  A cavern. In the middle, a boiling cauldron.</h2>
                </div>
@@ -4402,7 +4712,7 @@ with HECATE</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Fife. Macduff's castle.</h2>
                </div>
@@ -4715,7 +5025,7 @@ with HECATE</p>
                <p>Exit LADY MACDUFF, crying 'Murder!' Exeunt
 Murderers, following her</p>
             </section>
-            <section id="R.1.6.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  England. Before the King's palace.</h2>
                </div>
@@ -5332,15 +5642,61 @@ Murderers, following her</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article id="R.1.7" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.7">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 5. ACT V</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.7.2">1. SCENE I.  Dunsinane. Ante-room in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.7.3">2. SCENE II.  The country near Dunsinane.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.7.4">3. SCENE III.  Dunsinane. A room in the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.7.5">4. SCENE IV.  Country near Birnam wood.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.7.6">5. SCENE V.  Dunsinane. Within the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.7.7">6. SCENE VI.  Dunsinane. Before the castle.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.7.8">7. SCENE VII.  Another part of the field.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.7.9">8. SCENE VIII.  Another part of the field.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.7.2">1. SCENE I.  Dunsinane. Ante-room in the castle.</a>
@@ -5383,7 +5739,7 @@ Murderers, following her</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.7.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Dunsinane. Ante-room in the castle.</h2>
                </div>
@@ -5626,7 +5982,7 @@ Murderers, following her</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.7.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  The country near Dunsinane.</h2>
                </div>
@@ -5721,7 +6077,7 @@ LENNOX, and Soldiers</p>
                </div>
                <p>Exeunt, marching</p>
             </section>
-            <section id="R.1.7.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  Dunsinane. A room in the castle.</h2>
                </div>
@@ -5903,7 +6259,7 @@ LENNOX, and Soldiers</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.7.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  Country near Birnam wood.</h2>
                </div>
@@ -5989,7 +6345,7 @@ LENNOX, ROSS, and Soldiers, marching</p>
                </div>
                <p>Exeunt, marching</p>
             </section>
-            <section id="R.1.7.6" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  Dunsinane. Within the castle.</h2>
                </div>
@@ -6113,7 +6469,7 @@ and colours</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.7.7" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  Dunsinane. Before the castle.</h2>
                </div>
@@ -6147,7 +6503,7 @@ and their Army, with boughs</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.7.8" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VII.  Another part of the field.</h2>
                </div>
@@ -6260,7 +6616,7 @@ and their Army, with boughs</p>
                </div>
                <p>Exeunt. Alarums</p>
             </section>
-            <section id="R.1.7.9" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.9" class="section">
                <div class="section-titlepage">
                   <h2>8. SCENE VIII.  Another part of the field.</h2>
                </div>
@@ -6477,6 +6833,6 @@ MALCOLM, SIWARD, ROSS, the other Thanes, and Soldiers</p>
             </section>
          </article>
       </article>
-      <script src="../../resources/js/prism.js"/>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
    </body>
 </html>

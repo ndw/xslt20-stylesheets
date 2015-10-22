@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head>
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -8,9 +8,9 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>Unit Test: reference.002</title>
    </head>
-   <body>
-      <article id="R.1" class="reference">
-         <header class="reference-titlepage">
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="reference">
+         <header deltaxml:deltaV2="A=B" class="reference-titlepage">
             <h1>Unit Test: reference.002</h1>
             <div class="author">
                <h3>
@@ -21,11 +21,53 @@
                </h3>
             </div>
          </header>
-         <div class="toc">
-            <p>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <p deltaxml:deltaV2="A">
                <b>Table of Contents</b>
-            </p>
-            <ul class="toc">
+            </p><div deltaxml:deltaV2="B" class="toc">
+               <p>
+                  <b>Table of Contents</b>
+               </p>
+               <ul class="toc">
+                  <li>
+                     <span class="refentrytitle">
+                        <a href="#R.1.2">chown</a>
+                     </span>
+                     <span class="refpurpose"> - Change file owners and groups</span>
+                  </li>
+                  <li>
+                     <span class="refentrytitle">
+                        <a href="#R.1.3">chgrp</a>
+                     </span>
+                     <span class="refpurpose"> - Change file groups</span>
+                  </li>
+                  <li>
+                     <span class="refentrytitle">
+                        <a href="#R.1.4">chmod</a>
+                     </span>
+                     <span class="refpurpose"> - Change access permissions</span>
+                  </li>
+                  <li>
+                     <span class="refentrytitle">
+                        <a href="#R.1.5">mysql_convert_table_format</a>
+                     </span>
+                     <span class="refpurpose"> - MySQL table converter</span>
+                  </li>
+                  <li>
+                     <span class="refentrytitle">
+                        <a href="#R.1.6">mysql_fix_privilege_tables</a>
+                     </span>
+                     <span class="refpurpose"> - Fixes MySQL privilege tables</span>
+                  </li>
+                  <li>
+                     <span class="refentrytitle">
+                        <a href="#R.1.7">Mail::SpamAssassin::PersistentAddrList</a>
+                     </span>
+                     <span class="refpurpose"> - persistent address list base class</span>
+                  </li>
+               </ul>
+            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                <li>
                   <span class="refentrytitle">
                      <a href="#R.1.2">chown</a>
@@ -64,7 +106,7 @@
                </li>
             </ul>
          </div>
-         <article id="R.1.2" class="refentry">
+         <article deltaxml:deltaV2="A=B" id="R.1.2" class="refentry">
             <div class="refnamediv">
                <h2>Name</h2>
                <p>
@@ -83,7 +125,7 @@
                <p>[description of chown here]</p>
             </div>
          </article>
-         <article id="R.1.3" class="refentry">
+         <article deltaxml:deltaV2="A=B" id="R.1.3" class="refentry">
             <div class="refentry-separator">
                <hr/>
             </div>
@@ -105,7 +147,7 @@
                <p>[description of chgrp here]</p>
             </div>
          </article>
-         <article id="R.1.4" class="refentry">
+         <article deltaxml:deltaV2="A=B" id="R.1.4" class="refentry">
             <div class="refentry-separator">
                <hr/>
             </div>
@@ -127,7 +169,7 @@
                <p>[description of chmod here]</p>
             </div>
          </article>
-         <article id="R.1.5" class="refentry">
+         <article deltaxml:deltaV2="A=B" id="R.1.5" class="refentry">
             <div class="refentry-separator">
                <hr/>
             </div>
@@ -149,7 +191,7 @@
                <p>[description of MySQL table converter here]</p>
             </div>
          </article>
-         <article id="R.1.6" class="refentry">
+         <article deltaxml:deltaV2="A=B" id="R.1.6" class="refentry">
             <div class="refentry-separator">
                <hr/>
             </div>
@@ -171,7 +213,7 @@
                <p>[description of mysql_fix_privilege_tables table converter here]</p>
             </div>
          </article>
-         <article id="R.1.7" class="refentry">
+         <article deltaxml:deltaV2="A=B" id="R.1.7" class="refentry">
             <div class="refentry-separator">
                <hr/>
             </div>
@@ -194,6 +236,6 @@
             </div>
          </article>
       </article>
-      <script src="../../resources/js/prism.js"/>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
    </body>
 </html>

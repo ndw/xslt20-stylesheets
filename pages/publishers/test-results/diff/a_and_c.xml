@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head>
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -9,16 +9,272 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>The Tragedy of Antony and Cleopatra</title>
    </head>
-   <body>
-      <article id="R.1" class="book">
-         <header class="book-titlepage">
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="book">
+         <header deltaxml:deltaV2="A=B" class="book-titlepage">
             <h1>The Tragedy of Antony and Cleopatra</h1>
          </header>
-         <div class="toc">
-            <p>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <p deltaxml:deltaV2="A">
                <b>Table of Contents</b>
-            </p>
-            <ul class="toc">
+            </p><div deltaxml:deltaV2="B" class="toc">
+               <p>
+                  <b>Table of Contents</b>
+               </p>
+               <ul class="toc">
+                  <li>
+                     <span>
+                        <a href="#R.1.2">1. Dramatis Personae</a>
+                     </span>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.3">1. ACT I</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.3.2">1. SCENE I.  Alexandria. A room in CLEOPATRA's palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.3">2. SCENE II.  The same. Another room.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.4">3. SCENE III.  The same. Another room.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.5">4. SCENE IV.  Rome. OCTAVIUS CAESAR's house.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.3.6">5. SCENE V.  Alexandria. CLEOPATRA's palace.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.4">2. ACT II</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.4.2">1. SCENE I.  Messina. POMPEY's house.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.3">2. SCENE II.  Rome. The house of LEPIDUS.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.4">3. SCENE III.  The same. OCTAVIUS CAESAR's house.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.5">4. SCENE IV.  The same. A street.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.6">5. SCENE V.  Alexandria. CLEOPATRA's palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.7">6. SCENE VI.  Near Misenum.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.4.8">7. SCENE VII.  On board POMPEY's galley, off Misenum.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.5">3. ACT III</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.5.2">1. SCENE I.  A plain in Syria.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.3">2. SCENE II.  Rome. An ante-chamber in OCTAVIUS CAESAR's house.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.4">3. SCENE III.  Alexandria. CLEOPATRA's palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.5">4. SCENE IV.  Athens. A room in MARK ANTONY's house.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.6">5. SCENE V.  The same. Another room.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.7">6. SCENE VI.  Rome. OCTAVIUS CAESAR's house.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.8">7. SCENE VII.  Near Actium. MARK ANTONY's camp.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.9">8. SCENE VIII.  A plain near Actium.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.10">9. SCENE IX.  Another part of the plain.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.11">10. SCENE X.  Another part of the plain.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.12">11. SCENE XI.  Alexandria. CLEOPATRA's palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.13">12. SCENE XII.  Egypt. OCTAVIUS CAESAR's camp.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.5.14">13. SCENE XIII.  Alexandria. CLEOPATRA's palace.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.6">4. ACT IV</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.6.2">1. SCENE I.  Before Alexandria. OCTAVIUS CAESAR's camp.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.3">2. SCENE II.  Alexandria. CLEOPATRA's palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.4">3. SCENE III.  The same. Before the palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.5">4. SCENE IV.  The same. A room in the palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.6">5. SCENE V.  Alexandria. MARK ANTONY's camp.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.7">6. SCENE VI.  Alexandria. OCTAVIUS CAESAR's camp.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.8">7. SCENE VII.  Field of battle between the camps.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.9">8. SCENE VIII.  Under the walls of Alexandria.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.10">9. SCENE IX.  OCTAVIUS CAESAR's camp.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.11">10. SCENE X.  Between the two camps.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.12">11. SCENE XI.  Another part of the same.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.13">12. SCENE XII.  Another part of the same.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.14">13. SCENE XIII.  Alexandria. Cleopatra's palace.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.15">14. SCENE XIV.  The same. Another room.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.6.16">15. SCENE XV.  The same. A monument.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <span>
+                        <a href="#R.1.7">5. ACT V</a>
+                     </span>
+                     <ul class="toc">
+                        <li>
+                           <span>
+                              <a href="#R.1.7.2">1. SCENE I.  Alexandria. OCTAVIUS CAESAR's camp.</a>
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <a href="#R.1.7.3">2. SCENE II.  Alexandria. A room in the monument.</a>
+                           </span>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                <li>
                   <span>
                      <a href="#R.1.2">1. Dramatis Personae</a>
@@ -271,7 +527,7 @@
                </li>
             </ul>
          </div>
-         <article id="R.1.2" class="preface">
+         <article deltaxml:deltaV2="A=B" id="R.1.2" class="preface">
             <header class="preface-titlepage">
                <h2>Dramatis Personae</h2>
             </header>
@@ -398,15 +654,46 @@
             </p>
             <p>SCENE  In several parts of the Roman empire.</p>
          </article>
-         <article id="R.1.3" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.3">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 1. ACT I</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.3.2">1. SCENE I.  Alexandria. A room in CLEOPATRA's palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.3">2. SCENE II.  The same. Another room.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.4">3. SCENE III.  The same. Another room.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.5">4. SCENE IV.  Rome. OCTAVIUS CAESAR's house.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.3.6">5. SCENE V.  Alexandria. CLEOPATRA's palace.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.3.2">1. SCENE I.  Alexandria. A room in CLEOPATRA's palace.</a>
@@ -434,7 +721,7 @@
                   </li>
                </ul>
             </div>
-            <section id="R.1.3.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Alexandria. A room in CLEOPATRA's palace.</h2>
                </div>
@@ -606,7 +893,7 @@ their train</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  The same. Another room.</h2>
                </div>
@@ -1292,7 +1579,7 @@ their train</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  The same. Another room.</h2>
                </div>
@@ -1625,7 +1912,7 @@ their train</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  Rome. OCTAVIUS CAESAR's house.</h2>
                </div>
@@ -1798,7 +2085,7 @@ and their Train</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.3.6" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.3.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  Alexandria. CLEOPATRA's palace.</h2>
                </div>
@@ -2053,15 +2340,56 @@ and their Train</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article id="R.1.4" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.4">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 2. ACT II</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.4.2">1. SCENE I.  Messina. POMPEY's house.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.3">2. SCENE II.  Rome. The house of LEPIDUS.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.4">3. SCENE III.  The same. OCTAVIUS CAESAR's house.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.5">4. SCENE IV.  The same. A street.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.6">5. SCENE V.  Alexandria. CLEOPATRA's palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.7">6. SCENE VI.  Near Misenum.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.4.8">7. SCENE VII.  On board POMPEY's galley, off Misenum.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.4.2">1. SCENE I.  Messina. POMPEY's house.</a>
@@ -2099,7 +2427,7 @@ and their Train</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.4.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Messina. POMPEY's house.</h2>
                </div>
@@ -2235,7 +2563,7 @@ warlike manner</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.4.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Rome. The house of LEPIDUS.</h2>
                </div>
@@ -2982,7 +3310,7 @@ and LEPIDUS</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.4.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  The same. OCTAVIUS CAESAR's house.</h2>
                </div>
@@ -3107,7 +3435,7 @@ them, and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.4.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  The same. A street.</h2>
                </div>
@@ -3164,7 +3492,7 @@ them, and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.4.6" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  Alexandria. CLEOPATRA's palace.</h2>
                </div>
@@ -3609,7 +3937,7 @@ them, and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.4.7" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  Near Misenum.</h2>
                </div>
@@ -4127,7 +4455,7 @@ with Soldiers marching</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.4.8" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.4.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VII.  On board POMPEY's galley, off Misenum.</h2>
                </div>
@@ -4681,15 +5009,86 @@ hand in hand</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article id="R.1.5" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.5">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 3. ACT III</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.5.2">1. SCENE I.  A plain in Syria.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.3">2. SCENE II.  Rome. An ante-chamber in OCTAVIUS CAESAR's house.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.4">3. SCENE III.  Alexandria. CLEOPATRA's palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.5">4. SCENE IV.  Athens. A room in MARK ANTONY's house.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.6">5. SCENE V.  The same. Another room.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.7">6. SCENE VI.  Rome. OCTAVIUS CAESAR's house.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.8">7. SCENE VII.  Near Actium. MARK ANTONY's camp.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.9">8. SCENE VIII.  A plain near Actium.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.10">9. SCENE IX.  Another part of the plain.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.11">10. SCENE X.  Another part of the plain.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.12">11. SCENE XI.  Alexandria. CLEOPATRA's palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.13">12. SCENE XII.  Egypt. OCTAVIUS CAESAR's camp.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.5.14">13. SCENE XIII.  Alexandria. CLEOPATRA's palace.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.5.2">1. SCENE I.  A plain in Syria.</a>
@@ -4757,7 +5156,7 @@ hand in hand</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.5.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  A plain in Syria.</h2>
                </div>
@@ -4843,7 +5242,7 @@ body of PACORUS borne before him</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Rome. An ante-chamber in OCTAVIUS CAESAR's house.</h2>
                </div>
@@ -5133,7 +5532,7 @@ at another</p>
                </div>
                <p>Trumpets sound. Exeunt</p>
             </section>
-            <section id="R.1.5.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  Alexandria. CLEOPATRA's palace.</h2>
                </div>
@@ -5403,7 +5802,7 @@ at another</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  Athens. A room in MARK ANTONY's house.</h2>
                </div>
@@ -5476,7 +5875,7 @@ at another</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.6" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  The same. Another room.</h2>
                </div>
@@ -5568,7 +5967,7 @@ at another</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.7" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  Rome. OCTAVIUS CAESAR's house.</h2>
                </div>
@@ -5827,7 +6226,7 @@ at another</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.8" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VII.  Near Actium. MARK ANTONY's camp.</h2>
                </div>
@@ -6132,7 +6531,7 @@ ENOBARBUS</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.9" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.9" class="section">
                <div class="section-titlepage">
                   <h2>8. SCENE VIII.  A plain near Actium.</h2>
                </div>
@@ -6160,7 +6559,7 @@ ENOBARBUS</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.10" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.10" class="section">
                <div class="section-titlepage">
                   <h2>9. SCENE IX.  Another part of the plain.</h2>
                </div>
@@ -6176,7 +6575,7 @@ ENOBARBUS</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.11" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.11" class="section">
                <div class="section-titlepage">
                   <h2>10. SCENE X.  Another part of the plain.</h2>
                </div>
@@ -6309,7 +6708,7 @@ heard the noise of a sea-fight</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.12" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.12" class="section">
                <div class="section-titlepage">
                   <h2>11. SCENE XI.  Alexandria. CLEOPATRA's palace.</h2>
                </div>
@@ -6540,7 +6939,7 @@ following</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.13" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.13" class="section">
                <div class="section-titlepage">
                   <h2>12. SCENE XII.  Egypt. OCTAVIUS CAESAR's camp.</h2>
                </div>
@@ -6653,7 +7052,7 @@ following</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.5.14" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.5.14" class="section">
                <div class="section-titlepage">
                   <h2>13. SCENE XIII.  Alexandria. CLEOPATRA's palace.</h2>
                </div>
@@ -7250,15 +7649,96 @@ following</p>
                <p>Exit</p>
             </section>
          </article>
-         <article id="R.1.6" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.6">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 4. ACT IV</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.6.2">1. SCENE I.  Before Alexandria. OCTAVIUS CAESAR's camp.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.3">2. SCENE II.  Alexandria. CLEOPATRA's palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.4">3. SCENE III.  The same. Before the palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.5">4. SCENE IV.  The same. A room in the palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.6">5. SCENE V.  Alexandria. MARK ANTONY's camp.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.7">6. SCENE VI.  Alexandria. OCTAVIUS CAESAR's camp.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.8">7. SCENE VII.  Field of battle between the camps.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.9">8. SCENE VIII.  Under the walls of Alexandria.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.10">9. SCENE IX.  OCTAVIUS CAESAR's camp.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.11">10. SCENE X.  Between the two camps.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.12">11. SCENE XI.  Another part of the same.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.13">12. SCENE XII.  Another part of the same.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.14">13. SCENE XIII.  Alexandria. Cleopatra's palace.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.15">14. SCENE XIV.  The same. Another room.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.6.16">15. SCENE XV.  The same. A monument.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.6.2">1. SCENE I.  Before Alexandria. OCTAVIUS CAESAR's camp.</a>
@@ -7336,7 +7816,7 @@ following</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.6.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Before Alexandria. OCTAVIUS CAESAR's camp.</h2>
                </div>
@@ -7377,7 +7857,7 @@ his Army; OCTAVIUS CAESAR reading a letter</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Alexandria. CLEOPATRA's palace.</h2>
                </div>
@@ -7533,7 +8013,7 @@ CHARMIAN, IRAS, ALEXAS, with others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.4" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  The same. Before the palace.</h2>
                </div>
@@ -7704,7 +8184,7 @@ CHARMIAN, IRAS, ALEXAS, with others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.5" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  The same. A room in the palace.</h2>
                </div>
@@ -7846,7 +8326,7 @@ others attending</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.6" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  Alexandria. MARK ANTONY's camp.</h2>
                </div>
@@ -7934,7 +8414,7 @@ Soldier meeting them</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.7" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  Alexandria. OCTAVIUS CAESAR's camp.</h2>
                </div>
@@ -8040,7 +8520,7 @@ DOMITIUS ENOBARBUS, and others</p>
                </div>
                <p>Exit</p>
             </section>
-            <section id="R.1.6.8" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VII.  Field of battle between the camps.</h2>
                </div>
@@ -8122,7 +8602,7 @@ and others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.9" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.9" class="section">
                <div class="section-titlepage">
                   <h2>8. SCENE VIII.  Under the walls of Alexandria.</h2>
                </div>
@@ -8203,7 +8683,7 @@ with others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.10" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.10" class="section">
                <div class="section-titlepage">
                   <h2>9. SCENE IX.  OCTAVIUS CAESAR's camp.</h2>
                </div>
@@ -8347,7 +8827,7 @@ with others</p>
                </div>
                <p>Exeunt with the body</p>
             </section>
-            <section id="R.1.6.11" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.11" class="section">
                <div class="section-titlepage">
                   <h2>10. SCENE X.  Between the two camps.</h2>
                </div>
@@ -8379,7 +8859,7 @@ with others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.12" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.12" class="section">
                <div class="section-titlepage">
                   <h2>11. SCENE XI.  Another part of the same.</h2>
                </div>
@@ -8395,7 +8875,7 @@ with others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.13" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.13" class="section">
                <div class="section-titlepage">
                   <h2>12. SCENE XII.  Another part of the same.</h2>
                </div>
@@ -8488,7 +8968,7 @@ with others</p>
                </div>
                <p>Exit</p>
             </section>
-            <section id="R.1.6.14" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.14" class="section">
                <div class="section-titlepage">
                   <h2>13. SCENE XIII.  Alexandria. Cleopatra's palace.</h2>
                </div>
@@ -8523,7 +9003,7 @@ with others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.6.15" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.15" class="section">
                <div class="section-titlepage">
                   <h2>14. SCENE XIV.  The same. Another room.</h2>
                </div>
@@ -8993,7 +9473,7 @@ with others</p>
                </div>
                <p>Exeunt, bearing MARK ANTONY</p>
             </section>
-            <section id="R.1.6.16" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.6.16" class="section">
                <div class="section-titlepage">
                   <h2>15. SCENE XV.  The same. A monument.</h2>
                </div>
@@ -9254,15 +9734,31 @@ CHARMIAN and IRAS</p>
                <p>Exeunt; those above bearing off MARK ANTONY's body</p>
             </section>
          </article>
-         <article id="R.1.7" class="chapter">
-            <header class="chapter-titlepage">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.7">
+            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 5. ACT V</h2>
             </header>
-            <div class="toc">
-               <p>
+            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <p deltaxml:deltaV2="A">
                   <b>Table of Contents</b>
-               </p>
-               <ul class="toc">
+               </p><div deltaxml:deltaV2="B" class="toc">
+                  <p>
+                     <b>Table of Contents</b>
+                  </p>
+                  <ul class="toc">
+                     <li>
+                        <span>
+                           <a href="#R.1.7.2">1. SCENE I.  Alexandria. OCTAVIUS CAESAR's camp.</a>
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                           <a href="#R.1.7.3">2. SCENE II.  Alexandria. A room in the monument.</a>
+                        </span>
+                     </li>
+                  </ul>
+               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
                   <li>
                      <span>
                         <a href="#R.1.7.2">1. SCENE I.  Alexandria. OCTAVIUS CAESAR's camp.</a>
@@ -9275,7 +9771,7 @@ CHARMIAN and IRAS</p>
                   </li>
                </ul>
             </div>
-            <section id="R.1.7.2" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Alexandria. OCTAVIUS CAESAR's camp.</h2>
                </div>
@@ -9490,7 +9986,7 @@ GALLUS, PROCULEIUS, and others, his council of war</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section id="R.1.7.3" class="section">
+            <section deltaxml:deltaV2="A=B" id="R.1.7.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Alexandria. A room in the monument.</h2>
                </div>
@@ -10632,6 +11128,6 @@ MECAENAS, SELEUCUS, and others of his Train</p>
             </section>
          </article>
       </article>
-      <script src="../../resources/js/prism.js"/>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
    </body>
 </html>
