@@ -553,7 +553,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
             <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="part" id="partI">
+         <article deltaxml:deltaV2="A!=B" id="partI" class="part">
             <header deltaxml:deltaV2="A=B" class="part-titlepage">
                <h1>Part I. Part One Title</h1>
             </header>
