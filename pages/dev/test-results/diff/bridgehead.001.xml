@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head deltaxml:deltaV2="A=B">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head>
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -8,15 +8,13 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>Article wrapper</title>
    </head>
-   <body deltaxml:deltaV2="A!=B">
-      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
-         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+   <body>
+      <article id="R.1" class="article">
+         <header class="article-titlepage">
             <h2>Article wrapper</h2>
          </header>
-         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-            <p deltaxml:deltaV2="A">
-               <b>Table of Contents</b>
-            </p><div deltaxml:deltaV2="B" class="toc">
+         <div class="lists-of-titles">
+            <div class="toc">
                <p>
                   <b>Table of Contents</b>
                </p>
@@ -39,30 +37,11 @@
                      </ul>
                   </li>
                </ul>
-            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-               <li>
-                  <span>
-                     <a href="#R.1.4">sect1 title</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.4.5">first sect2 title</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#sec-xrefMe">second sect2 title</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-            </ul>
+            </div>
          </div>
-         <p deltaxml:deltaV2="A=B">A test paragraph.</p>
-         <p deltaxml:deltaV2="A=B">This test para encourages you to see <a href="#bh">the section called “This is a sect1 bridgehead”</a>.</p>
-         <section deltaxml:deltaV2="A=B" id="R.1.4" class="sect1">
+         <p>A test paragraph.</p>
+         <p>This test para encourages you to see <a href="#bh">the section called “This is a sect1 bridgehead”</a>.</p>
+         <section id="R.1.4" class="sect1">
             <div class="section-titlepage">
                <h2>sect1 title</h2>
                <h3>sect1 subtitle</h3>
@@ -87,6 +66,6 @@
             </section>
          </section>
       </article>
-      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+      <script src="../../resources/js/prism.js"/>
    </body>
 </html>

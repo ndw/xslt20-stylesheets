@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head deltaxml:deltaV2="A=B">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head>
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -8,15 +8,13 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>Unit Test: reference.001</title>
    </head>
-   <body deltaxml:deltaV2="A!=B">
-      <article deltaxml:deltaV2="A!=B" id="R.1" class="reference">
-         <header deltaxml:deltaV2="A=B" class="reference-titlepage">
+   <body>
+      <article id="R.1" class="reference">
+         <header class="reference-titlepage">
             <h1>Unit Test: reference.001</h1>
          </header>
-         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-            <p deltaxml:deltaV2="A">
-               <b>Table of Contents</b>
-            </p><div deltaxml:deltaV2="B" class="toc">
+         <div class="lists-of-titles">
+            <div class="toc">
                <p>
                   <b>Table of Contents</b>
                </p>
@@ -40,29 +38,9 @@
                      <span class="refpurpose"> - Test of a minimal RefEntry</span>
                   </li>
                </ul>
-            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-               <li>
-                  <span class="refentrytitle">
-                     <a href="#minimal">Minimal</a>
-                  </span>
-                  <span class="refpurpose"> - Test of a minimal RefEntry</span>
-               </li>
-               <li>
-                  <span class="refentrytitle">
-                     <a href="#lessminimal">Also Minimal Title</a>
-                  </span>
-                  <span class="refpurpose"> - Another test of a minimal RefEntry</span>
-               </li>
-               <li>
-                  <span class="refentrytitle">
-                     <a href="#evenlessminimal">Fred</a>
-                  </span>
-                  <span class="refpurpose"> - Test of a minimal RefEntry</span>
-               </li>
-            </ul>
+            </div>
          </div>
-         <article deltaxml:deltaV2="A=B" id="minimal" class="refentry">
+         <article id="minimal" class="refentry">
             <div class="refnamediv">
                <h2>Name</h2>
                <p>
@@ -81,7 +59,7 @@
                <p>This is a minimal RefEntry.</p>
             </div>
          </article>
-         <article deltaxml:deltaV2="A=B" id="lessminimal" class="refentry">
+         <article id="lessminimal" class="refentry">
             <div class="refentry-separator">
                <hr/>
             </div>
@@ -103,7 +81,7 @@
                <p>This is a minimal RefEntry.</p>
             </div>
          </article>
-         <article deltaxml:deltaV2="A=B" id="evenlessminimal" class="refentry">
+         <article id="evenlessminimal" class="refentry">
             <div class="refentry-separator">
                <hr/>
             </div>
@@ -126,6 +104,6 @@
             </div>
          </article>
       </article>
-      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+      <script src="../../resources/js/prism.js"/>
    </body>
 </html>
