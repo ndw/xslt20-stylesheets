@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head deltaxml:deltaV2="A=B">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head>
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -8,9 +8,9 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>Unit Test: book.001</title>
    </head>
-   <body deltaxml:deltaV2="A!=B">
-      <article deltaxml:deltaV2="A!=B" class="book" id="book">
-         <header deltaxml:deltaV2="A=B" class="book-titlepage">
+   <body>
+      <article id="book" class="book">
+         <header class="book-titlepage">
             <h1>Unit Test: book.001</h1>
             <div class="authorgroup">
                <div class="author">
@@ -123,10 +123,8 @@ Some abstract. Some abstract. Some abstract. Some abstract.
 </p>
             </div>
          </header>
-         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-            <p deltaxml:deltaV2="A">
-               <b>Table of Contents</b>
-            </p><div deltaxml:deltaV2="B" class="toc">
+         <div class="lists-of-titles">
+            <div class="toc">
                <p>
                   <b>Table of Contents</b>
                </p>
@@ -249,128 +247,9 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                      </ul>
                   </li>
                </ul>
-            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-               <li>
-                  <span>
-                     <a href="#forward">1. Foreword</a>
-                  </span>
-               </li>
-               <li>
-                  <span>
-                     <a href="#preface">2. Preface</a>
-                  </span>
-               </li>
-               <li>
-                  <span>
-                     <a href="#partI">I. Part One Title</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#chap1">1. F. Chap</a>
-                        </span>
-                        <ul class="toc">
-                           <li>
-                              <span>
-                                 <a href="#c1s1">1. F. Sect</a>
-                              </span>
-                           </li>
-                           <li>
-                              <span>
-                                 <a href="#c1s2">2. Second Section</a>
-                              </span>
-                           </li>
-                           <li>
-                              <span>
-                                 <a href="#c1s3">3. Third Section</a>
-                              </span>
-                           </li>
-                        </ul>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#chap2">2. Second Chapter</a>
-                        </span>
-                        <ul class="toc">
-                           <li>
-                              <span>
-                                 <a href="#c2s1">1. First Section</a>
-                              </span>
-                           </li>
-                           <li>
-                              <span>
-                                 <a href="#c2s2">2. Second Section</a>
-                              </span>
-                           </li>
-                           <li>
-                              <span>
-                                 <a href="#c2s3">3. Third Section</a>
-                              </span>
-                           </li>
-                        </ul>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#chap3">3. Third Chapter</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#partII">II. Appendixes</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#app1">A. First Appendix</a>
-                        </span>
-                        <ul class="toc">
-                           <li>
-                              <span>
-                                 <a href="#a1s1">1. First Section</a>
-                              </span>
-                           </li>
-                           <li>
-                              <span>
-                                 <a href="#a1s2">2. Second Section</a>
-                              </span>
-                           </li>
-                           <li>
-                              <span>
-                                 <a href="#a1s3">3. Third Section</a>
-                              </span>
-                           </li>
-                        </ul>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#app2">B. Second Appendix</a>
-                        </span>
-                        <ul class="toc">
-                           <li>
-                              <span>
-                                 <a href="#a2s1">1. First Section</a>
-                              </span>
-                           </li>
-                           <li>
-                              <span>
-                                 <a href="#a2s2">2. Second Section</a>
-                              </span>
-                           </li>
-                           <li>
-                              <span>
-                                 <a href="#a2s3">3. Third Section</a>
-                              </span>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-            </ul>
+            </div>
          </div>
-         <article deltaxml:deltaV2="A=B" id="ded1" class="dedication">
+         <article id="ded1" class="dedication">
             <header class="dedication-titlepage">
                <h2>First Dedication</h2>
             </header>
@@ -395,7 +274,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
             <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
          </article>
-         <article deltaxml:deltaV2="A=B" id="ded2" class="dedication">
+         <article id="ded2" class="dedication">
             <header class="dedication-titlepage">
                <h2>Dedication</h2>
             </header>
@@ -421,7 +300,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
             <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
          </article>
-         <article deltaxml:deltaV2="A=B" id="forward" class="preface">
+         <article id="forward" class="preface">
             <header class="preface-titlepage">
                <h2>Foreword</h2>
             </header>
@@ -487,7 +366,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
             <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
          </article>
-         <article deltaxml:deltaV2="A=B" id="preface" class="preface">
+         <article id="preface" class="preface">
             <header class="preface-titlepage">
                <h2>Preface</h2>
             </header>
@@ -553,14 +432,12 @@ Some abstract. Some abstract. Some abstract. Some abstract.
             <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="part" id="partI">
-            <header deltaxml:deltaV2="A=B" class="part-titlepage">
+         <article id="partI" class="part">
+            <header class="part-titlepage">
                <h1>Part I. Part One Title</h1>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -615,60 +492,9 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#chap1">1. F. Chap</a>
-                     </span>
-                     <ul class="toc">
-                        <li>
-                           <span>
-                              <a href="#c1s1">1. F. Sect</a>
-                           </span>
-                        </li>
-                        <li>
-                           <span>
-                              <a href="#c1s2">2. Second Section</a>
-                           </span>
-                        </li>
-                        <li>
-                           <span>
-                              <a href="#c1s3">3. Third Section</a>
-                           </span>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#chap2">2. Second Chapter</a>
-                     </span>
-                     <ul class="toc">
-                        <li>
-                           <span>
-                              <a href="#c2s1">1. First Section</a>
-                           </span>
-                        </li>
-                        <li>
-                           <span>
-                              <a href="#c2s2">2. Second Section</a>
-                           </span>
-                        </li>
-                        <li>
-                           <span>
-                              <a href="#c2s3">3. Third Section</a>
-                           </span>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#chap3">3. Third Chapter</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="pIpintro" class="partintro">
+            <section id="pIpintro" class="partintro">
                <header class="partintro-titlepage">
                   <div class="title">PartIntro Title</div>
                </header>
@@ -722,14 +548,12 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   </div>
                </div>
             </section>
-            <article deltaxml:deltaV2="A!=B" class="chapter" id="chap1">
-               <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+            <article id="chap1" class="chapter">
+               <header class="chapter-titlepage">
                   <h2>Chapter 1. First Chapter</h2>
                </header>
-               <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-                  <p deltaxml:deltaV2="A">
-                     <b>Table of Contents</b>
-                  </p><div deltaxml:deltaV2="B" class="toc">
+               <div class="lists-of-titles">
+                  <div class="toc">
                      <p>
                         <b>Table of Contents</b>
                      </p>
@@ -750,86 +574,69 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                            </span>
                         </li>
                      </ul>
-                  </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-                  </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                     <li>
-                        <span>
-                           <a href="#c1s1">1. F. Sect</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#c1s2">2. Second Section</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#c1s3">3. Third Section</a>
-                        </span>
-                     </li>
-                  </ul>
+                  </div>
                </div>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <section deltaxml:deltaV2="A=B" id="c1s1" class="section">
+               <section id="c1s1" class="section">
                   <div class="section-titlepage">
                      <h2>1. First Section</h2>
                   </div>
@@ -894,7 +701,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
                </section>
-               <section deltaxml:deltaV2="A=B" id="c1s2" class="section">
+               <section id="c1s2" class="section">
                   <div class="section-titlepage">
                      <h2>2. Second Section</h2>
                   </div>
@@ -959,7 +766,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
                </section>
-               <section deltaxml:deltaV2="A=B" id="c1s3" class="section">
+               <section id="c1s3" class="section">
                   <div class="section-titlepage">
                      <h2>3. Third Section</h2>
                   </div>
@@ -1025,14 +832,12 @@ Some abstract. Some abstract. Some abstract. Some abstract.
 </p>
                </section>
             </article>
-            <article deltaxml:deltaV2="A!=B" id="chap2" class="chapter">
-               <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+            <article id="chap2" class="chapter">
+               <header class="chapter-titlepage">
                   <h2>Chapter 2. Second Chapter</h2>
                </header>
-               <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-                  <p deltaxml:deltaV2="A">
-                     <b>Table of Contents</b>
-                  </p><div deltaxml:deltaV2="B" class="toc">
+               <div class="lists-of-titles">
+                  <div class="toc">
                      <p>
                         <b>Table of Contents</b>
                      </p>
@@ -1053,86 +858,69 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                            </span>
                         </li>
                      </ul>
-                  </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-                  </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                     <li>
-                        <span>
-                           <a href="#c2s1">1. First Section</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#c2s2">2. Second Section</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#c2s3">3. Third Section</a>
-                        </span>
-                     </li>
-                  </ul>
+                  </div>
                </div>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <section deltaxml:deltaV2="A=B" id="c2s1" class="section">
+               <section id="c2s1" class="section">
                   <div class="section-titlepage">
                      <h2>1. First Section</h2>
                   </div>
@@ -1197,7 +985,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
                </section>
-               <section deltaxml:deltaV2="A=B" id="c2s2" class="section">
+               <section id="c2s2" class="section">
                   <div class="section-titlepage">
                      <h2>2. Second Section</h2>
                   </div>
@@ -1262,7 +1050,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
                </section>
-               <section deltaxml:deltaV2="A=B" id="c2s3" class="section">
+               <section id="c2s3" class="section">
                   <div class="section-titlepage">
                      <h2>3. Third Section</h2>
                   </div>
@@ -1328,7 +1116,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
 </p>
                </section>
             </article>
-            <article deltaxml:deltaV2="A=B" id="chap3" class="chapter">
+            <article id="chap3" class="chapter">
                <header class="chapter-titlepage">
                   <h2>Chapter 3. Third Chapter</h2>
                </header>
@@ -1394,14 +1182,12 @@ Some abstract. Some abstract. Some abstract. Some abstract.
 </p>
             </article>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="partII" class="part">
-            <header deltaxml:deltaV2="A=B" class="part-titlepage">
+         <article id="partII" class="part">
+            <header class="part-titlepage">
                <h1>Part II. Appendixes</h1>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -1451,62 +1237,14 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                         </ul>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#app1">A. First Appendix</a>
-                     </span>
-                     <ul class="toc">
-                        <li>
-                           <span>
-                              <a href="#a1s1">1. First Section</a>
-                           </span>
-                        </li>
-                        <li>
-                           <span>
-                              <a href="#a1s2">2. Second Section</a>
-                           </span>
-                        </li>
-                        <li>
-                           <span>
-                              <a href="#a1s3">3. Third Section</a>
-                           </span>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#app2">B. Second Appendix</a>
-                     </span>
-                     <ul class="toc">
-                        <li>
-                           <span>
-                              <a href="#a2s1">1. First Section</a>
-                           </span>
-                        </li>
-                        <li>
-                           <span>
-                              <a href="#a2s2">2. Second Section</a>
-                           </span>
-                        </li>
-                        <li>
-                           <span>
-                              <a href="#a2s3">3. Third Section</a>
-                           </span>
-                        </li>
-                     </ul>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <article deltaxml:deltaV2="A!=B" class="appendix" id="app1">
-               <header deltaxml:deltaV2="A=B" class="appendix-titlepage">
+            <article id="app1" class="appendix">
+               <header class="appendix-titlepage">
                   <h2>Appendix A. First Appendix</h2>
                </header>
-               <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-                  <p deltaxml:deltaV2="A">
-                     <b>Table of Contents</b>
-                  </p><div deltaxml:deltaV2="B" class="toc">
+               <div class="lists-of-titles">
+                  <div class="toc">
                      <p>
                         <b>Table of Contents</b>
                      </p>
@@ -1527,86 +1265,69 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                            </span>
                         </li>
                      </ul>
-                  </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-                  </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                     <li>
-                        <span>
-                           <a href="#a1s1">1. First Section</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#a1s2">2. Second Section</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#a1s3">3. Third Section</a>
-                        </span>
-                     </li>
-                  </ul>
+                  </div>
                </div>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <section deltaxml:deltaV2="A=B" id="a1s1" class="section">
+               <section id="a1s1" class="section">
                   <div class="section-titlepage">
                      <h2>1. First Section</h2>
                   </div>
@@ -1671,7 +1392,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
                </section>
-               <section deltaxml:deltaV2="A=B" id="a1s2" class="section">
+               <section id="a1s2" class="section">
                   <div class="section-titlepage">
                      <h2>2. Second Section</h2>
                   </div>
@@ -1736,7 +1457,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
                </section>
-               <section deltaxml:deltaV2="A=B" id="a1s3" class="section">
+               <section id="a1s3" class="section">
                   <div class="section-titlepage">
                      <h2>3. Third Section</h2>
                   </div>
@@ -1802,14 +1523,12 @@ Some abstract. Some abstract. Some abstract. Some abstract.
 </p>
                </section>
             </article>
-            <article deltaxml:deltaV2="A!=B" class="appendix" id="app2">
-               <header deltaxml:deltaV2="A=B" class="appendix-titlepage">
+            <article id="app2" class="appendix">
+               <header class="appendix-titlepage">
                   <h2>Appendix B. Second Appendix</h2>
                </header>
-               <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-                  <p deltaxml:deltaV2="A">
-                     <b>Table of Contents</b>
-                  </p><div deltaxml:deltaV2="B" class="toc">
+               <div class="lists-of-titles">
+                  <div class="toc">
                      <p>
                         <b>Table of Contents</b>
                      </p>
@@ -1830,86 +1549,69 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                            </span>
                         </li>
                      </ul>
-                  </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-                  </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                     <li>
-                        <span>
-                           <a href="#a2s1">1. First Section</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#a2s2">2. Second Section</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#a2s3">3. Third Section</a>
-                        </span>
-                     </li>
-                  </ul>
+                  </div>
                </div>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <p deltaxml:deltaV2="A=B">Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+               <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
-               <section deltaxml:deltaV2="A=B" id="a2s1" class="section">
+               <section id="a2s1" class="section">
                   <div class="section-titlepage">
                      <h2>1. First Section</h2>
                   </div>
@@ -1974,7 +1676,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
                </section>
-               <section deltaxml:deltaV2="A=B" id="a2s2" class="section">
+               <section id="a2s2" class="section">
                   <div class="section-titlepage">
                      <h2>2. Second Section</h2>
                   </div>
@@ -2039,7 +1741,7 @@ Some abstract. Some abstract. Some abstract. Some abstract.
                   <p>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
 </p>
                </section>
-               <section deltaxml:deltaV2="A=B" id="a2s3" class="section">
+               <section id="a2s3" class="section">
                   <div class="section-titlepage">
                      <h2>3. Third Section</h2>
                   </div>
@@ -2107,6 +1809,6 @@ Some abstract. Some abstract. Some abstract. Some abstract.
             </article>
          </article>
       </article>
-      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+      <script src="../../resources/js/prism.js"/>
    </body>
 </html>

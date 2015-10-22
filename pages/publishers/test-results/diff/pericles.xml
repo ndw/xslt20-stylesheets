@@ -5609,7 +5609,7 @@ passion departs. Then exeunt CLEON and DIONYZA</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.7">
+         <article deltaxml:deltaV2="A!=B" id="R.1.7" class="chapter">
             <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 5. ACT V</h2>
             </header>

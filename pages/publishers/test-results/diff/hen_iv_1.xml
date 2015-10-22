@@ -1718,7 +1718,7 @@ SIR WALTER BLUNT, with others</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.4">
+         <article deltaxml:deltaV2="A!=B" id="R.1.4" class="chapter">
             <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 2. ACT II</h2>
             </header>

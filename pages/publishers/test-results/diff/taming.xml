@@ -3599,7 +3599,7 @@ BIONDELLO following</p>
                <p>Exit</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.6" class="chapter">
+         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.6">
             <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 4. ACT III</h2>
             </header>

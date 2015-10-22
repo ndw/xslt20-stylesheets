@@ -3140,7 +3140,7 @@ TREBONIUS, and CINNA</p>
                <p>Exeunt severally</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.5">
+         <article deltaxml:deltaV2="A!=B" id="R.1.5" class="chapter">
             <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
                <h2>Chapter 3. ACT III</h2>
             </header>
