@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head deltaxml:deltaV2="A=B">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head>
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -9,15 +9,13 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>The Taming of the Shrew</title>
    </head>
-   <body deltaxml:deltaV2="A!=B">
-      <article deltaxml:deltaV2="A!=B" id="R.1" class="book">
-         <header deltaxml:deltaV2="A=B" class="book-titlepage">
+   <body>
+      <article id="R.1" class="book">
+         <header class="book-titlepage">
             <h1>The Taming of the Shrew</h1>
          </header>
-         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-            <p deltaxml:deltaV2="A">
-               <b>Table of Contents</b>
-            </p><div deltaxml:deltaV2="B" class="toc">
+         <div class="lists-of-titles">
+            <div class="toc">
                <p>
                   <b>Table of Contents</b>
                </p>
@@ -140,128 +138,9 @@
                      </ul>
                   </li>
                </ul>
-            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-               <li>
-                  <span>
-                     <a href="#R.1.2">1. Dramatis Personae</a>
-                  </span>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.3">1. INDUCTION</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.3.2">1. SCENE I.  Before an alehouse on a heath.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.3.3">2. SCENE II.  A bedchamber in the Lord's house.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.4">2. ACT I</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.4.2">1. SCENE I.  Padua. A public place.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.3">2. SCENE II.  Padua. Before HORTENSIO'S house.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.5">3. ACT II</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.5.2">1. SCENE I.  Padua. A room in BAPTISTA'S house.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.6">4. ACT III</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.6.2">1. SCENE I.  Padua. BAPTISTA'S house.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.3">2. SCENE II.  Padua. Before BAPTISTA'S house.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.7">5. ACT IV</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.7.2">1. SCENE I.  PETRUCHIO'S country house.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.3">2. SCENE II.  Padua. Before BAPTISTA'S house.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.4">3. SCENE III.  A room in PETRUCHIO'S house.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.5">4. SCENE IV.  Padua. Before BAPTISTA'S house.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.6">5. SCENE V.  A public road.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.8">6. ACT V</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.8.2">1. SCENE I.  Padua. Before LUCENTIO'S house.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.8.3">2. SCENE II.  Padua. LUCENTIO'S house.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-            </ul>
+            </div>
          </div>
-         <article deltaxml:deltaV2="A=B" id="R.1.2" class="preface">
+         <article id="R.1.2" class="preface">
             <header class="preface-titlepage">
                <h2>Dramatis Personae</h2>
             </header>
@@ -359,14 +238,12 @@
             </p>
             <p>SCENE  Padua, and Petruchio's country house.</p>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.3" class="chapter">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.3" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 1. INDUCTION</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -382,21 +259,9 @@
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.3.2">1. SCENE I.  Before an alehouse on a heath.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.3.3">2. SCENE II.  A bedchamber in the Lord's house.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.3.2" class="section">
+            <section id="R.1.3.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Before an alehouse on a heath.</h2>
                </div>
@@ -695,7 +560,7 @@
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.3.3" class="section">
+            <section id="R.1.3.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  A bedchamber in the Lord's house.</h2>
                </div>
@@ -1076,14 +941,12 @@ others with basin and ewer and appurtenances; and Lord</p>
                <p>Flourish</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.4" class="chapter">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.4" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 2. ACT I</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -1099,21 +962,9 @@ others with basin and ewer and appurtenances; and Lord</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.4.2">1. SCENE I.  Padua. A public place.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.3">2. SCENE II.  Padua. Before HORTENSIO'S house.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.2" class="section">
+            <section id="R.1.4.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Padua. A public place.</h2>
                </div>
@@ -1708,7 +1559,7 @@ HORTENSIO. LUCENTIO and TRANIO stand by</p>
                </div>
                <p>They sit and mark</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.3" class="section">
+            <section id="R.1.4.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Padua. Before HORTENSIO'S house.</h2>
                </div>
@@ -2434,14 +2285,12 @@ HORTENSIO. LUCENTIO and TRANIO stand by</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.5" class="chapter">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.5" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 3. ACT II</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -2452,16 +2301,9 @@ HORTENSIO. LUCENTIO and TRANIO stand by</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.5.2">1. SCENE I.  Padua. A room in BAPTISTA'S house.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.2" class="section">
+            <section id="R.1.5.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Padua. A room in BAPTISTA'S house.</h2>
                </div>
@@ -3599,14 +3441,12 @@ BIONDELLO following</p>
                <p>Exit</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.6" class="chapter">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.6" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 4. ACT III</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -3622,21 +3462,9 @@ BIONDELLO following</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.6.2">1. SCENE I.  Padua. BAPTISTA'S house.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.3">2. SCENE II.  Padua. Before BAPTISTA'S house.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.2" class="section">
+            <section id="R.1.6.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Padua. BAPTISTA'S house.</h2>
                </div>
@@ -3897,7 +3725,7 @@ BIONDELLO following</p>
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.3" class="section">
+            <section id="R.1.6.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Padua. Before BAPTISTA'S house.</h2>
                </div>
@@ -4588,14 +4416,12 @@ HORTENSIO, GRUMIO, and Train</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.7">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.7" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 5. ACT IV</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -4626,36 +4452,9 @@ HORTENSIO, GRUMIO, and Train</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.7.2">1. SCENE I.  PETRUCHIO'S country house.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.3">2. SCENE II.  Padua. Before BAPTISTA'S house.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.4">3. SCENE III.  A room in PETRUCHIO'S house.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.5">4. SCENE IV.  Padua. Before BAPTISTA'S house.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.6">5. SCENE V.  A public road.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.2" class="section">
+            <section id="R.1.7.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  PETRUCHIO'S country house.</h2>
                </div>
@@ -5213,7 +5012,7 @@ HORTENSIO, GRUMIO, and Train</p>
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.3" class="section">
+            <section id="R.1.7.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Padua. Before BAPTISTA'S house.</h2>
                </div>
@@ -5592,7 +5391,7 @@ HORTENSIO, GRUMIO, and Train</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.4" class="section">
+            <section id="R.1.7.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  A room in PETRUCHIO'S house.</h2>
                </div>
@@ -6186,7 +5985,7 @@ HORTENSIO, GRUMIO, and Train</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.5" class="section">
+            <section id="R.1.7.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  Padua. Before BAPTISTA'S house.</h2>
                </div>
@@ -6476,7 +6275,7 @@ HORTENSIO, GRUMIO, and Train</p>
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.6" class="section">
+            <section id="R.1.7.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  A public road.</h2>
                </div>
@@ -6697,14 +6496,12 @@ HORTENSIO, GRUMIO, and Train</p>
                <p>Exit</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.8" class="chapter">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.8" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 6. ACT V</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -6720,21 +6517,9 @@ HORTENSIO, GRUMIO, and Train</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.8.2">1. SCENE I.  Padua. Before LUCENTIO'S house.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.8.3">2. SCENE II.  Padua. LUCENTIO'S house.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.8.2" class="section">
+            <section id="R.1.8.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Padua. Before LUCENTIO'S house.</h2>
                </div>
@@ -7272,7 +7057,7 @@ as may be</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.8.3" class="section">
+            <section id="R.1.8.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Padua. LUCENTIO'S house.</h2>
                </div>
@@ -7962,6 +7747,6 @@ Serving-men with Tranio bringing in a banquet</p>
             </section>
          </article>
       </article>
-      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+      <script src="../../resources/js/prism.js"/>
    </body>
 </html>
