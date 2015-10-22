@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head deltaxml:deltaV2="A=B">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head>
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -8,9 +8,9 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>Unit Test: blockinfo.002</title>
    </head>
-   <body deltaxml:deltaV2="A!=B">
-      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
-         <header deltaxml:deltaV2="A=B" class="article-titlepage">
+   <body>
+      <article id="R.1" class="article">
+         <header class="article-titlepage">
             <h2>Unit Test: blockinfo.002</h2>
             <div class="author">
                <h3>
@@ -22,26 +22,10 @@
             </div>
             <p class="CVS">$Id: blockinfo.002.xml 4613 2005-04-20 11:54:35Z nwalsh $</p>
          </header>
-         <div deltaxml:deltaV2="A!=B" class="qandaset">
-            <h2 deltaxml:deltaV2="A=B">QandASet BlockInfo Title</h2>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#qa1">1. Question one.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#Two">2. Question two.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#Twoc">3. Question two.</a>
-                     </span>
-                  </li>
-               </ul><div deltaxml:deltaV2="B" class="toc">
+         <div class="qandaset">
+            <h2>QandASet BlockInfo Title</h2>
+            <div class="lists-of-titles">
+               <div class="toc">
                   <ul class="toc">
                      <li>
                         <span>
@@ -61,7 +45,7 @@
                   </ul>
                </div>
             </div>
-            <table deltaxml:deltaV2="A=B" class="qandaentries" border="0" summary="Q&amp;A Set">
+            <table class="qandaentries" border="0" summary="Q&amp;A Set">
                <tr id="qa1" class="qandaentry">
                   <td align="left" valign="top" id="q1" class="question-label">1.</td>
                   <td align="left" valign="top" class="question">
@@ -115,6 +99,6 @@ See <a href="#faq-Two">Q: 2</a>
             </table>
          </div>
       </article>
-      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+      <script src="../../resources/js/prism.js"/>
    </body>
 </html>
