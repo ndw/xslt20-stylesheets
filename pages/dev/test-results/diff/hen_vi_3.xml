@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head deltaxml:deltaV2="A=B">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head>
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -9,15 +9,13 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>The Third Part of Henry the Sixth</title>
    </head>
-   <body deltaxml:deltaV2="A!=B">
-      <article deltaxml:deltaV2="A!=B" id="R.1" class="book">
-         <header deltaxml:deltaV2="A=B" class="book-titlepage">
+   <body>
+      <article id="R.1" class="book">
+         <header class="book-titlepage">
             <h1>The Third Part of Henry the Sixth</h1>
          </header>
-         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-            <p deltaxml:deltaV2="A">
-               <b>Table of Contents</b>
-            </p><div deltaxml:deltaV2="B" class="toc">
+         <div class="lists-of-titles">
+            <div class="toc">
                <p>
                   <b>Table of Contents</b>
                </p>
@@ -203,191 +201,9 @@
                      </ul>
                   </li>
                </ul>
-            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-               <li>
-                  <span>
-                     <a href="#R.1.2">1. Dramatis Personae</a>
-                  </span>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.3">1. ACT I</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.3.2">1. SCENE I.  London. The Parliament-house.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.3.3">2. SCENE II.  Sandal Castle.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.3.4">3. SCENE III.  Field of battle betwixt Sandal Castle and Wakefield.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.3.5">4. SCENE IV.  Another part of the field.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.4">2. ACT II</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.4.2">1. SCENE I.  A plain near Mortimer's Cross in Herefordshire.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.3">2. SCENE II.  Before York.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.4">3. SCENE III.  A field of battle between Towton and Saxton, in Yorkshire.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.5">4. SCENE IV.  Another part of the field.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.6">5. SCENE V.  Another part of the field.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.7">6. SCENE VI.  Another part of the field.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.5">3. ACT III</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.5.2">1. SCENE I.  A forest in the north of England.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.5.3">2. SCENE II.  London. The palace.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.5.4">3. SCENE III.  France. KING LEWIS XI's palace.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.6">4. ACT IV</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.6.2">1. SCENE I.  London. The palace.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.3">2. SCENE II.  A plain in Warwickshire.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.4">3. SCENE III.  Edward's camp, near Warwick.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.5">4. SCENE IV.  London. The palace.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.6">5. SCENE V.  A park near Middleham Castle In Yorkshire.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.7">6. SCENE VI.  London. The Tower.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.8">7. SCENE VII.  Before York.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.9">8. SCENE VIII.  London. The palace.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.7">5. ACT V</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.7.2">1. SCENE I.  Coventry.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.3">2. SCENE II.  A field of battle near Barnet.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.4">3. SCENE III.  Another part of the field.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.5">4. SCENE IV.  Plains near Tewksbury.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.6">5. SCENE V.  Another part of the field.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.7">6. SCENE VI.  London. The Tower.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.8">7. SCENE VII.  London. The palace.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-            </ul>
+            </div>
          </div>
-         <article deltaxml:deltaV2="A=B" id="R.1.2" class="preface">
+         <article id="R.1.2" class="preface">
             <header class="preface-titlepage">
                <h2>Dramatis Personae</h2>
             </header>
@@ -522,14 +338,12 @@
             </p>
             <p>SCENE  England and France.</p>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.3" class="chapter">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.3" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 1. ACT I</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -555,31 +369,9 @@
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.3.2">1. SCENE I.  London. The Parliament-house.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.3.3">2. SCENE II.  Sandal Castle.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.3.4">3. SCENE III.  Field of battle betwixt Sandal Castle and Wakefield.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.3.5">4. SCENE IV.  Another part of the field.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.3.2" class="section">
+            <section id="R.1.3.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  London. The Parliament-house.</h2>
                </div>
@@ -1483,7 +1275,7 @@ Attendants</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.3.3" class="section">
+            <section id="R.1.3.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Sandal Castle.</h2>
                </div>
@@ -1701,7 +1493,7 @@ Attendants</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.3.4" class="section">
+            <section id="R.1.3.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  Field of battle betwixt Sandal Castle and Wakefield.</h2>
                </div>
@@ -1857,7 +1649,7 @@ Attendants</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.3.5" class="section">
+            <section id="R.1.3.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  Another part of the field.</h2>
                </div>
@@ -2180,14 +1972,12 @@ PRINCE EDWARD, and Soldiers</p>
                </div>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.4">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.4" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 2. ACT II</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -2223,41 +2013,9 @@ PRINCE EDWARD, and Soldiers</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.4.2">1. SCENE I.  A plain near Mortimer's Cross in Herefordshire.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.3">2. SCENE II.  Before York.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.4">3. SCENE III.  A field of battle between Towton and Saxton, in Yorkshire.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.5">4. SCENE IV.  Another part of the field.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.6">5. SCENE V.  Another part of the field.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.7">6. SCENE VI.  Another part of the field.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.2" class="section">
+            <section id="R.1.4.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  A plain near Mortimer's Cross in Herefordshire.</h2>
                </div>
@@ -2637,7 +2395,7 @@ PRINCE EDWARD, and Soldiers</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.3" class="section">
+            <section id="R.1.4.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  Before York.</h2>
                </div>
@@ -3067,7 +2825,7 @@ NORFOLK, MONTAGUE, and Soldiers</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.4" class="section">
+            <section id="R.1.4.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  A field of battle between Towton and Saxton, in Yorkshire.</h2>
                </div>
@@ -3189,7 +2947,7 @@ NORFOLK, MONTAGUE, and Soldiers</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.5" class="section">
+            <section id="R.1.4.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  Another part of the field.</h2>
                </div>
@@ -3226,7 +2984,7 @@ NORFOLK, MONTAGUE, and Soldiers</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.6" class="section">
+            <section id="R.1.4.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  Another part of the field.</h2>
                </div>
@@ -3470,7 +3228,7 @@ EDWARD, and EXETER</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.7" class="section">
+            <section id="R.1.4.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  Another part of the field.</h2>
                </div>
@@ -3719,14 +3477,12 @@ MONTAGUE, WARWICK, and Soldiers</p>
                </div>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.5">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.5" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 3. ACT III</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -3747,26 +3503,9 @@ MONTAGUE, WARWICK, and Soldiers</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.5.2">1. SCENE I.  A forest in the north of England.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.5.3">2. SCENE II.  London. The palace.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.5.4">3. SCENE III.  France. KING LEWIS XI's palace.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.2" class="section">
+            <section id="R.1.5.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  A forest in the north of England.</h2>
                </div>
@@ -4016,7 +3755,7 @@ MONTAGUE, WARWICK, and Soldiers</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.3" class="section">
+            <section id="R.1.5.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  London. The palace.</h2>
                </div>
@@ -4662,7 +4401,7 @@ LADY GREY</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.4" class="section">
+            <section id="R.1.5.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  France. KING LEWIS XI's palace.</h2>
                </div>
@@ -5314,14 +5053,12 @@ riseth up again</p>
                </div>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.6">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.6" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 4. ACT IV</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -5367,51 +5104,9 @@ riseth up again</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.6.2">1. SCENE I.  London. The palace.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.3">2. SCENE II.  A plain in Warwickshire.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.4">3. SCENE III.  Edward's camp, near Warwick.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.5">4. SCENE IV.  London. The palace.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.6">5. SCENE V.  A park near Middleham Castle In Yorkshire.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.7">6. SCENE VI.  London. The Tower.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.8">7. SCENE VII.  Before York.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.9">8. SCENE VIII.  London. The palace.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.2" class="section">
+            <section id="R.1.6.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  London. The palace.</h2>
                </div>
@@ -5821,7 +5516,7 @@ ELIZABETH, PEMBROKE, STAFFORD, HASTINGS, and others</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.3" class="section">
+            <section id="R.1.6.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  A plain in Warwickshire.</h2>
                </div>
@@ -5875,7 +5570,7 @@ ELIZABETH, PEMBROKE, STAFFORD, HASTINGS, and others</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.4" class="section">
+            <section id="R.1.6.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  Edward's camp, near Warwick.</h2>
                </div>
@@ -6075,7 +5770,7 @@ RICHARD and HASTINGS fly over the stage</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.5" class="section">
+            <section id="R.1.6.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  London. The palace.</h2>
                </div>
@@ -6168,7 +5863,7 @@ RICHARD and HASTINGS fly over the stage</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.6" class="section">
+            <section id="R.1.6.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  A park near Middleham Castle In Yorkshire.</h2>
                </div>
@@ -6272,7 +5967,7 @@ RICHARD and HASTINGS fly over the stage</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.7" class="section">
+            <section id="R.1.6.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  London. The Tower.</h2>
                </div>
@@ -6513,7 +6208,7 @@ Lieutenant of the Tower</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.8" class="section">
+            <section id="R.1.6.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VII.  Before York.</h2>
                </div>
@@ -6778,7 +6473,7 @@ HASTINGS, and Soldiers</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.9" class="section">
+            <section id="R.1.6.9" class="section">
                <div class="section-titlepage">
                   <h2>8. SCENE VIII.  London. The palace.</h2>
                </div>
@@ -6941,14 +6636,12 @@ CLARENCE, EXETER, and OXFORD</p>
                </div>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.7" class="chapter">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.7" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 5. ACT V</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -6989,46 +6682,9 @@ CLARENCE, EXETER, and OXFORD</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.7.2">1. SCENE I.  Coventry.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.3">2. SCENE II.  A field of battle near Barnet.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.4">3. SCENE III.  Another part of the field.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.5">4. SCENE IV.  Plains near Tewksbury.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.6">5. SCENE V.  Another part of the field.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.7">6. SCENE VI.  London. The Tower.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.8">7. SCENE VII.  London. The palace.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.2" class="section">
+            <section id="R.1.7.2" class="section">
                <div class="section-titlepage">
                   <h2>1. SCENE I.  Coventry.</h2>
                </div>
@@ -7388,7 +7044,7 @@ and his company follow</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.3" class="section">
+            <section id="R.1.7.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE II.  A field of battle near Barnet.</h2>
                </div>
@@ -7485,7 +7141,7 @@ forth WARWICK wounded</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.4" class="section">
+            <section id="R.1.7.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE III.  Another part of the field.</h2>
                </div>
@@ -7538,7 +7194,7 @@ GLOUCESTER, CLARENCE, and the rest</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.5" class="section">
+            <section id="R.1.7.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE IV.  Plains near Tewksbury.</h2>
                </div>
@@ -7697,7 +7353,7 @@ CLARENCE, and soldiers</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.6" class="section">
+            <section id="R.1.7.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE V.  Another part of the field.</h2>
                </div>
@@ -8010,7 +7666,7 @@ SOMERSET, prisoners</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.7" class="section">
+            <section id="R.1.7.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE VI.  London. The Tower.</h2>
                </div>
@@ -8191,7 +7847,7 @@ Lieutenant, on the walls</p>
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.8" class="section">
+            <section id="R.1.7.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VII.  London. The palace.</h2>
                </div>
@@ -8295,6 +7951,6 @@ young Prince, and Attendants</p>
             </section>
          </article>
       </article>
-      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+      <script src="../../resources/js/prism.js"/>
    </body>
 </html>

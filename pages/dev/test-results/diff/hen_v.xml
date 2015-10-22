@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head deltaxml:deltaV2="A=B">
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head>
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -9,15 +9,13 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>The Life of Henry the Fifth</title>
    </head>
-   <body deltaxml:deltaV2="A!=B">
-      <article deltaxml:deltaV2="A!=B" id="R.1" class="book">
-         <header deltaxml:deltaV2="A=B" class="book-titlepage">
+   <body>
+      <article id="R.1" class="book">
+         <header class="book-titlepage">
             <h1>The Life of Henry the Fifth</h1>
          </header>
-         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-            <p deltaxml:deltaV2="A">
-               <b>Table of Contents</b>
-            </p><div deltaxml:deltaV2="B" class="toc">
+         <div class="lists-of-titles">
+            <div class="toc">
                <p>
                   <b>Table of Contents</b>
                </p>
@@ -208,196 +206,9 @@
                      </ul>
                   </li>
                </ul>
-            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-            </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-               <li>
-                  <span>
-                     <a href="#R.1.2">1. Dramatis Personae</a>
-                  </span>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.3">1. ACT I</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.3.2">1. PROLOGUE</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.3.3">2. SCENE I.  London. An ante-chamber in the KING'S palace.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.3.4">3. SCENE II.  The same. The Presence chamber.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.4">2. ACT II</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.4.2">1. PROLOGUE</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.3">2. SCENE I.  London. A street.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.4">3. SCENE II.  Southampton. A council-chamber.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.5">4. SCENE III.  London. Before a tavern.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.4.6">5. SCENE IV.  France. The KING'S palace.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.5">3. ACT III</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.5.2">1. PROLOGUE.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.5.3">2. SCENE I.  France. Before Harfleur.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.5.4">3. SCENE II.  The same.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.5.5">4. SCENE III.  The same. Before the gates.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.5.6">5. SCENE IV.  The FRENCH KING's palace.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.5.7">6. SCENE V.  The same.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.5.8">7. SCENE VI.  The English camp in Picardy.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.5.9">8. SCENE VII.  The French camp, near Agincourt:</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.6">4. ACT IV</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.6.2">1. PROLOGUE.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.3">2. SCENE I.  The English camp at Agincourt.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.4">3. SCENE II.  The French camp.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.5">4. SCENE III.  The English camp.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.6">5. SCENE IV.  The field of battle.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.7">6. SCENE V.  Another part of the field.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.8">7. SCENE VI.  Another part of the field.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.9">8. SCENE VII.  Another part of the field.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.6.10">9. SCENE VIII.  Before KING HENRY'S pavilion.</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <span>
-                     <a href="#R.1.7">5. ACT V</a>
-                  </span>
-                  <ul class="toc">
-                     <li>
-                        <span>
-                           <a href="#R.1.7.2">1. PROLOGUE.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.3">2. SCENE I.  France. The English camp.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.4">3. SCENE II.  France. A royal palace.</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           <a href="#R.1.7.5">4. EPILOGUE</a>
-                        </span>
-                     </li>
-                  </ul>
-               </li>
-            </ul>
+            </div>
          </div>
-         <article deltaxml:deltaV2="A=B" id="R.1.2" class="preface">
+         <article id="R.1.2" class="preface">
             <header class="preface-titlepage">
                <h2>Dramatis Personae</h2>
             </header>
@@ -549,14 +360,12 @@
             </p>
             <p>SCENE  England; afterwards France.</p>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.3" class="chapter">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.3" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 1. ACT I</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -577,26 +386,9 @@
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.3.2">1. PROLOGUE</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.3.3">2. SCENE I.  London. An ante-chamber in the KING'S palace.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.3.4">3. SCENE II.  The same. The Presence chamber.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.3.2" class="section">
+            <section id="R.1.3.2" class="section">
                <div class="section-titlepage">
                   <h2>1. PROLOGUE</h2>
                </div>
@@ -642,7 +434,7 @@
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.3.3" class="section">
+            <section id="R.1.3.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE I.  London. An ante-chamber in the KING'S palace.</h2>
                </div>
@@ -861,7 +653,7 @@
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.3.4" class="section">
+            <section id="R.1.3.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE II.  The same. The Presence chamber.</h2>
                </div>
@@ -1338,14 +1130,12 @@
                <p>Exeunt. Flourish</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.4">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.4" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 2. ACT II</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -1376,36 +1166,9 @@
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.4.2">1. PROLOGUE</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.3">2. SCENE I.  London. A street.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.4">3. SCENE II.  Southampton. A council-chamber.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.5">4. SCENE III.  London. Before a tavern.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.4.6">5. SCENE IV.  France. The KING'S palace.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.2" class="section">
+            <section id="R.1.4.2" class="section">
                <div class="section-titlepage">
                   <h2>1. PROLOGUE</h2>
                </div>
@@ -1459,7 +1222,7 @@
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.3" class="section">
+            <section id="R.1.4.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE I.  London. A street.</h2>
                </div>
@@ -1815,7 +1578,7 @@
                   </div>
                </div>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.4" class="section">
+            <section id="R.1.4.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE II.  Southampton. A council-chamber.</h2>
                </div>
@@ -2170,7 +1933,7 @@ CAMBRIDGE, GREY, and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.5" class="section">
+            <section id="R.1.4.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE III.  London. Before a tavern.</h2>
                </div>
@@ -2348,7 +2111,7 @@ CAMBRIDGE, GREY, and Attendants</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.4.6" class="section">
+            <section id="R.1.4.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE IV.  France. The KING'S palace.</h2>
                </div>
@@ -2611,14 +2374,12 @@ DUKES of BERRI and BRETAGNE, the Constable, and others</p>
                <p>Flourish. Exeunt</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" id="R.1.5" class="chapter">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.5" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 3. ACT III</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -2664,51 +2425,9 @@ DUKES of BERRI and BRETAGNE, the Constable, and others</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.5.2">1. PROLOGUE.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.5.3">2. SCENE I.  France. Before Harfleur.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.5.4">3. SCENE II.  The same.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.5.5">4. SCENE III.  The same. Before the gates.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.5.6">5. SCENE IV.  The FRENCH KING's palace.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.5.7">6. SCENE V.  The same.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.5.8">7. SCENE VI.  The English camp in Picardy.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.5.9">8. SCENE VII.  The French camp, near Agincourt:</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.2" class="section">
+            <section id="R.1.5.2" class="section">
                <div class="section-titlepage">
                   <h2>1. PROLOGUE.</h2>
                </div>
@@ -2756,7 +2475,7 @@ DUKES of BERRI and BRETAGNE, the Constable, and others</p>
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.3" class="section">
+            <section id="R.1.5.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE I.  France. Before Harfleur.</h2>
                </div>
@@ -2803,7 +2522,7 @@ GLOUCESTER, and Soldiers, with scaling-ladders</p>
                </div>
                <p>Exeunt. Alarum, and chambers go off</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.4" class="section">
+            <section id="R.1.5.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE II.  The same.</h2>
                </div>
@@ -3123,7 +2842,7 @@ GLOUCESTER, and Soldiers, with scaling-ladders</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.5" class="section">
+            <section id="R.1.5.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE III.  The same. Before the gates.</h2>
                </div>
@@ -3204,7 +2923,7 @@ English forces below. Enter KING HENRY and his train</p>
                </div>
                <p>Flourish. The King and his train enter the town</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.6" class="section">
+            <section id="R.1.5.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE IV.  The FRENCH KING's palace.</h2>
                </div>
@@ -3441,7 +3160,7 @@ English forces below. Enter KING HENRY and his train</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.7" class="section">
+            <section id="R.1.5.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE V.  The same.</h2>
                </div>
@@ -3578,7 +3297,7 @@ BOURBON, the Constable Of France, and others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.8" class="section">
+            <section id="R.1.5.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VI.  The English camp in Picardy.</h2>
                </div>
@@ -3964,7 +3683,7 @@ BOURBON, the Constable Of France, and others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.5.9" class="section">
+            <section id="R.1.5.9" class="section">
                <div class="section-titlepage">
                   <h2>8. SCENE VII.  The French camp, near Agincourt:</h2>
                </div>
@@ -4485,14 +4204,12 @@ ORLEANS, DAUPHIN, with others</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.6">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.6" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 4. ACT IV</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -4543,56 +4260,9 @@ ORLEANS, DAUPHIN, with others</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.6.2">1. PROLOGUE.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.3">2. SCENE I.  The English camp at Agincourt.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.4">3. SCENE II.  The French camp.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.5">4. SCENE III.  The English camp.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.6">5. SCENE IV.  The field of battle.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.7">6. SCENE V.  Another part of the field.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.8">7. SCENE VI.  Another part of the field.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.9">8. SCENE VII.  Another part of the field.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.6.10">9. SCENE VIII.  Before KING HENRY'S pavilion.</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.2" class="section">
+            <section id="R.1.6.2" class="section">
                <div class="section-titlepage">
                   <h2>1. PROLOGUE.</h2>
                </div>
@@ -4657,7 +4327,7 @@ ORLEANS, DAUPHIN, with others</p>
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.3" class="section">
+            <section id="R.1.6.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE I.  The English camp at Agincourt.</h2>
                </div>
@@ -5388,7 +5058,7 @@ and MICHAEL WILLIAMS</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.4" class="section">
+            <section id="R.1.6.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE II.  The French camp.</h2>
                </div>
@@ -5536,7 +5206,7 @@ and MICHAEL WILLIAMS</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.5" class="section">
+            <section id="R.1.6.5" class="section">
                <div class="section-titlepage">
                   <h2>4. SCENE III.  The English camp.</h2>
                </div>
@@ -5805,7 +5475,7 @@ all his host: SALISBURY and WESTMORELAND</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.6" class="section">
+            <section id="R.1.6.6" class="section">
                <div class="section-titlepage">
                   <h2>5. SCENE IV.  The field of battle.</h2>
                </div>
@@ -6040,7 +5710,7 @@ all his host: SALISBURY and WESTMORELAND</p>
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.7" class="section">
+            <section id="R.1.6.7" class="section">
                <div class="section-titlepage">
                   <h2>6. SCENE V.  Another part of the field.</h2>
                </div>
@@ -6122,7 +5792,7 @@ all his host: SALISBURY and WESTMORELAND</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.8" class="section">
+            <section id="R.1.6.8" class="section">
                <div class="section-titlepage">
                   <h2>7. SCENE VI.  Another part of the field.</h2>
                </div>
@@ -6194,7 +5864,7 @@ all his host: SALISBURY and WESTMORELAND</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.9" class="section">
+            <section id="R.1.6.9" class="section">
                <div class="section-titlepage">
                   <h2>8. SCENE VII.  Another part of the field.</h2>
                </div>
@@ -6652,7 +6322,7 @@ GLOUCESTER, EXETER, and others</p>
                </div>
                <p>Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.6.10" class="section">
+            <section id="R.1.6.10" class="section">
                <div class="section-titlepage">
                   <h2>9. SCENE VIII.  Before KING HENRY'S pavilion.</h2>
                </div>
@@ -6980,14 +6650,12 @@ GLOUCESTER, EXETER, and others</p>
                <p>Exeunt</p>
             </section>
          </article>
-         <article deltaxml:deltaV2="A!=B" class="chapter" id="R.1.7">
-            <header deltaxml:deltaV2="A=B" class="chapter-titlepage">
+         <article id="R.1.7" class="chapter">
+            <header class="chapter-titlepage">
                <h2>Chapter 5. ACT V</h2>
             </header>
-            <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">toc</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">lists-of-titles</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
-               <p deltaxml:deltaV2="A">
-                  <b>Table of Contents</b>
-               </p><div deltaxml:deltaV2="B" class="toc">
+            <div class="lists-of-titles">
+               <div class="toc">
                   <p>
                      <b>Table of Contents</b>
                   </p>
@@ -7013,31 +6681,9 @@ GLOUCESTER, EXETER, and others</p>
                         </span>
                      </li>
                   </ul>
-               </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
-               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="A" class="toc">
-                  <li>
-                     <span>
-                        <a href="#R.1.7.2">1. PROLOGUE.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.3">2. SCENE I.  France. The English camp.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.4">3. SCENE II.  France. A royal palace.</a>
-                     </span>
-                  </li>
-                  <li>
-                     <span>
-                        <a href="#R.1.7.5">4. EPILOGUE</a>
-                     </span>
-                  </li>
-               </ul>
+               </div>
             </div>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.2" class="section">
+            <section id="R.1.7.2" class="section">
                <div class="section-titlepage">
                   <h2>1. PROLOGUE.</h2>
                </div>
@@ -7094,7 +6740,7 @@ GLOUCESTER, EXETER, and others</p>
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.3" class="section">
+            <section id="R.1.7.3" class="section">
                <div class="section-titlepage">
                   <h2>2. SCENE I.  France. The English camp.</h2>
                </div>
@@ -7326,7 +6972,7 @@ GLOUCESTER, EXETER, and others</p>
                </div>
                <p>Exit</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.4" class="section">
+            <section id="R.1.7.4" class="section">
                <div class="section-titlepage">
                   <h2>3. SCENE II.  France. A royal palace.</h2>
                </div>
@@ -8123,7 +7769,7 @@ and other Lords</p>
                </div>
                <p>Sennet. Exeunt</p>
             </section>
-            <section deltaxml:deltaV2="A=B" id="R.1.7.5" class="section">
+            <section id="R.1.7.5" class="section">
                <div class="section-titlepage">
                   <h2>4. EPILOGUE</h2>
                </div>
@@ -8151,6 +7797,6 @@ and other Lords</p>
             </section>
          </article>
       </article>
-      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
+      <script src="../../resources/js/prism.js"/>
    </body>
 </html>
