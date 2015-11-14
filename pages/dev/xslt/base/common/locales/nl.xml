@@ -92,8 +92,8 @@
 <l:gentext key="Procedure" text="Procedure"/>
 <l:gentext key="procedure" text="Procedure"/>
 <l:gentext key="ProductionSet" text="Production"/>
-<l:gentext key="PubDate" text="Publication Date" lang="en"/>
-<l:gentext key="pubdate" text="Publication date" lang="en"/>
+<l:gentext key="PubDate" text="Publicatiedatum"/>
+<l:gentext key="pubdate" text="publicatiedatum"/>
 <l:gentext key="Published" text="Uitgegeven"/>
 <l:gentext key="published" text="Uitgegeven"/>
 <l:gentext key="Publisher" text="Publisher" lang="en"/>

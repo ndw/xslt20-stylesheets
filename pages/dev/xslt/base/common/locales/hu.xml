@@ -92,8 +92,8 @@
 <l:gentext key="Procedure" text="Eljárás"/>
 <l:gentext key="procedure" text="eljárás"/>
 <l:gentext key="ProductionSet" text="Elemcsoport"/>
-<l:gentext key="PubDate" text="Publication Date" lang="en"/>
-<l:gentext key="pubdate" text="Publication date" lang="en"/>
+<l:gentext key="PubDate" text="Kiadás dátuma"/>
+<l:gentext key="pubdate" text="kiadás dátuma"/>
 <l:gentext key="Published" text="Megjelent"/>
 <l:gentext key="published" text="megjelent"/>
 <l:gentext key="Publisher" text="Publisher" lang="en"/>
