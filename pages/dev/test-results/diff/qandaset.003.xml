@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head>
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -8,22 +8,22 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>Article wrapper</title>
    </head>
-   <body>
-      <article id="R.1" class="article">
-         <header class="article-titlepage">
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Article wrapper</h2>
          </header>
-         <div class="qandaset">
-            <h2>QandA Title</h2>
-            <p>Some introductory preamble. Some introductory preamble.
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">qandaset</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">content</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <h2 deltaxml:deltaV2="A">QandA Title</h2><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><p deltaxml:deltaV2="A">Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.
-Some introductory preamble. Some introductory preamble.</p>
-            <p>Some introductory preamble. Some introductory preamble.
+Some introductory preamble. Some introductory preamble.</p><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><p deltaxml:deltaV2="A">Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.
-Some introductory preamble. Some introductory preamble.</p>
-            <div class="qandadiv">
+Some introductory preamble. Some introductory preamble.</p><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="A" class="qandadiv">
                <h3>Division 1</h3>
                <table class="qandaentries" border="0" summary="Q&amp;A Set">
                   <tr id="R.1.2.4.2" class="qandaentry">
@@ -56,42 +56,42 @@ Some introductory preamble. Some introductory preamble.</p>
                      </td>
                   </tr>
                </table>
-            </div>
-            <div class="qandadiv">
-               <h3>Division 2</h3>
-               <p>Some introductory preamble. Some introductory preamble.
+            </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+            </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">qandadiv</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">qandaset</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+               <h3 deltaxml:deltaV2="A">Division 2</h3><h2 deltaxml:deltaV2="B">QandA Title</h2>
+               <p deltaxml:deltaV2="A=B">Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.</p>
-               <p>Some introductory preamble. Some introductory preamble.
+               <p deltaxml:deltaV2="A=B">Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.
 Some introductory preamble. Some introductory preamble.</p>
-               <div class="qandadiv">
-                  <h3>Division 2.1</h3>
-                  <table class="qandaentries" border="0" summary="Q&amp;A Set">
-                     <tr id="R.1.2.5.4.2" class="qandaentry">
-                        <td align="left" valign="top" id="R.1.2.5.4.2.1" class="question-label">2.1.1.</td>
-                        <td align="left" valign="top" class="question">
+               <div deltaxml:deltaV2="A!=B" class="qandadiv">
+                  <h3 deltaxml:deltaV2="A!=B"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Division 2.1</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Division 1</deltaxml:text></deltaxml:textGroup></h3>
+                  <table deltaxml:deltaV2="A!=B" border="0" class="qandaentries" summary="Q&amp;A Set">
+                     <tr deltaxml:deltaV2="A!=B" class="qandaentry"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.5.4.2</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.4.2</deltaxml:attributeValue></dxa:id></deltaxml:attributes>
+                        <td deltaxml:deltaV2="A!=B" class="question-label" valign="top" align="left"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.5.4.2.1</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.4.2.1</deltaxml:attributeValue></dxa:id></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">2.1.1.</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">1.1.</deltaxml:text></deltaxml:textGroup></td>
+                        <td deltaxml:deltaV2="A=B" align="left" valign="top" class="question">
                            <p>Blah blah blah.</p>
                         </td>
                      </tr>
-                     <tr id="R.1.2.5.4.2" class="qandaentry">
-                        <td align="left" valign="top" id="R.1.2.5.4.2.2" class="answer-label"/>
-                        <td align="left" valign="top" class="answer">
-                           <figure id="R.1.2.5.4.2.2.1" class="example-wrapper">
-                              <div class="title">Example 3. <code class="filename">file.name</code>
+                     <tr deltaxml:deltaV2="A!=B" class="qandaentry"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.5.4.2</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.4.2</deltaxml:attributeValue></dxa:id></deltaxml:attributes>
+                        <td deltaxml:deltaV2="A!=B" class="answer-label" valign="top" align="left"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.5.4.2.2</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.4.2.2</deltaxml:attributeValue></dxa:id></deltaxml:attributes></td>
+                        <td deltaxml:deltaV2="A!=B" valign="top" class="answer" align="left">
+                           <figure deltaxml:deltaV2="A!=B" class="example-wrapper"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.5.4.2.2.1</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.4.2.2.1</deltaxml:attributeValue></dxa:id></deltaxml:attributes>
+                              <div deltaxml:deltaV2="A!=B" class="title"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Example 3. </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Example 1. </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="A=B" class="filename">file.name</code>
                               </div>
-                              <div class="example">
+                              <div deltaxml:deltaV2="A=B" class="example">
                                  <pre class="programlisting language-none">
                                     <code>// Hello, World</code>
                                  </pre>
                               </div>
                            </figure>
-                           <figure id="R.1.2.5.4.2.2.2" class="example-wrapper">
-                              <div class="title">Example 4. <code class="filename">file2.name</code>
+                           <figure deltaxml:deltaV2="A!=B" class="example-wrapper"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.5.4.2.2.2</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.4.2.2.2</deltaxml:attributeValue></dxa:id></deltaxml:attributes>
+                              <div deltaxml:deltaV2="A!=B" class="title"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Example 4. </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Example 2. </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="A=B" class="filename">file2.name</code>
                               </div>
-                              <div class="example">
+                              <div deltaxml:deltaV2="A=B" class="example">
                                  <pre class="programlisting language-none">
                                     <code>// Goodbye, World</code>
                                  </pre>
@@ -101,9 +101,9 @@ Some introductory preamble. Some introductory preamble.</p>
                      </tr>
                   </table>
                </div>
-               <div class="qandadiv">
-                  <h3>Division 2.2</h3>
-                  <table class="qandaentries" border="0" summary="Q&amp;A Set">
+               <div deltaxml:deltaV2="A!=B" class="qandadiv">
+                  <h3 deltaxml:deltaV2="A!=B"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Division 2.2</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Division 2</deltaxml:text></deltaxml:textGroup></h3>
+                  <table deltaxml:deltaV2="A" class="qandaentries" border="0" summary="Q&amp;A Set">
                      <tr id="R.1.2.5.5.2" class="qandaentry">
                         <td align="left" valign="top" id="R.1.2.5.5.2.1" class="question-label">2.2.1.</td>
                         <td align="left" valign="top" class="question">
@@ -133,11 +133,86 @@ Some introductory preamble. Some introductory preamble.</p>
                            </figure>
                         </td>
                      </tr>
-                  </table>
+                  </table><p deltaxml:deltaV2="B">Some introductory preamble. Some introductory preamble.
+Some introductory preamble. Some introductory preamble.
+Some introductory preamble. Some introductory preamble.
+Some introductory preamble. Some introductory preamble.</p><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                  </deltaxml:text></deltaxml:textGroup><p deltaxml:deltaV2="B">Some introductory preamble. Some introductory preamble.
+Some introductory preamble. Some introductory preamble.
+Some introductory preamble. Some introductory preamble.
+Some introductory preamble. Some introductory preamble.</p><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                  </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="qandadiv">
+                     <h3>Division 2.1</h3>
+                     <table class="qandaentries" border="0" summary="Q&amp;A Set">
+                        <tr id="R.1.2.5.4.2" class="qandaentry">
+                           <td align="left" valign="top" id="R.1.2.5.4.2.1" class="question-label">2.1.1.</td>
+                           <td align="left" valign="top" class="question">
+                              <p>Blah blah blah.</p>
+                           </td>
+                        </tr>
+                        <tr id="R.1.2.5.4.2" class="qandaentry">
+                           <td align="left" valign="top" id="R.1.2.5.4.2.2" class="answer-label"/>
+                           <td align="left" valign="top" class="answer">
+                              <figure id="R.1.2.5.4.2.2.1" class="example-wrapper">
+                                 <div class="title">Example 3. <code class="filename">file.name</code>
+                                 </div>
+                                 <div class="example">
+                                    <pre class="programlisting language-none">
+                                       <code>// Hello, World</code>
+                                    </pre>
+                                 </div>
+                              </figure>
+                              <figure id="R.1.2.5.4.2.2.2" class="example-wrapper">
+                                 <div class="title">Example 4. <code class="filename">file2.name</code>
+                                 </div>
+                                 <div class="example">
+                                    <pre class="programlisting language-none">
+                                       <code>// Goodbye, World</code>
+                                    </pre>
+                                 </div>
+                              </figure>
+                           </td>
+                        </tr>
+                     </table>
+                  </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+                  </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="qandadiv">
+                     <h3>Division 2.2</h3>
+                     <table class="qandaentries" border="0" summary="Q&amp;A Set">
+                        <tr id="R.1.2.5.5.2" class="qandaentry">
+                           <td align="left" valign="top" id="R.1.2.5.5.2.1" class="question-label">2.2.1.</td>
+                           <td align="left" valign="top" class="question">
+                              <p>Blah blah blah.</p>
+                           </td>
+                        </tr>
+                        <tr id="R.1.2.5.5.2" class="qandaentry">
+                           <td align="left" valign="top" id="R.1.2.5.5.2.2" class="answer-label"/>
+                           <td align="left" valign="top" class="answer">
+                              <figure id="R.1.2.5.5.2.2.1" class="example-wrapper">
+                                 <div class="title">Example 5. <code class="filename">file.name</code>
+                                 </div>
+                                 <div class="example">
+                                    <pre class="programlisting language-none">
+                                       <code>// Hello, World</code>
+                                    </pre>
+                                 </div>
+                              </figure>
+                              <figure id="R.1.2.5.5.2.2.2" class="example-wrapper">
+                                 <div class="title">Example 6. <code class="filename">file2.name</code>
+                                 </div>
+                                 <div class="example">
+                                    <pre class="programlisting language-none">
+                                       <code>// Goodbye, World</code>
+                                    </pre>
+                                 </div>
+                              </figure>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
                </div>
             </div>
          </div>
       </article>
-      <script src="../../resources/js/prism.js"/>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
    </body>
 </html>

@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head>
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -8,9 +8,9 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>Unit Test: itemizedlist.006</title>
    </head>
-   <body>
-      <article id="R.1" class="article">
-         <header class="article-titlepage">
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Unit Test: itemizedlist.006</h2>
             <div class="author">
                <h3>
@@ -21,19 +21,44 @@
                </h3>
             </div>
          </header>
-         <p>Itemized list mark styles.</p>
-         <div class="itemizedlist">
-            <div class="title">Bullet marks</div>
-            <ul>
+         <p deltaxml:deltaV2="A">Itemized list mark styles.</p><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+         </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">itemizedlist</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">content</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <p deltaxml:deltaV2="B">Itemized list mark styles.</p><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+            </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">title</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">itemizedlist</deltaxml:attributeValue></dxa:class></deltaxml:attributes><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Bullet marks</deltaxml:text><deltaxml:text deltaxml:deltaV2="B">
+               </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="B" class="title">Bullet marks</div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+               </deltaxml:text></deltaxml:textGroup><ul deltaxml:deltaV2="B">
+                  <li style="list-style-type: disc">
+                     <p>One</p>
+                  </li>
+                  <li style="list-style-type: disc">
+                     <p>Type</p>
+                  </li>
+               </ul><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+            </deltaxml:text></deltaxml:textGroup></div>
+            <ul deltaxml:deltaV2="A">
                <li style="list-style-type: disc">
                   <p>One</p>
                </li>
                <li style="list-style-type: disc">
                   <p>Type</p>
                </li>
-            </ul>
-         </div>
-         <div class="itemizedlist">
+            </ul><div deltaxml:deltaV2="B" class="itemizedlist">
+               <div class="title">Box marks</div>
+               <ul>
+                  <li style="list-style-type: square">
+                     <p>One</p>
+                  </li>
+                  <li style="list-style-type: square">
+                     <p>Type</p>
+                  </li>
+               </ul>
+            </div><deltaxml:textGroup deltaxml:deltaV2="B"><deltaxml:text deltaxml:deltaV2="B">
+            </deltaxml:text></deltaxml:textGroup><p deltaxml:deltaV2="B">
+    Are there more?  Check CSS spec.  DSSSL styling requires CSS for
+    this; is there a way to do it w/o CSS?
+  </p>
+         </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+         </deltaxml:text></deltaxml:textGroup><div deltaxml:deltaV2="A" class="itemizedlist">
             <div class="title">Box marks</div>
             <ul>
                <li style="list-style-type: square">
@@ -43,12 +68,12 @@
                   <p>Type</p>
                </li>
             </ul>
-         </div>
-         <p>
+         </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+         </deltaxml:text></deltaxml:textGroup><p deltaxml:deltaV2="A">
     Are there more?  Check CSS spec.  DSSSL styling requires CSS for
     this; is there a way to do it w/o CSS?
   </p>
       </article>
-      <script src="../../resources/js/prism.js"/>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
    </body>
 </html>

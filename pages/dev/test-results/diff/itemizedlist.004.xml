@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head>
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -8,9 +8,9 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>Unit Test: itemizedlist.001</title>
    </head>
-   <body>
-      <article id="R.1" class="article">
-         <header class="article-titlepage">
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Unit Test: itemizedlist.001</h2>
             <div class="author">
                <h3>
@@ -21,8 +21,8 @@
                </h3>
             </div>
          </header>
-         <div class="itemizedlist">
-            <ul>
+         <div deltaxml:deltaV2="A!=B"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:class deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">itemizedlist</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">content</deltaxml:attributeValue></dxa:class></deltaxml:attributes>
+            <ul deltaxml:deltaV2="A">
                <li>
                   <p>This is the first one.</p>
                </li>
@@ -31,9 +31,20 @@
         This second item should be flush left with first one (trim
         whitespace).</p>
                </li>
-            </ul>
+            </ul><div deltaxml:deltaV2="B" class="itemizedlist">
+               <ul>
+                  <li>
+                     <p>This is the first one.</p>
+                  </li>
+                  <li>
+                     <p>
+        This second item should be flush left with first one (trim
+        whitespace).</p>
+                  </li>
+               </ul>
+            </div>
          </div>
       </article>
-      <script src="../../resources/js/prism.js"/>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
    </body>
 </html>

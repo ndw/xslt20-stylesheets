@@ -1,5 +1,5 @@
-<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
-   <head>
+<html xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns="http://www.w3.org/1999/xhtml" xmlns:dxx="http://www.deltaxml.com/ns/xml-namespaced-attribute" xmlns:dxa="http://www.deltaxml.com/ns/non-namespaced-attribute" deltaxml:deltaV2="A!=B" deltaxml:version="2.0" deltaxml:content-type="full-context">
+   <head deltaxml:deltaV2="A=B">
       <link href="../../resources/css/db-prism.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="../../resources/css/default.css"/>
       <link href="../../resources/css/prism.css" rel="stylesheet" type="text/css"/>
@@ -8,9 +8,9 @@
       <script type="text/javascript" src="../../resources/js/dbmodnizr.js"/>
       <title>Unit Test: indexterm.004</title>
    </head>
-   <body>
-      <article id="R.1" class="article">
-         <header class="article-titlepage">
+   <body deltaxml:deltaV2="A!=B">
+      <article deltaxml:deltaV2="A!=B" id="R.1" class="article">
+         <header deltaxml:deltaV2="A=B" class="article-titlepage">
             <h2>Unit Test: indexterm.004</h2>
             <div class="author">
                <h3>
@@ -21,7 +21,7 @@
                </h3>
             </div>
          </header>
-         <div class="lists-of-titles">
+         <div deltaxml:deltaV2="A=B" class="lists-of-titles">
             <div class="toc">
                <p>
                   <b>Table of Contents</b>
@@ -45,7 +45,7 @@
                </ul>
             </div>
          </div>
-         <section id="sec1" class="section">
+         <section deltaxml:deltaV2="A" id="sec1" class="section">
             <div class="section-titlepage">
                <h2>1. First Section</h2>
             </div>
@@ -55,8 +55,65 @@
                <a class="indexterm" name="sec1.2.2"/>
                <a class="indexterm" name="sec1.2.3"/>
             </p>
-         </section>
-         <section id="sec2" class="section">
+         </section><div deltaxml:deltaV2="B" class="content">
+            <section id="sec1" class="section">
+               <div class="section-titlepage">
+                  <h2>1. First Section</h2>
+               </div>
+               <div class="content">
+                  <p>
+      This is first test paragraph.
+      <a class="indexterm" name="sec1.2.1"/>
+                     <a class="indexterm" name="sec1.2.2"/>
+                     <a class="indexterm" name="sec1.2.3"/>
+                  </p>
+               </div>
+            </section>
+            <section id="sec2" class="section">
+               <div class="section-titlepage">
+                  <h2>2. Second Section</h2>
+               </div>
+               <div class="content">
+                  <p>
+      This is second test paragraph.  We're testing identical
+      <code class="tag-element">indexterm</code>s with two different
+      <code class="tag-element">seealso</code>s.
+
+      <a class="indexterm" name="sec2.2.3"/>
+                  </p>
+               </div>
+            </section>
+            <article id="R.1.4" class="index">
+               <header class="index-titlepage">
+                  <h3>Index</h3>
+               </header>
+               <div class="generated-index">
+                  <div class="generated-indexdiv">
+                     <h3>B</h3>
+                     <dl>
+                        <dt>bar, <a href="#sec1.2.2" title="1. First Section">1</a>
+                        </dt>
+                        <dt>baz, <a href="#sec1.2.3" title="1. First Section">1</a>
+                        </dt>
+                     </dl>
+                  </div>
+                  <div class="generated-indexdiv">
+                     <h3>F</h3>
+                     <dl>
+                        <dt>foo, <a href="#sec1.2.1" title="1. First Section">1</a>, <a href="#sec2.2.3" title="2. Second Section">1</a>
+                        </dt>
+                        <dd>
+                           <dl>
+                              <dt>(see also bar)</dt>
+                              <dt>(see also baz)</dt>
+                           </dl>
+                        </dd>
+                     </dl>
+                  </div>
+               </div>
+            </article>
+         </div><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+         </deltaxml:text></deltaxml:textGroup><section deltaxml:deltaV2="A" id="sec2" class="section">
             <div class="section-titlepage">
                <h2>2. Second Section</h2>
             </div>
@@ -67,8 +124,8 @@
 
       <a class="indexterm" name="sec2.2.3"/>
             </p>
-         </section>
-         <article id="R.1.4" class="index">
+         </section><deltaxml:textGroup deltaxml:deltaV2="A"><deltaxml:text deltaxml:deltaV2="A">
+         </deltaxml:text></deltaxml:textGroup><article deltaxml:deltaV2="A" id="R.1.4" class="index">
             <header class="index-titlepage">
                <h3>Index</h3>
             </header>
@@ -98,6 +155,6 @@
             </div>
          </article>
       </article>
-      <script src="../../resources/js/prism.js"/>
+      <script deltaxml:deltaV2="A=B" src="../../resources/js/prism.js"/>
    </body>
 </html>
