@@ -78,7 +78,7 @@ Some introductory preamble. Some introductory preamble.</p>
                      </tr>
                      <tr deltaxml:deltaV2="A!=B" class="qandaentry"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.5.4.2</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.4.2</deltaxml:attributeValue></dxa:id></deltaxml:attributes>
                         <td deltaxml:deltaV2="A!=B" class="answer-label" valign="top" align="left"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.5.4.2.2</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.4.2.2</deltaxml:attributeValue></dxa:id></deltaxml:attributes></td>
-                        <td deltaxml:deltaV2="A!=B" valign="top" align="left" class="answer">
+                        <td deltaxml:deltaV2="A!=B" valign="top" class="answer" align="left">
                            <figure deltaxml:deltaV2="A!=B" class="example-wrapper"><deltaxml:attributes deltaxml:deltaV2="A!=B"><dxa:id deltaxml:deltaV2="A!=B"><deltaxml:attributeValue deltaxml:deltaV2="A">R.1.2.5.4.2.2.1</deltaxml:attributeValue><deltaxml:attributeValue deltaxml:deltaV2="B">R.1.2.4.2.2.1</deltaxml:attributeValue></dxa:id></deltaxml:attributes>
                               <div deltaxml:deltaV2="A!=B" class="title"><deltaxml:textGroup deltaxml:deltaV2="A!=B"><deltaxml:text deltaxml:deltaV2="A">Example 3. </deltaxml:text><deltaxml:text deltaxml:deltaV2="B">Example 1. </deltaxml:text></deltaxml:textGroup><code deltaxml:deltaV2="A=B" class="filename">file.name</code>
                               </div>

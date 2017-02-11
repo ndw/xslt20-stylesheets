@@ -279,7 +279,7 @@
 
 <xsl:param name="refentry.separator" select="1"/>
 
-<xsl:param name="resource.root" select="concat('https://docbook.github.io/release/',$VERSION,'/resources/')"/>
+<xsl:param name="resource.root" select="concat('https://cdn.docbook.org/release/',$VERSION,'/resources/')"/>
 
 <xsl:param name="root.elements">
   <db:appendix/>

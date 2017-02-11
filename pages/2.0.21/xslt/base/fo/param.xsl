@@ -649,7 +649,7 @@
 
 <xsl:param name="region.before.extent" select="'0.4in'"/>
 
-<xsl:param name="resource.root" select="concat('https://docbook.github.io/release/',$VERSION,'/resources/')"/>
+<xsl:param name="resource.root" select="concat('https://cdn.docbook.org/release/',$VERSION,'/resources/')"/>
 
 <xsl:param name="root.elements">
   <db:appendix/>
